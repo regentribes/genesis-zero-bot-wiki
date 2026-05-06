@@ -1,0 +1,564 @@
+{
+  "pageCounts": {
+    "entity": 2,
+    "concept": 4,
+    "source": 5,
+    "synthesis": 0,
+    "report": 10
+  },
+  "claimCount": 4,
+  "claimHealth": {
+    "freshness": {
+      "fresh": 4,
+      "aging": 0,
+      "stale": 0,
+      "unknown": 0
+    },
+    "contested": 0,
+    "lowConfidence": 0,
+    "missingEvidence": 0
+  },
+  "contradictionClusters": [],
+  "pages": [
+    {
+      "id": "concept.adr-0000-oad-workflow-grammar",
+      "title": "ADR 0000 — Integral OAD Workflow Grammar",
+      "kind": "concept",
+      "path": "concepts/adr-0000-oad-workflow-grammar.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.adr-0000-oad-workflow-grammar"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.adr-0000.adopt-workflow-grammar",
+          "text": "OAD workflow grammar (M1/M2 loop) adopted as implementable subset; full Integral stack deferred to Phase 2",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.adr-0000-oad-workflow-grammar",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "concept.adr-0001-agent-knowledge-systems",
+      "title": "ADR 0001 — Agent Knowledge Systems Rejected",
+      "kind": "concept",
+      "path": "concepts/adr-0001-agent-knowledge-systems.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.adr-0001-agent-knowledge-systems"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.adr-0001.rejected-bonfires-llmwiki",
+          "text": "Bonfires.ai and llm_wiki both rejected as unsuitable for offline-first P2P agent-resident knowledge management",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.adr-0001-agent-knowledge-systems",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "concept.adr-0002-ame-metonymic-activation",
+      "title": "ADR 0002 — AME Metonymic Activation and Virtual Trust Field",
+      "kind": "concept",
+      "path": "concepts/adr-0002-ame-metonymic-activation.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.adr-0002-ame-metonymic-activation"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.adr-0002.structural-isomorphism",
+          "text": "AME's seed activation model and Radden & Kövecses' trapezium model of linguistic meaning are structurally isomorphic — both describe metonymic + virtual activation through a relational configuration",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.adr-0002-ame-metonymic-activation",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "concept.karpathy-llm-wiki",
+      "title": "Karpathy LLM Wiki Pattern",
+      "kind": "concept",
+      "path": "concepts/karpathy-llm-wiki.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.karpathy-llm-wiki"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.karpathy.pattern.two-stages",
+          "text": "LLM Wiki ingest should be two-stage: analysis (LLM reads source → structured findings) then generation (LLM takes findings → wiki pages)",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "external-url",
+              "sourceId": "source.karpathy-llm-wiki"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "entity.genesis",
+      "title": "Genesis 🌿⚡",
+      "kind": "entity",
+      "path": "entities/genesis.md",
+      "aliases": [
+        "genesis_zero_bot",
+        "Genesis"
+      ],
+      "sourceIds": [
+        "source.genesis"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [
+        "architecture decisions",
+        "knowledge graph management",
+        "community coordination",
+        "research and exploration"
+      ],
+      "notEnoughFor": [
+        "legal decisions",
+        "financial transactions"
+      ],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.regen-tribes-community",
+          "kind": "serves",
+          "weight": 1
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "person",
+      "canonicalId": "genesis-agent",
+      "confidence": 1,
+      "privacyTier": "local-private",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.regen-tribes-community",
+      "title": "RegenTribes Community",
+      "kind": "entity",
+      "path": "entities/regen-tribes-community.md",
+      "aliases": [
+        "RegenTribes",
+        "Regen Tribe",
+        "RegenTribe"
+      ],
+      "sourceIds": [
+        "source.regen-tribes-community"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [
+        "regenerative community development",
+        "architectural decisions",
+        "knowledge commons"
+      ],
+      "notEnoughFor": [
+        "real-time communication"
+      ],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.genesis",
+          "kind": "operates",
+          "weight": 1
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "organization",
+      "canonicalId": "regen-tribes-community",
+      "confidence": 1,
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.claim-health",
+      "title": "Claim Health",
+      "kind": "report",
+      "path": "reports/claim-health.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.contradictions",
+      "title": "Contradictions",
+      "kind": "report",
+      "path": "reports/contradictions.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T12:47:30.210Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.lint",
+      "title": "Lint Report",
+      "kind": "report",
+      "path": "reports/lint.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.low-confidence",
+      "title": "Low Confidence",
+      "kind": "report",
+      "path": "reports/low-confidence.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T12:47:30.210Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.open-questions",
+      "title": "Open Questions",
+      "kind": "report",
+      "path": "reports/open-questions.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T12:47:30.210Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.person-agent-directory",
+      "title": "Person Agent Directory",
+      "kind": "report",
+      "path": "reports/person-agent-directory.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.privacy-review",
+      "title": "Privacy Review",
+      "kind": "report",
+      "path": "reports/privacy-review.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T13:49:55.451Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.provenance-coverage",
+      "title": "Provenance Coverage",
+      "kind": "report",
+      "path": "reports/provenance-coverage.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T13:53:23.638Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.relationship-graph",
+      "title": "Relationship Graph",
+      "kind": "report",
+      "path": "reports/relationship-graph.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.stale-pages",
+      "title": "Stale Pages",
+      "kind": "report",
+      "path": "reports/stale-pages.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "report",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.adr-0000-oad-workflow-grammar",
+      "title": "ADR 0000 — Integral OAD Workflow Grammar Over Full Integral Stack",
+      "kind": "source",
+      "path": "sources/adr-0000-oad-workflow-grammar.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.adr-0001-agent-knowledge-systems",
+      "title": "ADR 0001 — Agent Knowledge Systems Rejected (Bonfires.ai, llm_wiki)",
+      "kind": "source",
+      "path": "sources/adr-0001-agent-knowledge-systems.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.adr-0002-ame-metonymic-activation",
+      "title": "ADR 0002 — AME Metonymic Activation and Virtual Trust Field",
+      "kind": "source",
+      "path": "sources/adr-0002-ame-metonymic-activation.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.genesis-wiki",
+      "title": "Genesis Wiki — Radicle Repository",
+      "kind": "source",
+      "path": "sources/genesis-wiki.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.karpathy-llm-wiki",
+      "title": "Karpathy LLM Wiki Pattern — Original Proposal",
+      "kind": "source",
+      "path": "sources/karpathy-llm-wiki.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    }
+  ]
+}
