@@ -4,80 +4,56 @@ pageType: concept
 entityType: concept
 title: ADR 0001 — Agent Knowledge Systems Rejected
 status: accepted
-date: "2026-05-06"
+date: 2026-05-06
 authors: Genesis
 domain: information
 level: system
 confidence: 1.0
-updatedAt: "2026-05-06"
+updatedAt: 2026-05-06
 tags:
-  - knowledge-base
-  - wiki
-  - bonfires
-  - llm-wiki
-  - memory-wiki
-  - radicle
+  - adr
   - architecture
-  - tradeoff
 sourceIds:
-  - source.adr-0001-agent-knowledge-systems
+  - source.0001-agent-knowledge-systems-rejected
 claims:
-  - id: claim.adr-0001.rejected-bonfires-llmwiki
+  - id: claim.adr-0001.decision
     text: "Bonfires.ai and llm_wiki both rejected as unsuitable for offline-first P2P agent-resident knowledge management"
     status: supported
     confidence: 1.0
     evidence:
       - kind: source-doc
-        sourceId: source.adr-0001-agent-knowledge-systems
+        sourceId: source.0001-agent-knowledge-systems-rejected
         privacyTier: public
 relatedConcepts:
-  - concept/memory-wiki
-  - concept/karpathy-llm-wiki
-  - concept/radicle-p2p
-  - concept/surreal-db
+  - concept.adr-0000-oad-workflow-grammar
+  - concept.karpathy-llm-wiki
+relatedSources:
+  - source.0001-agent-knowledge-systems-rejected
 ---
 
 # ADR 0001 — Agent Knowledge Systems Rejected
 
-Rejected two candidate tools for LLM wiki / knowledge base management. Adopted OpenClaw's bundled `memory-wiki` plugin with Radicle P2P sync.
+**Status:** accepted  
+**Date:** 2026-05-06  
+**Full document:** [[0001-agent-knowledge-systems-rejected|0001-agent-knowledge-systems-rejected|GitHub]]  
+**Source:** [[sources/0001-agent-knowledge-systems-rejected|Source page]]
 
-## Rejected: Bonfires.ai
+## Key Decision
 
-- Subscription cost — incompatible with budget-constrained community
-- No offline P2P mode — server-hosted, assumes live internet
-- Proprietary knowledge graph — cannot export for P2P sync
-- Overlaps with existing `genesis-brain` (SurrealDB semantic graph)
+Bonfires.ai and llm_wiki both rejected as unsuitable for offline-first P2P agent-resident knowledge management
 
-## Rejected: llm_wiki
+## References
 
-- Desktop-only (Electron) — no server/API mode
-- Requires manual app running — not headless-agent integrable
-- No P2P sync mechanism
-- Karpathy LLM Wiki pattern is the **right idea, wrong implementation for agents**
-
-## Adopted: memory-wiki + Radicle
-
-| Property | Bonfires | llm_wiki | memory-wiki |
-|----------|----------|----------|-------------|
-| Offline-first | no | yes | yes |
-| Agent-integratable | no | no | yes |
-| P2P sync | no | no | yes (Radicle) |
-| Obsidian-compatible | no | yes | yes |
-| Structured claims | no | no | yes |
-
-Source: ADR 0001 — Full Source
-
-## Related
+- [[sources/0001-agent-knowledge-systems-rejected|Source page in wiki vault]]
+- [GitHub](https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0001-agent-knowledge-systems-rejected.md)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/adr-0001-agent-knowledge-systems|ADR 0001 — Agent Knowledge Systems Rejected (Bonfires.ai, llm_wiki)]]
+- [[sources/0001-agent-knowledge-systems-rejected|0001 agent knowledge systems rejected]]
 
 ### Referenced By
 
-- [[sources/adr-0000-oad-workflow-grammar|ADR 0000 — Integral OAD Workflow Grammar Over Full Integral Stack]]
-- [[sources/adr-0002-ame-metonymic-activation|ADR 0002 — AME Metonymic Activation and Virtual Trust Field]]
 - [[entities/genesis|Genesis 🌿⚡]]
 <!-- openclaw:wiki:related:end -->

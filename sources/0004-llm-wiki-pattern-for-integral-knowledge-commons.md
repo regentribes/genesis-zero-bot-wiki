@@ -172,5 +172,7 @@ Use Agent Memory for that.
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [[concepts/adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern for Integral Knowledge Commons (M10)]]
 <!-- openclaw:wiki:related:end -->

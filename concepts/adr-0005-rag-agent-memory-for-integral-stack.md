@@ -14,7 +14,7 @@ tags:
   - adr
   - architecture
 sourceIds:
-  - source.adr-0005-rag-agent-memory-for-integral-stack
+  - source.0005-rag-agent-memory-for-integral-stack
 claims:
   - id: claim.adr-0005.decision
     text: "Three-pattern assignment: Agent Memory for AME/ITC member context, RAG for CDS deliberation records, LLM Wiki for M10 domain synthesis"
@@ -22,35 +22,35 @@ claims:
     confidence: 1.0
     evidence:
       - kind: source-doc
-        sourceId: source.adr-0005-rag-agent-memory-for-integral-stack
+        sourceId: source.0005-rag-agent-memory-for-integral-stack
         privacyTier: public
 relatedConcepts:
-  - concept/adr-0004-llm-wiki-pattern
-  - concept/adr-0000-oad-workflow-grammar
-  - concept/adr-0006-data-quality-governance
+  - concept.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons
+  - concept.adr-0000-oad-workflow-grammar
+  - concept.adr-0006-data-quality-governance-layer
 relatedSources:
-  - source.adr-0005-rag-agent-memory-for-integral-stack
+  - source.0005-rag-agent-memory-for-integral-stack
 ---
+
 # ADR 0005 — RAG and Agent Memory in the Integral Stack
 
 **Status:** proposed  
 **Date:** 2026-05-06  
-**ADR:** [[0005-rag-agent-memory-for-integral-stack|Full Document]]  
-**GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0005-rag-agent-memory-for-integral-stack.md
+**Full document:** [[0005-rag-agent-memory-for-integral-stack|0005-rag-agent-memory-for-integral-stack|GitHub]]  
+**Source:** [[sources/0005-rag-agent-memory-for-integral-stack|Source page]]
 
 ## Key Decision
 
 Three-pattern assignment: Agent Memory for AME/ITC member context, RAG for CDS deliberation records, LLM Wiki for M10 domain synthesis
 
-## See Also
+## References
 
-- [[adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
-- [[adr-0000-oad-workflow-grammar|ADR 0000 — OAD Workflow Grammar]]
-- [[adr-0006-data-quality-governance-layer|ADR 0006 — Data Quality Governance]]
-
-## Related
+- [[sources/0005-rag-agent-memory-for-integral-stack|Source page in wiki vault]]
+- [GitHub](https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0005-rag-agent-memory-for-integral-stack.md)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [[sources/0005-rag-agent-memory-for-integral-stack|0005 rag agent memory for integral stack]]
 <!-- openclaw:wiki:related:end -->

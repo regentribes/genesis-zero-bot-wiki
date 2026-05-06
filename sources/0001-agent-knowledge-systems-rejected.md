@@ -240,5 +240,7 @@ Slower to query than embedded vector DB.
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [[concepts/adr-0001-agent-knowledge-systems|ADR 0001 — Agent Knowledge Systems Rejected]]
 <!-- openclaw:wiki:related:end -->

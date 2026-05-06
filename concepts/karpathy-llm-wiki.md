@@ -72,16 +72,9 @@ Instead of RAG (retrieve-and-answer from raw documents on every query), the LLM 
 
 Genesis uses memory-wiki which implements this pattern. The wiki vault at `rad:zYhRVEu5Zh85vcwvmxkZHJNQxn6X` is the live instance.
 
-Source: [[sources/karpathy-llm-wiki|Karpathy's Original Gist]]
+Source: [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Sources
-
-- [[sources/karpathy-llm-wiki|Karpathy LLM Wiki Pattern — Original Proposal]]
-
-### Referenced By
-
-- [[sources/genesis-wiki|Genesis Wiki — Radicle Repository]]
-- [[sources/karpathy-llm-wiki|Karpathy LLM Wiki Pattern — Original Proposal]]
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

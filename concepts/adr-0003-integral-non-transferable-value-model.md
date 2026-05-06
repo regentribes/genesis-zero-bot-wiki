@@ -14,7 +14,7 @@ tags:
   - adr
   - architecture
 sourceIds:
-  - source.adr-0003-integral-non-transferable-value-model
+  - source.0003-integral-non-transferable-value-model
 claims:
   - id: claim.adr-0003.decision
     text: "ITC non-transferable value model adopted over Oscar's percentage-based paywall for regenerative community economics"
@@ -22,37 +22,35 @@ claims:
     confidence: 1.0
     evidence:
       - kind: source-doc
-        sourceId: source.adr-0003-integral-non-transferable-value-model
+        sourceId: source.0003-integral-non-transferable-value-model
         privacyTier: public
 relatedConcepts:
-  - concept/adr-0000-oad-workflow-grammar
-  - concept/adr-0004-llm-wiki-pattern
-  - concept/adr-0005-rag-agent-memory
+  - concept.adr-0000-oad-workflow-grammar
+  - concept.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons
+  - concept.adr-0005-rag-agent-memory-for-integral-stack
 relatedSources:
-  - source.adr-0003-integral-non-transferable-value-model
+  - source.0003-integral-non-transferable-value-model
 ---
+
 # ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall
 
 **Status:** accepted  
 **Date:** 2026-05-06  
-**ADR:** [[0003-integral-non-transferable-value-model|Full Document]]  
-**GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0003-integral-non-transferable-value-model.md
+**Full document:** [[0003-integral-non-transferable-value-model|0003-integral-non-transferable-value-model|GitHub]]  
+**Source:** [[sources/0003-integral-non-transferable-value-model|Source page]]
 
 ## Key Decision
 
 ITC non-transferable value model adopted over Oscar's percentage-based paywall for regenerative community economics
 
-## See Also
+## References
 
-- [[adr-0000-oad-workflow-grammar|ADR 0000 — OAD Workflow Grammar]]
-- [[adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
-- [[adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
-
-## Related
+- [[sources/0003-integral-non-transferable-value-model|Source page in wiki vault]]
+- [GitHub](https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0003-integral-non-transferable-value-model.md)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/adr-0003-integral-non-transferable-value-model|ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall]]
+- [[sources/0003-integral-non-transferable-value-model|0003 integral non transferable value model]]
 <!-- openclaw:wiki:related:end -->

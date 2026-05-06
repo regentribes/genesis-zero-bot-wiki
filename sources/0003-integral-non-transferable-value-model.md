@@ -186,5 +186,7 @@ This is a spec-only decision until Phase 2.
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [[concepts/adr-0003-integral-non-transferable-value-model|ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall]]
 <!-- openclaw:wiki:related:end -->

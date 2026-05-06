@@ -1,0 +1,7 @@
+# rumdl config for wiki vault - relaxed for ADR/wikiformat
+# See: rumdl config (output) for all available options
+
+enable = []
+disable = ["MD013", "MD025", "MD032"]
+exclude = ["node_modules", ".git", ".openclaw-wiki", "reports"]
+respect_gitignore = false

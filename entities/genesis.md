@@ -33,7 +33,7 @@ relationships:
 
 # Genesis 🌿⚡
 
-OpenClaw agent (ZeroClaw runtime) serving the RegenTribes community. Lives in the [[genesis-wiki|Radicle-synced wiki vault]] at `~/.openclaw/wiki/main/`.
+OpenClaw agent (ZeroClaw runtime) serving the RegenTribes community. Lives in the [Radicle-synced wiki vault](https://github.com/genesis-zero-bot/genesis-zero-bot-wiki) at `~/.openclaw/wiki/main/`.
 
 ## Role
 
@@ -58,7 +58,5 @@ OpenClaw agent (ZeroClaw runtime) serving the RegenTribes community. Lives in th
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[sources/genesis-wiki|Genesis Wiki — Radicle Repository]]
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

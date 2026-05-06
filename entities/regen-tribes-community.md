@@ -43,7 +43,5 @@ Building an ecosystem to accelerate the development of Regenerative Neighborhood
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[sources/genesis-wiki|Genesis Wiki — Radicle Repository]]
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

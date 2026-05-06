@@ -14,7 +14,7 @@ tags:
   - adr
   - architecture
 sourceIds:
-  - source.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons
+  - source.0004-llm-wiki-pattern-for-integral-knowledge-commons
 claims:
   - id: claim.adr-0004.decision
     text: "LLM Wiki (Karpathy compile-once-query-forever pattern) adopted as M10 knowledge commons layer for Integral stack, over stateless RAG or raw document stores"
@@ -22,35 +22,35 @@ claims:
     confidence: 1.0
     evidence:
       - kind: source-doc
-        sourceId: source.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons
+        sourceId: source.0004-llm-wiki-pattern-for-integral-knowledge-commons
         privacyTier: public
 relatedConcepts:
-  - concept/adr-0000-oad-workflow-grammar
-  - concept/karpathy-llm-wiki
-  - concept/adr-0005-rag-agent-memory
+  - concept.adr-0000-oad-workflow-grammar
+  - concept.karpathy-llm-wiki
+  - concept.adr-0005-rag-agent-memory-for-integral-stack
 relatedSources:
-  - source.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons
+  - source.0004-llm-wiki-pattern-for-integral-knowledge-commons
 ---
+
 # ADR 0004 — LLM Wiki Pattern for Integral Knowledge Commons (M10)
 
 **Status:** proposed  
 **Date:** 2026-05-06  
-**ADR:** [[0004-llm-wiki-pattern-for-integral-knowledge-commons|Full Document]]  
-**GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0004-llm-wiki-pattern-for-integral-knowledge-commons.md
+**Full document:** [[0004-llm-wiki-pattern-for-integral-knowledge-commons|0004-llm-wiki-pattern-for-integral-knowledge-commons|GitHub]]  
+**Source:** [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|Source page]]
 
 ## Key Decision
 
 LLM Wiki (Karpathy compile-once-query-forever pattern) adopted as M10 knowledge commons layer for Integral stack, over stateless RAG or raw document stores
 
-## See Also
+## References
 
-- [[adr-0000-oad-workflow-grammar|ADR 0000 — OAD Workflow Grammar]]
-- [[karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
-- [[adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
-
-## Related
+- [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|Source page in wiki vault]]
+- [GitHub](https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0004-llm-wiki-pattern-for-integral-knowledge-commons.md)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|0004 llm wiki pattern for integral knowledge commons]]
 <!-- openclaw:wiki:related:end -->

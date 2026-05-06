@@ -330,5 +330,7 @@ Making explanations themselves metonymic?
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [[concepts/adr-0002-ame-metonymic-activation|ADR 0002 — AME Metonymic Activation and Virtual Trust Field]]
 <!-- openclaw:wiki:related:end -->

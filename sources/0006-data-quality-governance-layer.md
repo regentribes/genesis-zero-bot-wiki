@@ -141,5 +141,7 @@ No external dependency.
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [[concepts/adr-0006-data-quality-governance-layer|ADR 0006 — Data Quality and Governance for Knowledge Layer]]
 <!-- openclaw:wiki:related:end -->

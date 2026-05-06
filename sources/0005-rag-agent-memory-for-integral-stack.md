@@ -136,5 +136,7 @@ Only stores what was explicitly said.
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [[concepts/adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory in the Integral Stack]]
 <!-- openclaw:wiki:related:end -->

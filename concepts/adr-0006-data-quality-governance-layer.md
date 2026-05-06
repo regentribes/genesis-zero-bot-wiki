@@ -14,41 +14,42 @@ tags:
   - adr
   - architecture
 sourceIds:
-  - source.adr-0006-data-quality-governance-layer
+  - source.0006-data-quality-governance-layer
 claims:
   - id: claim.adr-0006.decision
-    text: "Four governance requirements enforced across all three knowledge patterns: source provenance, freshness tracking, contradiction detection, ingest quality gates"
+    text: "Four governance requirements (provenance, freshness, contradiction detection, ingest gates) apply across all three knowledge patterns: LLM Wiki, RAG, Agent Memory"
     status: supported
     confidence: 1.0
     evidence:
       - kind: source-doc
-        sourceId: source.adr-0006-data-quality-governance-layer
+        sourceId: source.0006-data-quality-governance-layer
         privacyTier: public
 relatedConcepts:
-  - concept/adr-0004-llm-wiki-pattern
-  - concept/adr-0005-rag-agent-memory
+  - concept.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons
+  - concept.adr-0005-rag-agent-memory-for-integral-stack
 relatedSources:
-  - source.adr-0006-data-quality-governance-layer
+  - source.0006-data-quality-governance-layer
 ---
+
 # ADR 0006 — Data Quality and Governance for Knowledge Layer
 
 **Status:** proposed  
 **Date:** 2026-05-06  
-**ADR:** [[0006-data-quality-governance-layer|Full Document]]  
-**GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0006-data-quality-governance-layer.md
+**Full document:** [[0006-data-quality-governance-layer|0006-data-quality-governance-layer|GitHub]]  
+**Source:** [[sources/0006-data-quality-governance-layer|Source page]]
 
 ## Key Decision
 
-Four governance requirements enforced across all three knowledge patterns: source provenance, freshness tracking, contradiction detection, ingest quality gates
+Four governance requirements (provenance, freshness, contradiction detection, ingest gates) apply across all three knowledge patterns: LLM Wiki, RAG, Agent Memory
 
-## See Also
+## References
 
-- [[adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
-- [[adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
-
-## Related
+- [[sources/0006-data-quality-governance-layer|Source page in wiki vault]]
+- [GitHub](https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0006-data-quality-governance-layer.md)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [[sources/0006-data-quality-governance-layer|0006 data quality governance layer]]
 <!-- openclaw:wiki:related:end -->

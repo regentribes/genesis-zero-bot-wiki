@@ -171,5 +171,7 @@ P2P mesh sync for offline resilience. |
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [[concepts/adr-0000-oad-workflow-grammar|ADR 0000 — Integral OAD Workflow Grammar]]
 <!-- openclaw:wiki:related:end -->
