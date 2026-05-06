@@ -50,10 +50,10 @@ AME seed activation model and Radden & Kövecses trapezium model are structurall
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0002-ame-metonymic-activation|ADR 0002 — AME Metonymic Activation and Virtual Trust Field]]
+- [[sources/0002-ame-metonymic-activation|0002 ame metonymic activation]]
 
 ### Referenced By
 
-- [[sources/0002-ame-metonymic-activation|ADR 0002 — AME Metonymic Activation and Virtual Trust Field]]
+- [[concepts/adr-0007-kabanov-continuous-attention-agi|ADR 0007 — Kabanov Continuous Attention AGI Model]]
 - [[entities/genesis|Genesis 🌿⚡]]
 <!-- openclaw:wiki:related:end -->

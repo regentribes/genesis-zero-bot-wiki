@@ -52,9 +52,5 @@ Three-pattern assignment: Agent Memory for AME/ITC member context, RAG for CDS d
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory in the Integral Stack]]
-
-### Referenced By
-
-- [[sources/0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory in the Integral Stack]]
+- [[sources/0005-rag-agent-memory-for-integral-stack|0005 rag agent memory for integral stack]]
 <!-- openclaw:wiki:related:end -->

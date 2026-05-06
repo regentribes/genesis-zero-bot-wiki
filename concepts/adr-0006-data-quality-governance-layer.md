@@ -51,9 +51,5 @@ Four governance requirements (provenance, freshness, contradiction detection, in
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0006-data-quality-governance-layer|ADR 0006 — Data Quality and Governance for Knowledge Layer]]
-
-### Referenced By
-
-- [[sources/0006-data-quality-governance-layer|ADR 0006 — Data Quality and Governance for Knowledge Layer]]
+- [[sources/0006-data-quality-governance-layer|0006 data quality governance layer]]
 <!-- openclaw:wiki:related:end -->

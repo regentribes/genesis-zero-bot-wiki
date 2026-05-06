@@ -6,31 +6,38 @@ This vault is maintained by the OpenClaw memory-wiki plugin.
 - Render mode: `obsidian`
 - Search corpus default: `wiki`
 
-## Architecture (Single-Canonical Per Document)
+## Vault Structure
 
 ```
 wiki vault/
-├── adrs/           # Canonical ADR files — renders as proper Markdown on GitHub
-│   ├── 0000-*.md   (ASD-STE100, GitHub-native rendering)
-│   ├── ...
-│   └── 0007-*.md
-├── concepts/       # Concept pages = metadata + claims only (NO content duplication)
-│   ├── adr-*.md    (sourceIds → adrs/, claims, relationships)
-│   └── *.md
-├── sources/        # Lightweight index shells (canonicalPath + URL only)
+├── sources/       ← ADR content via openclaw wiki ingest (code-fence wrapped)
 │   ├── index.md
-│   └── NNNN-*.md   (5-line frontmatter + link to adrs/)
-└── entities/       # Entity pages
-    ├── genesis.md
-    └── regen-tribes-community.md
+│   └── NNNN-*.md
+├── concepts/      ← Claims + relationships (links to sources/)
+│   ├── index.md
+│   ├── adr-*.md  (ADR concept pages)
+│   └── *.md
+├── entities/      ← People and organizations
+│   ├── index.md
+│   └── *.md
+├── reports/       ← Auto-generated diagnostics
+│   ├── lint.md
+│   ├── claim-health.md
+│   ├── provenance-coverage.md
+│   └── ...
+├── syntheses/     ← Synthesis pages
+└── index.md      ← Master catalog
 ```
 
-## Key Principles
+## How It Works
 
-- **One document, one location.** ADR content lives in `adrs/`. No duplication in `sources/`.
-- `sources/` = metadata index. `concepts/` = claims. `adrs/` = content.
-- All content files render natively on GitHub (no code fences).
-- STE100: ASD-STE100 writing style enforced on all content. No marketing language.
+- `openclaw wiki ingest <file>` — wraps file content in source page with frontmatter
+- `openclaw wiki compile` — rebuilds agent-digest.json (claims, relationships, indexes)
+- `openclaw wiki lint` — validates wikilinks, surfaces broken refs, contradictions
+
+## STE100 Enforcement
+
+All content uses ASD-STE100: active voice, ≤20 words/sentence, no marketing language.
 
 ## Notes
 <!-- openclaw:human:start -->

@@ -53,7 +53,7 @@ relatedSources:
 
 **Status:** proposed  
 **Date:** 2026-05-06  
-**Full document:** [[adrs/0007-kabanov-continuous-attention-agi|View ADR]]  
+**Full document:** [[sources/0007-kabanov-continuous-attention-agi|View ADR]]  
 **Source:** [[sources/0007-kabanov-continuous-attention-agi|Source page]]
 
 ## Key Decision
@@ -77,21 +77,17 @@ Kabanov continuous attention model adopted as theoretical substrate for AME proc
 
 ## See Also
 
-- [[concepts/ame-metonymic-activation|AME Metonymic Activation]]
-- [[adrs/0002-ame-metonymic-activation|ADR 0002 — AME]]
+- [[concepts/adr-0002-ame-metonymic-activation|AME Metonymic Activation]]
+- [[sources/0002-ame-metonymic-activation|ADR 0002 — AME]]
 
 ## References
 
-- [[adrs/0007-kabanov-continuous-attention-agi|ADR 0007 — Kabanov AGI Model]]
+- [[sources/0007-kabanov-continuous-attention-agi|ADR 0007 — Kabanov AGI Model]]
 - [Karpathy LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — compile-once-query-forever
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0007-kabanov-continuous-attention-agi|ADR 0007 — Kabanov Continuous Attention AGI Model]]
-
-### Referenced By
-
-- [[sources/0007-kabanov-continuous-attention-agi|ADR 0007 — Kabanov Continuous Attention AGI Model]]
+- [[sources/0007-kabanov-continuous-attention-agi|0007 kabanov continuous attention AGI]]
 <!-- openclaw:wiki:related:end -->
