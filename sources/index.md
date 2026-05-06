@@ -2,6 +2,9 @@
 
 ## Generated
 <!-- openclaw:wiki:sources:index:start -->
+- [[sources/0000-oad-workflow-grammar-over-full-integral-stack|0000 oad workflow grammar over full integral stack]]
+- [[sources/0001-agent-knowledge-systems-rejected|0001 agent knowledge systems rejected]]
+- [[sources/0002-ame-metonymic-activation|0002 ame metonymic activation]]
 - [[sources/0003-integral-non-transferable-value-model|0003 integral non transferable value model]]
 - [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|0004 llm wiki pattern for integral knowledge commons]]
 - [[sources/0005-rag-agent-memory-for-integral-stack|0005 rag agent memory for integral stack]]

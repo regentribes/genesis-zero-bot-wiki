@@ -3,15 +3,18 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 30
+- Total pages: 33
 - Claims: 8
-- Sources: 10
+- Sources: 13
 - Entities: 2
 - Concepts: 8
 - Syntheses: 0
 - Reports: 10
 
 ### Sources
+- [[sources/0000-oad-workflow-grammar-over-full-integral-stack|0000 oad workflow grammar over full integral stack]]
+- [[sources/0001-agent-knowledge-systems-rejected|0001 agent knowledge systems rejected]]
+- [[sources/0002-ame-metonymic-activation|0002 ame metonymic activation]]
 - [[sources/0003-integral-non-transferable-value-model|0003 integral non transferable value model]]
 - [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|0004 llm wiki pattern for integral knowledge commons]]
 - [[sources/0005-rag-agent-memory-for-integral-stack|0005 rag agent memory for integral stack]]

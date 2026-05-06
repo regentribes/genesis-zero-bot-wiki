@@ -34,7 +34,7 @@ relatedSources:
 
 **Status:** proposed  
 **Date:** 2026-05-06  
-**ADR:** [[source.0006-data-quality-governance-layer|Full Document]]  
+**ADR:** [[0006-data-quality-governance-layer|Full Document]]  
 **GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0006-data-quality-governance-layer.md
 
 ## Key Decision
@@ -43,14 +43,12 @@ Four governance requirements enforced across all three knowledge patterns: sourc
 
 ## See Also
 
-- [[concept.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
-- [[concept.adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
+- [[adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
+- [[adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
 
 ## Related
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[concepts/adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory in the Integral Stack]]
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

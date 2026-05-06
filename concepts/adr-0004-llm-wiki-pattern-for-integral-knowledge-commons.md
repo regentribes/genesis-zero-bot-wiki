@@ -35,7 +35,7 @@ relatedSources:
 
 **Status:** proposed  
 **Date:** 2026-05-06  
-**ADR:** [[source.0004-llm-wiki-pattern-for-integral-knowledge-commons|Full Document]]  
+**ADR:** [[0004-llm-wiki-pattern-for-integral-knowledge-commons|Full Document]]  
 **GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0004-llm-wiki-pattern-for-integral-knowledge-commons.md
 
 ## Key Decision
@@ -46,15 +46,11 @@ LLM Wiki (Karpathy compile-once-query-forever pattern) adopted as M10 knowledge 
 
 - [[adr-0000-oad-workflow-grammar|ADR 0000 — OAD Workflow Grammar]]
 - [[karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
-- [[concept.adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
+- [[adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
 
 ## Related
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[concepts/adr-0003-integral-non-transferable-value-model|ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall]]
-- [[concepts/adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory in the Integral Stack]]
-- [[concepts/adr-0006-data-quality-governance-layer|ADR 0006 — Data Quality and Governance for Knowledge Layer]]
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

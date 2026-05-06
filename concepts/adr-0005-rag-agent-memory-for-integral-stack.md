@@ -35,7 +35,7 @@ relatedSources:
 
 **Status:** proposed  
 **Date:** 2026-05-06  
-**ADR:** [[source.0005-rag-agent-memory-for-integral-stack|Full Document]]  
+**ADR:** [[0005-rag-agent-memory-for-integral-stack|Full Document]]  
 **GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0005-rag-agent-memory-for-integral-stack.md
 
 ## Key Decision
@@ -44,17 +44,13 @@ Three-pattern assignment: Agent Memory for AME/ITC member context, RAG for CDS d
 
 ## See Also
 
-- [[concept.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
+- [[adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
 - [[adr-0000-oad-workflow-grammar|ADR 0000 — OAD Workflow Grammar]]
-- [[concept.adr-0006-data-quality-governance-layer|ADR 0006 — Data Quality Governance]]
+- [[adr-0006-data-quality-governance-layer|ADR 0006 — Data Quality Governance]]
 
 ## Related
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[concepts/adr-0003-integral-non-transferable-value-model|ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall]]
-- [[concepts/adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern for Integral Knowledge Commons (M10)]]
-- [[concepts/adr-0006-data-quality-governance-layer|ADR 0006 — Data Quality and Governance for Knowledge Layer]]
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

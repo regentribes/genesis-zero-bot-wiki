@@ -35,7 +35,7 @@ relatedSources:
 
 **Status:** accepted  
 **Date:** 2026-05-06  
-**ADR:** [[source.0003-integral-non-transferable-value-model|Full Document]]  
+**ADR:** [[0003-integral-non-transferable-value-model|Full Document]]  
 **GitHub:** https://github.com/regentribes/genesis-zero-bot/blob/main/docs/adr/0003-integral-non-transferable-value-model.md
 
 ## Key Decision
@@ -45,8 +45,8 @@ ITC non-transferable value model adopted over Oscar's percentage-based paywall f
 ## See Also
 
 - [[adr-0000-oad-workflow-grammar|ADR 0000 — OAD Workflow Grammar]]
-- [[concept.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
-- [[concept.adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
+- [[adr-0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
+- [[adr-0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
 
 ## Related
 
