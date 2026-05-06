@@ -1,0 +1,12 @@
+title: Genesis Wiki Vault
+description: RegenTribes knowledge graph
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+collections:
+  adrs:
+    output: true
+    permalink: /adrs/:path/
+include: ['.nojekyll']
