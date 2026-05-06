@@ -53,7 +53,5 @@ The wiki follows Karpathy's LLM Wiki pattern:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[entities/genesis|Genesis 🌿⚡]]
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

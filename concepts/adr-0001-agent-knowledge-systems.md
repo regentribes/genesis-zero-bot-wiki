@@ -65,7 +65,9 @@ Rejected two candidate tools for LLM wiki / knowledge base management. Adopted O
 | Obsidian-compatible | no | yes | yes |
 | Structured claims | no | no | yes |
 
-Source: [[sources/adr-0001-agent-knowledge-systems|ADR 0001 — Full Source]]
+Source: ADR 0001 — Full Source
+
+## Related
 
 ## Related
 <!-- openclaw:wiki:related:start -->

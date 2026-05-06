@@ -63,7 +63,9 @@ AME deliberately does NOT directly measure the real world. It measures **express
 
 The FOT (Field of Trust) is a **field** in the physics sense — not a score, not a number. It is inferred from 5 behavioral indicators whose minimum defines the field strength. The "hologram principle": one indicator off, the whole field degrades.
 
-Source: [[sources/adr-0002-ame-metonymic-activation|ADR 0002 — Full Source]]
+Source: ADR 0002 — Full Source
+
+## Related
 
 ## Related
 <!-- openclaw:wiki:related:start -->

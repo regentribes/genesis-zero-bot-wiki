@@ -63,7 +63,9 @@ Four blocking constraints identified:
 - **Phase 2** (3–6 months): Build M3–M7. Regional coefficient database. Constitutional threshold-setting.
 - **Phase 3** (6–12 months): AME integration for trust scoring. ITC access value. P2P mesh sync.
 
-Source: [[sources/adr-0000-oad-workflow-grammar|ADR 0000 — Full Source]]
+Source: ADR 0000 — Full Source
+
+## Related
 
 ## Related
 <!-- openclaw:wiki:related:start -->
