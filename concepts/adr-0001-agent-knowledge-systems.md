@@ -51,9 +51,10 @@ Bonfires.ai and llm_wiki both rejected as unsuitable for offline-first P2P agent
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0001-agent-knowledge-systems-rejected|0001 agent knowledge systems rejected]]
+- [[sources/0001-agent-knowledge-systems-rejected|ADR 0001 — Agent Knowledge Systems Rejected]]
 
 ### Referenced By
 
+- [[sources/0001-agent-knowledge-systems-rejected|ADR 0001 — Agent Knowledge Systems Rejected]]
 - [[entities/genesis|Genesis 🌿⚡]]
 <!-- openclaw:wiki:related:end -->

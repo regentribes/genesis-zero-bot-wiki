@@ -52,5 +52,9 @@ ITC non-transferable value model adopted over Oscar's percentage-based paywall f
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0003-integral-non-transferable-value-model|0003 integral non transferable value model]]
+- [[sources/0003-integral-non-transferable-value-model|ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall]]
+
+### Referenced By
+
+- [[sources/0003-integral-non-transferable-value-model|ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall]]
 <!-- openclaw:wiki:related:end -->

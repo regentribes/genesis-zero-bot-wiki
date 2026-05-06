@@ -50,9 +50,10 @@ AME seed activation model and Radden & Kövecses trapezium model are structurall
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0002-ame-metonymic-activation|0002 ame metonymic activation]]
+- [[sources/0002-ame-metonymic-activation|ADR 0002 — AME Metonymic Activation and Virtual Trust Field]]
 
 ### Referenced By
 
+- [[sources/0002-ame-metonymic-activation|ADR 0002 — AME Metonymic Activation and Virtual Trust Field]]
 - [[entities/genesis|Genesis 🌿⚡]]
 <!-- openclaw:wiki:related:end -->

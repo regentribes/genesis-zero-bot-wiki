@@ -1,15 +1,15 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 8,
-    "source": 7,
+    "concept": 9,
+    "source": 8,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 8,
+  "claimCount": 11,
   "claimHealth": {
     "freshness": {
-      "fresh": 8,
+      "fresh": 11,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -308,6 +308,81 @@
       ]
     },
     {
+      "id": "concept.adr-0007-kabanov-continuous-attention-agi",
+      "title": "ADR 0007 — Kabanov Continuous Attention AGI Model",
+      "kind": "concept",
+      "path": "concepts/adr-0007-kabanov-continuous-attention-agi.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0007-kabanov-continuous-attention-agi"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.adr-0007.four-layer-hierarchy",
+          "text": "Four-layer attention hierarchy maps to AME stages: peripheral (tokens) → semantic → contextual → transcendent (values)",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0007-kabanov-continuous-attention-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        },
+        {
+          "id": "claim.adr-0007.gierarchical-competition",
+          "text": "Gierarchical (competing) model: multiple super-generalizations compete for attention resources — maps to ITC multi-branch reasoning",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0007-kabanov-continuous-attention-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        },
+        {
+          "id": "claim.adr-0007.cognitive-atom",
+          "text": "Kabanov continuous attention model: cognitive atom is transition, not object — trajectories through phase space drive all cognition",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0007-kabanov-continuous-attention-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        }
+      ]
+    },
+    {
       "id": "concept.karpathy-llm-wiki",
       "title": "Karpathy LLM Wiki Pattern",
       "kind": "concept",
@@ -577,7 +652,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T16:21:07.313Z",
+      "lastTouchedAt": "2026-05-06T17:07:59.265Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -621,7 +696,7 @@
     },
     {
       "id": "source.0000-oad-workflow-grammar-over-full-integral-stack",
-      "title": "0000 oad workflow grammar over full integral stack",
+      "title": "ADR 0000 — Integral OAD Workflow Grammar Over Full Integral Stack",
       "kind": "source",
       "path": "sources/0000-oad-workflow-grammar-over-full-integral-stack.md",
       "aliases": [],
@@ -633,14 +708,16 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T15:41:31.455Z",
+      "lastTouchedAt": "2026-05-06",
       "claimCount": 0,
       "topClaims": []
     },
     {
       "id": "source.0001-agent-knowledge-systems-rejected",
-      "title": "0001 agent knowledge systems rejected",
+      "title": "ADR 0001 — Agent Knowledge Systems Rejected",
       "kind": "source",
       "path": "sources/0001-agent-knowledge-systems-rejected.md",
       "aliases": [],
@@ -652,14 +729,16 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T15:41:34.823Z",
+      "lastTouchedAt": "2026-05-06",
       "claimCount": 0,
       "topClaims": []
     },
     {
       "id": "source.0002-ame-metonymic-activation",
-      "title": "0002 ame metonymic activation",
+      "title": "ADR 0002 — AME Metonymic Activation and Virtual Trust Field",
       "kind": "source",
       "path": "sources/0002-ame-metonymic-activation.md",
       "aliases": [],
@@ -671,14 +750,16 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T15:41:38.212Z",
+      "lastTouchedAt": "2026-05-06",
       "claimCount": 0,
       "topClaims": []
     },
     {
       "id": "source.0003-integral-non-transferable-value-model",
-      "title": "0003 integral non transferable value model",
+      "title": "ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall",
       "kind": "source",
       "path": "sources/0003-integral-non-transferable-value-model.md",
       "aliases": [],
@@ -690,14 +771,16 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T15:41:41.652Z",
+      "lastTouchedAt": "2026-05-06",
       "claimCount": 0,
       "topClaims": []
     },
     {
       "id": "source.0004-llm-wiki-pattern-for-integral-knowledge-commons",
-      "title": "0004 llm wiki pattern for integral knowledge commons",
+      "title": "ADR 0004 — LLM Wiki Pattern for Integral Knowledge Commons (M10)",
       "kind": "source",
       "path": "sources/0004-llm-wiki-pattern-for-integral-knowledge-commons.md",
       "aliases": [],
@@ -709,14 +792,16 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T15:41:45.134Z",
+      "lastTouchedAt": "2026-05-06",
       "claimCount": 0,
       "topClaims": []
     },
     {
       "id": "source.0005-rag-agent-memory-for-integral-stack",
-      "title": "0005 rag agent memory for integral stack",
+      "title": "ADR 0005 — RAG and Agent Memory in the Integral Stack",
       "kind": "source",
       "path": "sources/0005-rag-agent-memory-for-integral-stack.md",
       "aliases": [],
@@ -728,14 +813,16 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T15:41:48.493Z",
+      "lastTouchedAt": "2026-05-06",
       "claimCount": 0,
       "topClaims": []
     },
     {
       "id": "source.0006-data-quality-governance-layer",
-      "title": "0006 data quality governance layer",
+      "title": "ADR 0006 — Data Quality and Governance for Knowledge Layer",
       "kind": "source",
       "path": "sources/0006-data-quality-governance-layer.md",
       "aliases": [],
@@ -747,8 +834,31 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T15:41:51.775Z",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0007-kabanov-continuous-attention-agi",
+      "title": "ADR 0007 — Kabanov Continuous Attention AGI Model",
+      "kind": "source",
+      "path": "sources/0007-kabanov-continuous-attention-agi.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
       "claimCount": 0,
       "topClaims": []
     }

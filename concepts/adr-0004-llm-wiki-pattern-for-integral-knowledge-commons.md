@@ -52,5 +52,9 @@ LLM Wiki (Karpathy compile-once-query-forever pattern) adopted as M10 knowledge 
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|0004 llm wiki pattern for integral knowledge commons]]
+- [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern for Integral Knowledge Commons (M10)]]
+
+### Referenced By
+
+- [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern for Integral Knowledge Commons (M10)]]
 <!-- openclaw:wiki:related:end -->

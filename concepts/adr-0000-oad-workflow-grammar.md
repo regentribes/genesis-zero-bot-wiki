@@ -51,9 +51,10 @@ OAD workflow grammar (M1/M2 loop) adopted as implementable subset; full Integral
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0000-oad-workflow-grammar-over-full-integral-stack|0000 oad workflow grammar over full integral stack]]
+- [[sources/0000-oad-workflow-grammar-over-full-integral-stack|ADR 0000 — Integral OAD Workflow Grammar Over Full Integral Stack]]
 
 ### Referenced By
 
+- [[sources/0000-oad-workflow-grammar-over-full-integral-stack|ADR 0000 — Integral OAD Workflow Grammar Over Full Integral Stack]]
 - [[entities/genesis|Genesis 🌿⚡]]
 <!-- openclaw:wiki:related:end -->
