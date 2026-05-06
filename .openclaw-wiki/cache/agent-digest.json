@@ -1,15 +1,15 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 4,
-    "source": 5,
+    "concept": 5,
+    "source": 6,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 4,
+  "claimCount": 7,
   "claimHealth": {
     "freshness": {
-      "fresh": 4,
+      "fresh": 7,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -135,6 +135,81 @@
             {
               "kind": "source-doc",
               "sourceId": "source.adr-0002-ame-metonymic-activation",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "concept.adr-0003-integral-non-transferable-value-model",
+      "title": "ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall",
+      "kind": "concept",
+      "path": "concepts/adr-0003-integral-non-transferable-value-model.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.adr-0003-integral-non-transferable-value-model"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.adr-0003.governance-funded-infrastructure",
+          "text": "ITC infrastructure funding through CDS/COS/FRS governance rather than transaction extraction",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.adr-0003-integral-non-transferable-value-model",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        },
+        {
+          "id": "claim.adr-0003.non-transferable-access-credits",
+          "text": "ITC model requires access credits to be non-transferable between members — prevents accumulation and winner-take-all dynamics",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.adr-0003-integral-non-transferable-value-model",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-06"
+        },
+        {
+          "id": "claim.adr-0003.ITC-adopted-over-paywall",
+          "text": "ITC non-transferable value model adopted over Oscar's percentage-based paywall for regenerative community economics",
+          "status": "supported",
+          "confidence": 1,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.adr-0003-integral-non-transferable-value-model",
               "privacyTier": "public"
             }
           ],
@@ -413,7 +488,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T13:53:23.638Z",
+      "lastTouchedAt": "2026-05-06T14:12:35.217Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -502,6 +577,27 @@
       "title": "ADR 0002 — AME Metonymic Activation and Virtual Trust Field",
       "kind": "source",
       "path": "sources/adr-0002-ame-metonymic-activation.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-06",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.adr-0003-integral-non-transferable-value-model",
+      "title": "ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall",
+      "kind": "source",
+      "path": "sources/adr-0003-integral-non-transferable-value-model.md",
       "aliases": [],
       "sourceIds": [],
       "questions": [],

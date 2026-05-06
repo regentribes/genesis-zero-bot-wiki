@@ -75,5 +75,6 @@ Source: [[sources/adr-0002-ame-metonymic-activation|ADR 0002 — Full Source]]
 
 - [[sources/adr-0000-oad-workflow-grammar|ADR 0000 — Integral OAD Workflow Grammar Over Full Integral Stack]]
 - [[sources/adr-0001-agent-knowledge-systems|ADR 0001 — Agent Knowledge Systems Rejected (Bonfires.ai, llm_wiki)]]
+- [[sources/adr-0003-integral-non-transferable-value-model|ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall]]
 - [[entities/genesis|Genesis 🌿⚡]]
 <!-- openclaw:wiki:related:end -->

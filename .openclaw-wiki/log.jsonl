@@ -15,3 +15,7 @@
 {"type":"lint","timestamp":"2026-05-06T14:05:17.579Z","details":{"issueCount":2,"reportPath":"reports/lint.md"}}
 {"type":"compile","timestamp":"2026-05-06T14:05:30.957Z","details":{"pageCounts":{"entity":2,"concept":4,"source":5,"synthesis":0,"report":10},"updatedFiles":[".openclaw-wiki/cache/agent-digest.json"]}}
 {"type":"lint","timestamp":"2026-05-06T14:05:34.277Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-06T14:12:07.704Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-06T14:12:35.271Z","details":{"pageCounts":{"entity":2,"concept":5,"source":6,"synthesis":0,"report":10},"updatedFiles":["concepts/adr-0000-oad-workflow-grammar.md","concepts/adr-0002-ame-metonymic-activation.md","sources/adr-0003-integral-non-transferable-value-model.md","concepts/adr-0003-integral-non-transferable-value-model.md","reports/provenance-coverage.md",".openclaw-wiki/cache/agent-digest.json",".openclaw-wiki/cache/claims.jsonl","index.md","sources/index.md","concepts/index.md"]}}
+{"type":"lint","timestamp":"2026-05-06T14:12:38.609Z","details":{"issueCount":1,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-06T14:12:57.360Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
