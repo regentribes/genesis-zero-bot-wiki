@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Convert Obsidian wikilinks → standard markdown
+      - name: Convert Obsidian wikilinks → standard markdown links
         run: |
           python3 << 'PYEOF'
           import re
@@ -35,7 +35,7 @@ jobs:
               text = md_file.read_text(encoding='utf-8')
               original = text
 
-              # Skip inside fenced code blocks
+              # Process line-by-line, skip inside fenced code blocks
               lines = []
               in_code = False
               for line in text.split('\n'):
@@ -44,16 +44,15 @@ jobs:
                   lines.append(line)
                 elif not in_code:
                   # [[namespace/path|Display Text]] → [Display Text](namespace/path.html)
-                  # All wikilinks in this vault have dir prefix (sources/, concepts/, etc.)
                   line = re.sub(
-                    r'\[\[([^\]|]+)\|([^\]]+)\]\]',
-                    lambda m: f'[{m.group(2)}]({m.group(1).strip()}.html)',
+                    r'\[\[([^]|]+)\|([^\]]+)\]\]',
+                    lambda m: '[{0}]({1}.html)'.format(m.group(2).strip(), m.group(1).strip()),
                     line
                   )
                   # [[namespace/path]] → [namespace/path](namespace/path.html)
                   line = re.sub(
-                    r'\[\[([^\]|]+)\]\]',
-                    lambda m: f'[{m.group(1).strip()}]({m.group(1).strip()}.html)',
+                    r'\[\[([^]|]+)\]\]',
+                    lambda m: '[{0}]({0}.html)'.format(m.group(1).strip()),
                     line
                   )
                   lines.append(line)
@@ -67,7 +66,39 @@ jobs:
             except Exception as e:
               print(f'  Error {md_file}: {e}')
 
-          print('Done.')
+          print('Wikilink conversion done.')
+          PYEOF
+
+      - name: Strip YAML frontmatter from all Markdown files
+        run: |
+          python3 << 'PYEOF'
+          import re
+          from pathlib import Path
+
+          for md_file in Path('.').rglob('*.md'):
+            skip_dirs = ['.git', '.openclaw-wiki', 'node_modules', '_attachments', '.github']
+            if any(s in str(md_file) for s in skip_dirs):
+              continue
+            try:
+              text = md_file.read_text(encoding='utf-8')
+              original = text
+
+              # Strip YAML frontmatter: --- ... --- at the start of the file
+              text = re.sub(
+                r'^---\n.*?\n---\n',
+                '',
+                text,
+                count=1,
+                flags=re.DOTALL
+              )
+
+              if text != original:
+                md_file.write_text(text, encoding='utf-8')
+                print(f'  Stripped: {md_file}')
+            except Exception as e:
+              print(f'  Error {md_file}: {e}')
+
+          print('Frontmatter stripped.')
           PYEOF
 
       - name: Setup Jekyll

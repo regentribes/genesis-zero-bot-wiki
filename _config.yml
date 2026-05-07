@@ -4,6 +4,7 @@ title: RegenTribes Knowledge Wiki
 description: Genesis knowledge graph and governance research vault
 theme: minima
 plugins:
+  - jekyll-optional-front-matter
   - jekyll-redirect-from
 
 # GitHub Pages requires these
