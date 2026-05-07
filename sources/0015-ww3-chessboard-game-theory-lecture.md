@@ -1,7 +1,7 @@
 ---
 id: source.0015-ww3-chessboard-game-theory-lecture
 pageType: source
-title: "Game Theory 23 — The WWIII Chessboard"
+title: "Game Theory 23: The WWIII Chessboard"
 canonicalPath: sources/0015-ww3-chessboard-game-theory-lecture.md
 sourceType: seminar
 entityType: source
@@ -35,7 +35,7 @@ relatedConcepts:
   - concept.0015-ww3-chessboard-grand-strategies
 ---
 
-# Game Theory 23 — The WWIII Chessboard
+# Game Theory 23: The WWIII Chessboard
 
 ## Context
 
@@ -147,5 +147,5 @@ These four worldviews are not in conflict with each other in their own terms. Ea
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [WWIII Grand Strategies — Four Nations](/genesis-zero-bot-wiki/concepts/0015-ww3-chessboard-grand-strategies.html)
+- [[concepts/0015-ww3-chessboard-grand-strategies|WWIII Grand Strategies: Four Nations]]
 <!-- openclaw:wiki:related:end -->

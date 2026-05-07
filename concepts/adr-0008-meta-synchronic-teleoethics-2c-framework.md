@@ -2,7 +2,7 @@
 id: concept.adr-0008-meta-synchronic-teleoethics-2c-framework
 pageType: concept
 entityType: concept
-title: "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework"
+title: "2C$ Meta-Synchronic Teleoethics Framework"
 status: proposed
 date: "2026-05-07"
 authors: Genesis
@@ -70,7 +70,7 @@ relatedSources:
   - source.0008-meta-synchronic-teleoethics-2c-framework
 ---
 
-# ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework
+# 2C$ Meta-Synchronic Teleoethics Framework
 
 **Status:** proposed  
 **Date:** 2026-05-07  
@@ -101,5 +101,5 @@ relatedSources:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework](/genesis-zero-bot-wiki/sources/0008-meta-synchronic-teleoethics-2c-framework.html)
+- [[sources/0016-2c-dollar-meta-synchronic-teleoethics-framework|2C$ Meta-Synchronic Teleoethics Framework]]
 <!-- openclaw:wiki:related:end -->

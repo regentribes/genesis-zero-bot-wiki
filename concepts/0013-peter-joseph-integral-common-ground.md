@@ -109,9 +109,9 @@ The seven design patterns in ADR 0013 directly inform the bootstrap architecture
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Peter Joseph Integral and Common Ground Teheno](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
+- [[sources/0013-peter-joseph-integral-common-ground|Peter Joseph Integral and Common Ground Teheno]]
 
 ### Related Pages
 
-- [Ostrom Commons Governance](/genesis-zero-bot-wiki/concepts/ostrom-commons-governance.html)
+- [[concepts/ostrom-commons-governance|Ostrom Commons Governance]]
 <!-- openclaw:wiki:related:end -->

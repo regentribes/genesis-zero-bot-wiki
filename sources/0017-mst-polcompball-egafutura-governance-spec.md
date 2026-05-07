@@ -1,8 +1,8 @@
 ---
 id: source.topic-57-governance-synthesis
 pageType: source
-title: "Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis"
-canonicalPath: sources/0008-topic-57-mst-polcompball-egafutura.md
+title: "MST-Polcompball and EcoFutura Governance Synthesis"
+canonicalPath: sources/0017-mst-polcompball-egafutura-governance-spec.md
 sourceType: telegram-export-synthesis
 entityType: source
 confidence: 0.85
@@ -128,9 +128,9 @@ Governance references already in graph:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Topic 57 — Airic Easm Telegram Discussion (Raw Export)](/genesis-zero-bot-wiki/sources/0008-topic-57-airic-easm-extracted.html)
+- [[sources/0008-topic-57-airic-easm-extracted|Airic Easm Telegram Discussion (Raw Export)]]
 
 ### Related Pages
 
-- [Topic 57: MST-Polcompball / EcoFutura Governance Spec](/genesis-zero-bot-wiki/concepts/topic-57-mst-polcompball-egafutura.html)
+- [[concepts/topic-57-mst-polcompball-egafutura|MST-Polcompball and EcoFutura Governance Spec]]
 <!-- openclaw:wiki:related:end -->

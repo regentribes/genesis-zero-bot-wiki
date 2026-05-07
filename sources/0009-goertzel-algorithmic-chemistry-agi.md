@@ -1,7 +1,7 @@
 ---
 id: source.goertzel-algorithmic-chemistry-agi
 pageType: source
-title: "Ben Goertzel — Algorithmic Chemistry for AGI"
+title: "Ben Goertzel: Algorithmic Chemistry for AGI"
 canonicalPath: sources/0009-goertzel-algorithmic-chemistry-agi.md
 sourceType: transcript-seminar
 entityType: source
@@ -27,7 +27,7 @@ relatedConcepts:
   - concept:hyperon
 ---
 
-# Ben Goertzel — Algorithmic Chemistry for AGI
+# Ben Goertzel: Algorithmic Chemistry for AGI
 
 ## Overview
 
@@ -119,5 +119,5 @@ After singularity, humans will not be the best problem solvers. The work matters
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Algorithmic Chemistry for AGI](/genesis-zero-bot-wiki/concepts/0009-algorithmic-chemistry-agi.html)
+- [[concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
 <!-- openclaw:wiki:related:end -->

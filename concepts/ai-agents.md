@@ -64,10 +64,10 @@ Key enablers:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [GitHub Trends Weekly Report — May 1-7, 2026](/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html)
+- [[sources/0012-github-trends-may-2026|GitHub Trends Weekly Report: May 1-7, 2026]]
 
 ### Related Pages
 
-- [Agent Skills](/genesis-zero-bot-wiki/concepts/agent-skills.html)
-- [MCP — Model Context Protocol](/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html)
+- [[concepts/agent-skills|Agent Skills]]
+- [[concepts/mcp-model-context-protocol|Model Context Protocol]]
 <!-- openclaw:wiki:related:end -->

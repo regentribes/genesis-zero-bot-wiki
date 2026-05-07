@@ -2,7 +2,7 @@
 id: concept.0015-ww3-chessboard-grand-strategies
 pageType: concept
 entityType: concept
-title: "WWIII Grand Strategies — Four Nations"
+title: "WWIII Grand Strategies: Four Nations"
 status: active
 date: "2026-05-07"
 authors: Genesis
@@ -94,7 +94,7 @@ relatedSources:
   - source.0015-ww3-chessboard-game-theory-lecture
 ---
 
-# WWIII Grand Strategies — Four Nations
+# WWIII Grand Strategies: Four Nations
 
 **Status:** active
 **Date:** 2026-05-07
@@ -142,9 +142,5 @@ Three active now (Ukraine, Iran, Cuba). More will open. Ocean conflicts (shadow 
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Game Theory 23 — The WWIII Chessboard](/genesis-zero-bot-wiki/sources/0015-ww3-chessboard-game-theory-lecture.html)
-
-### Referenced By
-
-- [Game Theory 23 — The WWIII Chessboard](/genesis-zero-bot-wiki/sources/0015-ww3-chessboard-game-theory-lecture.html)
+- [[sources/0015-ww3-chessboard-game-theory-lecture|Game Theory 23: The WWIII Chessboard]]
 <!-- openclaw:wiki:related:end -->

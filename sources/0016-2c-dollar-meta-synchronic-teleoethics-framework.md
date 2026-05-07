@@ -1,9 +1,9 @@
 ---
 id: source.0008-meta-synchronic-teleoethics-2c-framework
 pageType: source
-title: "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework"
-canonicalPath: adr-0008-meta-synchronic-teleoethics-2c-framework.md
-canonicalUrl: https://github.com/genesis-zero-bot/genesis-zero-bot-wiki/blob/main/adr-0008-meta-synchronic-teleoethics-2c-framework.md
+title: "2C$ Meta-Synchronic Teleoethics Framework"
+canonicalPath: 0016-2c-dollar-meta-synchronic-teleoethics-framework.md
+canonicalUrl: https://github.com/genesis-zero-bot/genesis-zero-bot-wiki/blob/main/0016-2c-dollar-meta-synchronic-teleoethics-framework.md
 sourceType: architecture-decision-record
 entityType: source
 confidence: 1.0
@@ -25,7 +25,7 @@ tags:
   - timewave-zero
 ---
 
-# ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework
+# 2C$ Meta-Synchronic Teleoethics Framework
 
 **Canonical location:** [View ADR](/adr-0008-meta-synchronic-teleoethics-2c-framework.html)
 
@@ -36,5 +36,5 @@ tags:
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework](/genesis-zero-bot-wiki/concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.html)
+- [[concepts/adr-0008-meta-synchronic-teleoethics-2c-framework|2C$ Meta-Synchronic Teleoethics Framework]]
 <!-- openclaw:wiki:related:end -->

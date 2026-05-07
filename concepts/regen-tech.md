@@ -46,10 +46,10 @@ Regenerative technology refers to systems and infrastructure designed to restore
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction](/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html)
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
 
 ### Related Pages
 
-- [Global Manufacturing Capacity Report](/genesis-zero-bot-wiki/concepts/0010-global-manufacturing-capacity-report.html)
-- [Industrial Capacity](/genesis-zero-bot-wiki/concepts/industrial-capacity.html)
+- [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[concepts/industrial-capacity|Industrial Capacity]]
 <!-- openclaw:wiki:related:end -->

@@ -2,7 +2,7 @@
 id: concept.0011-global-manufacturing-civilizational-record
 pageType: concept
 entityType: concept
-title: "Global Manufacturing Capacity — Complete Civilizational Record"
+title: "Global Manufacturing Capacity: Complete Civilizational Record"
 status: active
 date: "2026-05-07"
 authors: Genesis
@@ -94,7 +94,7 @@ relatedSources:
   - source.0011-global-manufacturing-civilizational-record
 ---
 
-# Global Manufacturing Capacity — Complete Civilizational Record
+# Global Manufacturing Capacity: Complete Civilizational Record
 
 **Status:** active
 **Date:** 2026-05-07
@@ -144,9 +144,9 @@ The [REBOOT NOTE] sections are particularly valuable for community-scale plannin
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Global Manufacturing Capacity — Complete Civilizational Record](/genesis-zero-bot-wiki/sources/0011-global-manufacturing-civilizational-record.html)
+- [[sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity: Complete Civilizational Record]]
 
 ### Related Pages
 
-- [Semiconductor Manufacturing](/genesis-zero-bot-wiki/concepts/semiconductor-manufacturing.html)
+- [[concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
 <!-- openclaw:wiki:related:end -->

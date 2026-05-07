@@ -64,9 +64,9 @@ The same pattern applies to knowledge coordination infrastructure. As digital co
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Knowledge Work and Physical Production — Systemic Interdependence](/genesis-zero-bot-wiki/sources/0014-knowledge-work-physical-production-interdependence.html)
+- [[sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production: Systemic Interdependence]]
 
 ### Related Pages
 
-- [Knowledge-Physical Work Interdependence](/genesis-zero-bot-wiki/concepts/0014-knowledge-work-physical-production-interdependence.html)
+- [[concepts/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production: Systemic Interdependence]]
 <!-- openclaw:wiki:related:end -->

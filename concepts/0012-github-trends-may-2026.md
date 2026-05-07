@@ -1,7 +1,7 @@
 ---
 id: concept.0012-github-trends-may-2026
 pageType: concept
-title: "GitHub Trends May 2026 — AI Agent Paradigm"
+title: "GitHub Trends May 2026: AI Agent Paradigm as Dominant Architecture"
 canonicalPath: concepts/0012-github-trends-may-2026.md
 entityType: concept
 confidence: 0.9
@@ -17,7 +17,7 @@ tags:
   - open-source
 ---
 
-# Concept: GitHub Trends May 2026 — AI Agent Paradigm as Dominant Architecture
+# Concept: GitHub Trends May 2026: AI Agent Paradigm as Dominant Architecture
 
 ## Claims
 

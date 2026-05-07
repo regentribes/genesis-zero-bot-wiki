@@ -1,7 +1,7 @@
 ---
 id: source.topic-57-airic-easm-extracted
 pageType: source
-title: "Topic 57 — Airic Easm Telegram Discussion (Raw Export)"
+title: "Airic Easm Telegram Discussion (Raw Export)"
 canonicalPath: sources/0008-topic-57-airic-easm-extracted.md
 sourceType: telegram-export
 entityType: source
@@ -671,6 +671,6 @@ You're in a Telegram group chat so I shouldn't load `MEMORY.md`, but I can still
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis](/genesis-zero-bot-wiki/sources/0008-topic-57-mst-polcompball-egafutura.html)
-- [Topic 57: MST-Polcompball / EcoFutura Governance Spec](/genesis-zero-bot-wiki/concepts/topic-57-mst-polcompball-egafutura.html)
+- [[concepts/topic-57-mst-polcompball-egafutura|MST-Polcompball and EcoFutura Governance Spec]]
+- [[sources/0017-mst-polcompball-egafutura-governance-spec|MST-Polcompball and EcoFutura Governance Synthesis]]
 <!-- openclaw:wiki:related:end -->

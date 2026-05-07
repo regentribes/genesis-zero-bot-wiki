@@ -76,9 +76,9 @@ These principles emerged from studying thousands of real-world commons that succ
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Peter Joseph Integral and Common Ground Teheno](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
+- [[sources/0013-peter-joseph-integral-common-ground|Peter Joseph Integral and Common Ground Teheno]]
 
 ### Related Pages
 
-- [Peter Joseph Integral and Common Ground Teheno](/genesis-zero-bot-wiki/concepts/0013-peter-joseph-integral-common-ground.html)
+- [[concepts/0013-peter-joseph-integral-common-ground|Peter Joseph Integral and Common Ground Teheno]]
 <!-- openclaw:wiki:related:end -->

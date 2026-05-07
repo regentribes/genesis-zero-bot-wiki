@@ -137,7 +137,7 @@ Community members engaged in regenerative neighbourhood design can use this refe
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Global Manufacturing Capacity Report](/genesis-zero-bot-wiki/concepts/0010-global-manufacturing-capacity-report.html)
-- [Industrial Capacity](/genesis-zero-bot-wiki/concepts/industrial-capacity.html)
-- [Regenerative Technology](/genesis-zero-bot-wiki/concepts/regen-tech.html)
+- [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[concepts/industrial-capacity|Industrial Capacity]]
+- [[concepts/regen-tech|Regenerative Technology]]
 <!-- openclaw:wiki:related:end -->

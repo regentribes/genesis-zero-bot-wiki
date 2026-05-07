@@ -2,7 +2,7 @@
 id: concept.topic-57-mst-polcompball-egafutura
 pageType: concept
 entityType: concept
-title: "Topic 57: MST-Polcompball / EcoFutura Governance Spec"
+title: "MST-Polcompball and EcoFutura Governance Spec"
 status: active
 date: "2026-05-07"
 authors:
@@ -75,7 +75,7 @@ relatedSources:
   - source.topic-57-airic-easm-extracted
 ---
 
-# Topic 57 — MST-Polcompball / EcoFutura Governance Spec
+# MST-Polcompball and EcoFutura Governance Spec
 
 **Status:** active  
 **Date:** 2026-05-07  
@@ -112,9 +112,9 @@ relatedSources:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Topic 57 — Airic Easm Telegram Discussion (Raw Export)](/genesis-zero-bot-wiki/sources/0008-topic-57-airic-easm-extracted.html)
+- [[sources/0008-topic-57-airic-easm-extracted|Airic Easm Telegram Discussion (Raw Export)]]
 
 ### Related Pages
 
-- [Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis](/genesis-zero-bot-wiki/sources/0008-topic-57-mst-polcompball-egafutura.html)
+- [[sources/0017-mst-polcompball-egafutura-governance-spec|MST-Polcompball and EcoFutura Governance Synthesis]]
 <!-- openclaw:wiki:related:end -->

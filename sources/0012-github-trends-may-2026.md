@@ -1,7 +1,7 @@
 ---
 id: source.0012-github-trends-may-2026
 pageType: source
-title: "GitHub Trends Weekly Report — May 1-7, 2026"
+title: "GitHub Trends Weekly Report: May 1-7, 2026"
 canonicalPath: sources/0012-github-trends-may-2026.md
 sourceType: article
 entityType: source
@@ -18,7 +18,7 @@ tags:
   - open-source
 ---
 
-# GitHub Trends Weekly Report — May 1-7, 2026
+# GitHub Trends Weekly Report: May 1-7, 2026
 
 **Period:** May 1–7, 2026  
 **Source:** GitHub Trends Daily Telegram Channel (3832971089)  
@@ -155,7 +155,7 @@ Two financial AI agent projects trended:
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Agent Skills](/genesis-zero-bot-wiki/concepts/agent-skills.html)
-- [AI Agents](/genesis-zero-bot-wiki/concepts/ai-agents.html)
-- [MCP — Model Context Protocol](/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html)
+- [[concepts/agent-skills|Agent Skills]]
+- [[concepts/ai-agents|AI Agents]]
+- [[concepts/mcp-model-context-protocol|Model Context Protocol]]
 <!-- openclaw:wiki:related:end -->

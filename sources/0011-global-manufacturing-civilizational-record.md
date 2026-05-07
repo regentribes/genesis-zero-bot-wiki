@@ -1,7 +1,7 @@
 ---
 id: source.0011-global-manufacturing-civilizational-record
 pageType: source
-title: "Global Manufacturing Capacity — Complete Civilizational Record"
+title: "Global Manufacturing Capacity: Complete Civilizational Record"
 canonicalPath: sources/0011-global-manufacturing-civilizational-record.md
 sourceType: article
 entityType: source
@@ -23,7 +23,7 @@ sourceIds: []
 relatedConcepts: []
 ---
 
-# Global Manufacturing Capacity — Complete Civilizational Record
+# Global Manufacturing Capacity: Complete Civilizational Record
 
 **Title:** GLOBAL MANUFACTURING CAPACITY: A COMPLETE CIVILIZATIONAL RECORD — For Reproduction From First Principles — Including Notes on Suboptimal Decisions
 
@@ -184,6 +184,6 @@ Each chapter references the physical/chemical principles from Chapter 1 and the 
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Global Manufacturing Capacity — Complete Civilizational Record](/genesis-zero-bot-wiki/concepts/0011-global-manufacturing-civilizational-record.html)
-- [Semiconductor Manufacturing](/genesis-zero-bot-wiki/concepts/semiconductor-manufacturing.html)
+- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity: Complete Civilizational Record]]
+- [[concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
 <!-- openclaw:wiki:related:end -->

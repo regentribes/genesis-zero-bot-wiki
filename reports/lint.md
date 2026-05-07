@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 0
-- Warnings: 101
+- Warnings: 106
 
 ### Warnings
 - `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.001` has competing variants across 14 pages.
@@ -19,22 +19,22 @@ status: active
 - `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.004` has competing variants across 6 pages.
 - `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.005` has competing variants across 5 pages.
 - `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.006` has competing variants across 4 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/sources/0009-goertzel-algorithmic-chemistry-agi`.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/sources/0009-goertzel-algorithmic-chemistry-agi`.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/concepts/autocatalysis`.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/concepts/morphic-resonance`.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/concepts/hyperon`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0009-goertzel-algorithmic-chemistry-agi.html`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0009-goertzel-algorithmic-chemistry-agi.html`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/autocatalysis.html`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/morphic-resonance.html`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/hyperon.html`.
 - `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.001` has competing variants across 14 pages.
 - `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.002` has competing variants across 7 pages.
 - `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.003` has competing variants across 6 pages.
 - `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.004` has competing variants across 6 pages.
 - `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.005` has competing variants across 5 pages.
 - `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.006` has competing variants across 4 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/concepts/bootstrap`.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/concepts/industrial-capacity`.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/concepts/regen-tech`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/bootstrap.html`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/industrial-capacity.html`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/regen-tech.html`.
 - `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.001` has competing variants across 14 pages.
 - `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.002` has competing variants across 7 pages.
 - `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.003` has competing variants across 6 pages.
@@ -43,32 +43,32 @@ status: active
 - `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.006` has competing variants across 4 pages.
 - `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.007` has competing variants across 2 pages.
 - `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.008` has competing variants across 2 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/sources/0011-global-manufacturing-civilizational-record`.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/sources/0011-global-manufacturing-civilizational-record`.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/bootstrap`.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/industrial-capacity`.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/regen-tech`.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/semiconductor-manufacturing`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0011-global-manufacturing-civilizational-record.html`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0011-global-manufacturing-civilizational-record.html`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/bootstrap.html`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/industrial-capacity.html`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/regen-tech.html`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/semiconductor-manufacturing.html`.
 - `concepts/0012-github-trends-may-2026.md`: Non-source page is missing `sourceIds` provenance.
-- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/concepts/ai-agents`.
-- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/concepts/agent-skills`.
-- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/concepts/mcp-model-context-protocol`.
-- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/ai-agents.html`.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/agent-skills.html`.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html`.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html`.
 - `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.001` has competing variants across 14 pages.
 - `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.002` has competing variants across 7 pages.
 - `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.003` has competing variants across 6 pages.
 - `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.004` has competing variants across 6 pages.
 - `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.005` has competing variants across 5 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/concepts/ostrom-commons-governance`.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html`.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html`.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/ostrom-commons-governance.html`.
 - `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.001` has competing variants across 14 pages.
 - `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.002` has competing variants across 7 pages.
 - `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.003` has competing variants across 6 pages.
 - `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.004` has competing variants across 6 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/concepts/autocatalysis`.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0014-knowledge-work-physical-production-interdependence.html`.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0014-knowledge-work-physical-production-interdependence.html`.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/autocatalysis.html`.
 - `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.001` has competing variants across 14 pages.
 - `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.002` has competing variants across 7 pages.
 - `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.003` has competing variants across 6 pages.
@@ -77,43 +77,48 @@ status: active
 - `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.006` has competing variants across 4 pages.
 - `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.007` has competing variants across 2 pages.
 - `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.008` has competing variants across 2 pages.
-- `concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.md`: Broken wikilink target `/sources/0008-meta-synchronic-teleoethics-2c-framework`.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0015-ww3-chessboard-game-theory-lecture.html`.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0015-ww3-chessboard-game-theory-lecture.html`.
+- `concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0008-meta-synchronic-teleoethics-2c-framework.html`.
+- `concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.md`: Broken wikilink target `/adr-0008-meta-synchronic-teleoethics-2c-framework.html`.
 - `concepts/agent-skills.md`: Claim cluster `claim.001` has competing variants across 14 pages.
-- `concepts/agent-skills.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
-- `concepts/agent-skills.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
-- `concepts/agent-skills.md`: Broken wikilink target `/concepts/ai-agents`.
+- `concepts/agent-skills.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html`.
+- `concepts/agent-skills.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html`.
+- `concepts/agent-skills.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/ai-agents.html`.
 - `concepts/ai-agents.md`: Claim cluster `claim.001` has competing variants across 14 pages.
-- `concepts/ai-agents.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
-- `concepts/ai-agents.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
-- `concepts/ai-agents.md`: Broken wikilink target `/concepts/agent-skills`.
-- `concepts/ai-agents.md`: Broken wikilink target `/concepts/mcp-model-context-protocol`.
+- `concepts/ai-agents.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html`.
+- `concepts/ai-agents.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html`.
+- `concepts/ai-agents.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/agent-skills.html`.
+- `concepts/ai-agents.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html`.
 - `concepts/bootstrap.md`: Claim cluster `claim.001` has competing variants across 14 pages.
-- `concepts/bootstrap.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `concepts/bootstrap.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html`.
 - `concepts/industrial-capacity.md`: Claim cluster `claim.001` has competing variants across 14 pages.
-- `concepts/industrial-capacity.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `concepts/industrial-capacity.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html`.
 - `concepts/infrastructure-criticality.md`: Claim cluster `claim.001` has competing variants across 14 pages.
-- `concepts/infrastructure-criticality.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
-- `concepts/infrastructure-criticality.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
-- `concepts/infrastructure-criticality.md`: Broken wikilink target `/concepts/0014-knowledge-work-physical-production-interdependence`.
-- `concepts/karpathy-llm-wiki.md`: Broken wikilink target `/sources/0008-topic-57-mst-polcompball-egafutura`.
+- `concepts/infrastructure-criticality.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0014-knowledge-work-physical-production-interdependence.html`.
+- `concepts/infrastructure-criticality.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0014-knowledge-work-physical-production-interdependence.html`.
+- `concepts/infrastructure-criticality.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/0014-knowledge-work-physical-production-interdependence.html`.
+- `concepts/karpathy-llm-wiki.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0008-topic-57-mst-polcompball-egafutura.html`.
 - `concepts/mcp-model-context-protocol.md`: Claim cluster `claim.001` has competing variants across 14 pages.
-- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
-- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
-- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/concepts/ai-agents`.
+- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html`.
+- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html`.
+- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/ai-agents.html`.
 - `concepts/morphic-resonance.md`: Page confidence is low (0.40).
 - `concepts/ostrom-commons-governance.md`: Claim cluster `claim.001` has competing variants across 14 pages.
 - `concepts/ostrom-commons-governance.md`: Claim cluster `claim.002` has competing variants across 7 pages.
-- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
-- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
-- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/concepts/0013-peter-joseph-integral-common-ground`.
+- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html`.
+- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html`.
+- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/0013-peter-joseph-integral-common-ground.html`.
 - `concepts/regen-tech.md`: Claim cluster `claim.001` has competing variants across 14 pages.
-- `concepts/regen-tech.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
-- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/sources/0008-topic-57-airic-easm-extracted`.
-- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/sources/0008-topic-57-airic-easm-extracted`.
-- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/sources/0008-topic-57-mst-polcompball-egafutura`.
-- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0011-global-manufacturing-civilizational-record`.
-- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
-- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/concepts/autocatalysis`.
+- `concepts/regen-tech.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html`.
+- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0008-topic-57-airic-easm-extracted.html`.
+- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0008-topic-57-airic-easm-extracted.html`.
+- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0008-topic-57-mst-polcompball-egafutura.html`.
+- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0011-global-manufacturing-civilizational-record.html`.
+- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html`.
+- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/autocatalysis.html`.
+- `sources/0015-ww3-chessboard-game-theory-lecture.md`: Broken wikilink target `/genesis-zero-bot-wiki/concepts/0015-ww3-chessboard-grand-strategies.html`.
+- `sources/0016-2c-dollar-meta-synchronic-teleoethics-framework.md`: Broken wikilink target `/adr-0008-meta-synchronic-teleoethics-2c-framework.html`.
 
 ### Contradictions
 - `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.001` has competing variants across 14 pages.

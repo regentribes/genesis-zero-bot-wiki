@@ -101,5 +101,5 @@ relatedSources:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Ben Goertzel — Algorithmic Chemistry for AGI](/genesis-zero-bot-wiki/sources/0009-goertzel-algorithmic-chemistry-agi.html)
+- [[sources/0009-goertzel-algorithmic-chemistry-agi|Ben Goertzel: Algorithmic Chemistry for AGI]]
 <!-- openclaw:wiki:related:end -->

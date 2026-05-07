@@ -45,10 +45,10 @@ Industrial capacity describes the maximum manufacturing output achievable by an 
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction](/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html)
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
 
 ### Related Pages
 
-- [Global Manufacturing Capacity Report](/genesis-zero-bot-wiki/concepts/0010-global-manufacturing-capacity-report.html)
-- [Regenerative Technology](/genesis-zero-bot-wiki/concepts/regen-tech.html)
+- [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[concepts/regen-tech|Regenerative Technology]]
 <!-- openclaw:wiki:related:end -->

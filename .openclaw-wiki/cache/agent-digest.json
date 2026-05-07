@@ -1,15 +1,15 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 21,
-    "source": 9,
+    "concept": 22,
+    "source": 10,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 48,
+  "claimCount": 56,
   "claimHealth": {
     "freshness": {
-      "fresh": 48,
+      "fresh": 56,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -23,13 +23,14 @@
       "key": "claim.001",
       "label": "claim.001",
       "kind": "claim-id",
-      "entryCount": 13,
+      "entryCount": 14,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
         "concepts/0011-global-manufacturing-civilizational-record.md",
         "concepts/0013-peter-joseph-integral-common-ground.md",
         "concepts/0014-knowledge-work-physical-production-interdependence.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md",
         "concepts/agent-skills.md",
         "concepts/ai-agents.md",
         "concepts/bootstrap.md",
@@ -44,13 +45,14 @@
       "key": "claim.002",
       "label": "claim.002",
       "kind": "claim-id",
-      "entryCount": 6,
+      "entryCount": 7,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
         "concepts/0011-global-manufacturing-civilizational-record.md",
         "concepts/0013-peter-joseph-integral-common-ground.md",
         "concepts/0014-knowledge-work-physical-production-interdependence.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md",
         "concepts/ostrom-commons-governance.md"
       ]
     },
@@ -58,49 +60,73 @@
       "key": "claim.003",
       "label": "claim.003",
       "kind": "claim-id",
-      "entryCount": 5,
+      "entryCount": 6,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
         "concepts/0011-global-manufacturing-civilizational-record.md",
         "concepts/0013-peter-joseph-integral-common-ground.md",
-        "concepts/0014-knowledge-work-physical-production-interdependence.md"
+        "concepts/0014-knowledge-work-physical-production-interdependence.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md"
       ]
     },
     {
       "key": "claim.004",
       "label": "claim.004",
       "kind": "claim-id",
-      "entryCount": 5,
+      "entryCount": 6,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
         "concepts/0011-global-manufacturing-civilizational-record.md",
         "concepts/0013-peter-joseph-integral-common-ground.md",
-        "concepts/0014-knowledge-work-physical-production-interdependence.md"
+        "concepts/0014-knowledge-work-physical-production-interdependence.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md"
       ]
     },
     {
       "key": "claim.005",
       "label": "claim.005",
       "kind": "claim-id",
-      "entryCount": 4,
+      "entryCount": 5,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
         "concepts/0011-global-manufacturing-civilizational-record.md",
-        "concepts/0013-peter-joseph-integral-common-ground.md"
+        "concepts/0013-peter-joseph-integral-common-ground.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md"
       ]
     },
     {
       "key": "claim.006",
       "label": "claim.006",
       "kind": "claim-id",
-      "entryCount": 3,
+      "entryCount": 4,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
-        "concepts/0011-global-manufacturing-civilizational-record.md"
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md"
+      ]
+    },
+    {
+      "key": "claim.007",
+      "label": "claim.007",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md"
+      ]
+    },
+    {
+      "key": "claim.008",
+      "label": "claim.008",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0015-ww3-chessboard-grand-strategies.md"
       ]
     }
   ],
@@ -325,7 +351,7 @@
     },
     {
       "id": "concept.0011-global-manufacturing-civilizational-record",
-      "title": "Global Manufacturing Capacity — Complete Civilizational Record",
+      "title": "Global Manufacturing Capacity: Complete Civilizational Record",
       "kind": "concept",
       "path": "concepts/0011-global-manufacturing-civilizational-record.md",
       "aliases": [],
@@ -434,7 +460,7 @@
     },
     {
       "id": "concept.0012-github-trends-may-2026",
-      "title": "GitHub Trends May 2026 — AI Agent Paradigm",
+      "title": "GitHub Trends May 2026: AI Agent Paradigm as Dominant Architecture",
       "kind": "concept",
       "path": "concepts/0012-github-trends-may-2026.md",
       "aliases": [],
@@ -564,7 +590,7 @@
     },
     {
       "id": "concept.knowledge-work-physical-production-interdependence",
-      "title": "Knowledge-Physical Work Interdependence",
+      "title": "Knowledge Work and Physical Production: Systemic Interdependence",
       "kind": "concept",
       "path": "concepts/0014-knowledge-work-physical-production-interdependence.md",
       "aliases": [],
@@ -655,8 +681,117 @@
       ]
     },
     {
+      "id": "concept.0015-ww3-chessboard-grand-strategies",
+      "title": "WWIII Grand Strategies: Four Nations",
+      "kind": "concept",
+      "path": "concepts/0015-ww3-chessboard-grand-strategies.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0015-ww3-chessboard-game-theory-lecture"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 8,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Four nations have grand strategies that drive WWIII geopolitics: USA (Greater North America / Technate), Russia (Third Rome), Iran (Shia Exceptionalism), Israel (Greater Israel)",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0015-ww3-chessboard-game-theory-lecture",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.003",
+          "text": "Grand strategy is a manifestation of political system and cultural tradition, not a rational choice; each nation's strategy is internally coherent but mutually exclusive",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0015-ww3-chessboard-game-theory-lecture",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.008",
+          "text": "Iran will not surrender regardless of material disadvantage because of Zoroastrian eschatology and Shia martyrdom traditions",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0015-ww3-chessboard-game-theory-lecture",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.007",
+          "text": "Israel's Kabbalah-based worldview holds that accelerating evil is the path to redemption — opposite of Russia's resistance-to-evil tradition",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0015-ww3-chessboard-game-theory-lecture",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.004",
+          "text": "The chess metaphor (king=political system, queen=grand strategy, bishop/knight/rook=attack vectors, pawns=sacrificial tools) maps each nation's structure",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0015-ww3-chessboard-game-theory-lecture",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
       "id": "concept.adr-0008-meta-synchronic-teleoethics-2c-framework",
-      "title": "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework",
+      "title": "2C$ Meta-Synchronic Teleoethics Framework",
       "kind": "concept",
       "path": "concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.md",
       "aliases": [],
@@ -1039,7 +1174,7 @@
     },
     {
       "id": "concept.mcp-model-context-protocol",
-      "title": "MCP — Model Context Protocol",
+      "title": "Model Context Protocol",
       "kind": "concept",
       "path": "concepts/mcp-model-context-protocol.md",
       "aliases": [],
@@ -1225,7 +1360,7 @@
     },
     {
       "id": "concept.topic-57-mst-polcompball-egafutura",
-      "title": "Topic 57: MST-Polcompball / EcoFutura Governance Spec",
+      "title": "MST-Polcompball and EcoFutura Governance Spec",
       "kind": "concept",
       "path": "concepts/topic-57-mst-polcompball-egafutura.md",
       "aliases": [],
@@ -1449,7 +1584,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T14:16:09.489Z",
+      "lastTouchedAt": "2026-05-07T18:12:13.968Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1486,7 +1621,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T13:07:37.916Z",
+      "lastTouchedAt": "2026-05-07T18:12:13.968Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1524,7 +1659,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T08:20:09.672Z",
+      "lastTouchedAt": "2026-05-07T18:12:13.968Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1543,7 +1678,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T13:49:55.451Z",
+      "lastTouchedAt": "2026-05-07T18:12:13.968Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1562,7 +1697,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T14:16:09.489Z",
+      "lastTouchedAt": "2026-05-07T14:55:31.730Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1581,7 +1716,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "lastTouchedAt": "2026-05-07T18:12:13.968Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1605,29 +1740,8 @@
       "topClaims": []
     },
     {
-      "id": "source.0008-meta-synchronic-teleoethics-2c-framework",
-      "title": "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework",
-      "kind": "source",
-      "path": "sources/0008-meta-synchronic-teleoethics-2c-framework.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "entityType": "source",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
       "id": "source.topic-57-airic-easm-extracted",
-      "title": "Topic 57 — Airic Easm Telegram Discussion (Raw Export)",
+      "title": "Airic Easm Telegram Discussion (Raw Export)",
       "kind": "source",
       "path": "sources/0008-topic-57-airic-easm-extracted.md",
       "aliases": [],
@@ -1647,31 +1761,8 @@
       "topClaims": []
     },
     {
-      "id": "source.topic-57-governance-synthesis",
-      "title": "Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis",
-      "kind": "source",
-      "path": "sources/0008-topic-57-mst-polcompball-egafutura.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.topic-57-airic-easm-extracted"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "entityType": "source",
-      "confidence": 0.85,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
       "id": "source.goertzel-algorithmic-chemistry-agi",
-      "title": "Ben Goertzel — Algorithmic Chemistry for AGI",
+      "title": "Ben Goertzel: Algorithmic Chemistry for AGI",
       "kind": "source",
       "path": "sources/0009-goertzel-algorithmic-chemistry-agi.md",
       "aliases": [],
@@ -1713,7 +1804,7 @@
     },
     {
       "id": "source.0011-global-manufacturing-civilizational-record",
-      "title": "Global Manufacturing Capacity — Complete Civilizational Record",
+      "title": "Global Manufacturing Capacity: Complete Civilizational Record",
       "kind": "source",
       "path": "sources/0011-global-manufacturing-civilizational-record.md",
       "aliases": [],
@@ -1734,7 +1825,7 @@
     },
     {
       "id": "source.0012-github-trends-may-2026",
-      "title": "GitHub Trends Weekly Report — May 1-7, 2026",
+      "title": "GitHub Trends Weekly Report: May 1-7, 2026",
       "kind": "source",
       "path": "sources/0012-github-trends-may-2026.md",
       "aliases": [],
@@ -1776,11 +1867,76 @@
     },
     {
       "id": "source.0014-knowledge-work-physical-production-interdependence",
-      "title": "Knowledge Work and Physical Production — Systemic Interdependence",
+      "title": "Knowledge Work and Physical Production: Systemic Interdependence",
       "kind": "source",
       "path": "sources/0014-knowledge-work-physical-production-interdependence.md",
       "aliases": [],
       "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0015-ww3-chessboard-game-theory-lecture",
+      "title": "Game Theory 23: The WWIII Chessboard",
+      "kind": "source",
+      "path": "sources/0015-ww3-chessboard-game-theory-lecture.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0008-meta-synchronic-teleoethics-2c-framework",
+      "title": "2C$ Meta-Synchronic Teleoethics Framework",
+      "kind": "source",
+      "path": "sources/0016-2c-dollar-meta-synchronic-teleoethics-framework.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.topic-57-governance-synthesis",
+      "title": "MST-Polcompball and EcoFutura Governance Synthesis",
+      "kind": "source",
+      "path": "sources/0017-mst-polcompball-egafutura-governance-spec.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.topic-57-airic-easm-extracted"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],

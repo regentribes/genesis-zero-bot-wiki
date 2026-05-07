@@ -1,7 +1,7 @@
 ---
 id: source.0014-knowledge-work-physical-production-interdependence
 pageType: source
-title: "Knowledge Work and Physical Production — Systemic Interdependence"
+title: "Knowledge Work and Physical Production: Systemic Interdependence"
 canonicalPath: sources/0014-knowledge-work-physical-production-interdependence.md
 sourceType: telegram-export-synthesis
 entityType: source
@@ -26,7 +26,7 @@ relatedConcepts:
   - concept:coordination-tax
 ---
 
-# Knowledge Work and Physical Production — Systemic Interdependence
+# Knowledge Work and Physical Production: Systemic Interdependence
 
 ## Core Thesis
 
@@ -149,6 +149,6 @@ When designing regenerative systems:
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Infrastructure Criticality](/genesis-zero-bot-wiki/concepts/infrastructure-criticality.html)
-- [Knowledge-Physical Work Interdependence](/genesis-zero-bot-wiki/concepts/0014-knowledge-work-physical-production-interdependence.html)
+- [[concepts/infrastructure-criticality|Infrastructure Criticality]]
+- [[concepts/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production: Systemic Interdependence]]
 <!-- openclaw:wiki:related:end -->

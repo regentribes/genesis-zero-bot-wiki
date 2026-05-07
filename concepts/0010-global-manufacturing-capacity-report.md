@@ -120,10 +120,10 @@ This document serves as the canonical engineering reference for community-scale 
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction](/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html)
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
 
 ### Related Pages
 
-- [Industrial Capacity](/genesis-zero-bot-wiki/concepts/industrial-capacity.html)
-- [Regenerative Technology](/genesis-zero-bot-wiki/concepts/regen-tech.html)
+- [[concepts/industrial-capacity|Industrial Capacity]]
+- [[concepts/regen-tech|Regenerative Technology]]
 <!-- openclaw:wiki:related:end -->

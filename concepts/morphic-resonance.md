@@ -28,7 +28,7 @@ Rupert Sheldrake's theoretical framework proposing that nature possesses a memor
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Autocatalysis](/genesis-zero-bot-wiki/concepts/autocatalysis.html)
-- [Bootstrap](/genesis-zero-bot-wiki/concepts/bootstrap.html)
-- [Hyperon](/genesis-zero-bot-wiki/concepts/hyperon.html)
+- [[concepts/autocatalysis|Autocatalysis]]
+- [[concepts/bootstrap|Bootstrap]]
+- [[concepts/hyperon|Hyperon]]
 <!-- openclaw:wiki:related:end -->
