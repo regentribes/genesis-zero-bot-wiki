@@ -15,7 +15,8 @@ tags:
   - llm
   - wiki
   - retrieval
-sourceIds: []
+sourceIds:
+  - external.karpathy-llm-wiki-gist
 relatedConcepts:
   - concept.topic-57-knowledge-vault
   - concept.egregore-governance
