@@ -1,15 +1,15 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 13,
-    "source": 6,
+    "concept": 21,
+    "source": 9,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 33,
+  "claimCount": 48,
   "claimHealth": {
     "freshness": {
-      "fresh": 33,
+      "fresh": 48,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -23,13 +23,20 @@
       "key": "claim.001",
       "label": "claim.001",
       "kind": "claim-id",
-      "entryCount": 6,
+      "entryCount": 13,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
         "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0013-peter-joseph-integral-common-ground.md",
+        "concepts/0014-knowledge-work-physical-production-interdependence.md",
+        "concepts/agent-skills.md",
+        "concepts/ai-agents.md",
         "concepts/bootstrap.md",
         "concepts/industrial-capacity.md",
+        "concepts/infrastructure-criticality.md",
+        "concepts/mcp-model-context-protocol.md",
+        "concepts/ostrom-commons-governance.md",
         "concepts/regen-tech.md"
       ]
     },
@@ -37,44 +44,52 @@
       "key": "claim.002",
       "label": "claim.002",
       "kind": "claim-id",
-      "entryCount": 3,
+      "entryCount": 6,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
-        "concepts/0011-global-manufacturing-civilizational-record.md"
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0013-peter-joseph-integral-common-ground.md",
+        "concepts/0014-knowledge-work-physical-production-interdependence.md",
+        "concepts/ostrom-commons-governance.md"
       ]
     },
     {
       "key": "claim.003",
       "label": "claim.003",
       "kind": "claim-id",
-      "entryCount": 3,
+      "entryCount": 5,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
-        "concepts/0011-global-manufacturing-civilizational-record.md"
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0013-peter-joseph-integral-common-ground.md",
+        "concepts/0014-knowledge-work-physical-production-interdependence.md"
       ]
     },
     {
       "key": "claim.004",
       "label": "claim.004",
       "kind": "claim-id",
-      "entryCount": 3,
+      "entryCount": 5,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
-        "concepts/0011-global-manufacturing-civilizational-record.md"
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0013-peter-joseph-integral-common-ground.md",
+        "concepts/0014-knowledge-work-physical-production-interdependence.md"
       ]
     },
     {
       "key": "claim.005",
       "label": "claim.005",
       "kind": "claim-id",
-      "entryCount": 3,
+      "entryCount": 4,
       "paths": [
         "concepts/0009-algorithmic-chemistry-agi.md",
         "concepts/0010-global-manufacturing-capacity-report.md",
-        "concepts/0011-global-manufacturing-civilizational-record.md"
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/0013-peter-joseph-integral-common-ground.md"
       ]
     },
     {
@@ -418,6 +433,228 @@
       ]
     },
     {
+      "id": "concept.0012-github-trends-may-2026",
+      "title": "GitHub Trends May 2026 — AI Agent Paradigm",
+      "kind": "concept",
+      "path": "concepts/0012-github-trends-may-2026.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.9,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.0013-peter-joseph-integral-common-ground",
+      "title": "Peter Joseph Integral and Common Ground Teheno",
+      "kind": "concept",
+      "path": "concepts/0013-peter-joseph-integral-common-ground.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0013-peter-joseph-integral-common-ground"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.004",
+          "text": "Competition is absent from the technical design of both systems — not regulated or disincentivised, but structurally eliminated",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0013-peter-joseph-integral-common-ground",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.001",
+          "text": "Integral is a federated post-monetary cooperative economy replacing market exchange, profit-driven production, and hierarchical governance with cybernetically coordinated commons-oriented labour reciprocity",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0013-peter-joseph-integral-common-ground",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.002",
+          "text": "Time credits function as non-transferable reputation-based ledgers, not currencies. Contribution value is determined by the cooperative or federation, not market willingness to pay",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0013-peter-joseph-integral-common-ground",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.003",
+          "text": "Common Ground uses public university as political feasibility anchor — leveraging existing government investment infrastructure without requiring administrative reform",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0013-peter-joseph-integral-common-ground",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.005",
+          "text": "AI feedback subsystems guide design optimisation and labour valuation dynamically based on real-time demand, skill specificity, and sustainability priorities",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0013-peter-joseph-integral-common-ground",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "concept.knowledge-work-physical-production-interdependence",
+      "title": "Knowledge-Physical Work Interdependence",
+      "kind": "concept",
+      "path": "concepts/0014-knowledge-work-physical-production-interdependence.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0014-knowledge-work-physical-production-interdependence"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 4,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Physical labor and knowledge work form a coupled production system — neither is sufficient alone",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0014-knowledge-work-physical-production-interdependence",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.004",
+          "text": "The 'real vs fake' work dichotomy is a category error — both functions are real and interdependent",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0014-knowledge-work-physical-production-interdependence",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.003",
+          "text": "Knowledge work functions as a productivity multiplier on physical labor — orders of magnitude efficiency difference",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0014-knowledge-work-physical-production-interdependence",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.002",
+          "text": "Mature coordination infrastructure reaches criticality — society cannot function without it at scale",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0014-knowledge-work-physical-production-interdependence",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
       "id": "concept.adr-0008-meta-synchronic-teleoethics-2c-framework",
       "title": "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework",
       "kind": "concept",
@@ -518,6 +755,88 @@
             {
               "kind": "source-doc",
               "sourceId": "source.0008-meta-synchronic-teleoethics-2c-framework",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "concept.agent-skills",
+      "title": "Agent Skills",
+      "kind": "concept",
+      "path": "concepts/agent-skills.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0012-github-trends-may-2026"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Agent skills are reusable tool/action modules that AI agents use to extend their capabilities",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0012-github-trends-may-2026",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "concept.ai-agents",
+      "title": "AI Agents",
+      "kind": "concept",
+      "path": "concepts/ai-agents.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0012-github-trends-may-2026"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "AI agents are the dominant paradigm shift in GitHub trending repositories as of May 2026",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0012-github-trends-may-2026",
               "privacyTier": "public"
             }
           ],
@@ -655,6 +974,47 @@
       ]
     },
     {
+      "id": "concept.infrastructure-criticality",
+      "title": "Infrastructure Criticality",
+      "kind": "concept",
+      "path": "concepts/infrastructure-criticality.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0014-knowledge-work-physical-production-interdependence"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Mature technologies reach infrastructure criticality — society cannot function without them at scale",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0014-knowledge-work-physical-production-interdependence",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
       "id": "concept.karpathy-llm-wiki",
       "title": "Karpathy LLM Wiki Pattern",
       "kind": "concept",
@@ -678,6 +1038,47 @@
       "topClaims": []
     },
     {
+      "id": "concept.mcp-model-context-protocol",
+      "title": "MCP — Model Context Protocol",
+      "kind": "concept",
+      "path": "concepts/mcp-model-context-protocol.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0012-github-trends-may-2026"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "MCP is the critical infrastructure protocol for AI agent tool integration",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0012-github-trends-may-2026",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
       "id": "concept.morphic-resonance",
       "title": "Morphic Resonance",
       "kind": "concept",
@@ -699,6 +1100,64 @@
       "lastTouchedAt": "2026-05-07",
       "claimCount": 0,
       "topClaims": []
+    },
+    {
+      "id": "concept.ostrom-commons-governance",
+      "title": "Ostrom Commons Governance",
+      "kind": "concept",
+      "path": "concepts/ostrom-commons-governance.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0013-peter-joseph-integral-common-ground"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.9,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 2,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Elinor Ostrom documented 8 principles for successful commons self-governance",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0013-peter-joseph-integral-common-ground",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.002",
+          "text": "Common Ground (Teheno) project applies Ostrom principles at community scale in Brazil",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0013-peter-joseph-integral-common-ground",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
     },
     {
       "id": "concept.regen-tech",
@@ -990,7 +1449,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T12:49:01.433Z",
+      "lastTouchedAt": "2026-05-07T14:16:09.489Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1103,7 +1562,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T13:13:49.329Z",
+      "lastTouchedAt": "2026-05-07T14:16:09.489Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1268,6 +1727,69 @@
       "pageType": "source",
       "entityType": "source",
       "confidence": 0.95,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0012-github-trends-may-2026",
+      "title": "GitHub Trends Weekly Report — May 1-7, 2026",
+      "kind": "source",
+      "path": "sources/0012-github-trends-may-2026.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.9,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0013-peter-joseph-integral-common-ground",
+      "title": "Peter Joseph Integral and Common Ground Teheno",
+      "kind": "source",
+      "path": "sources/0013-peter-joseph-integral-common-ground.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0014-knowledge-work-physical-production-interdependence",
+      "title": "Knowledge Work and Physical Production — Systemic Interdependence",
+      "kind": "source",
+      "path": "sources/0014-knowledge-work-physical-production-interdependence.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.85,
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-07",
       "claimCount": 0,

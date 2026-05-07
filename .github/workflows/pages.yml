@@ -43,16 +43,16 @@ jobs:
                   in_code = not in_code
                   lines.append(line)
                 elif not in_code:
-                  # [[namespace/path|Display Text]] → [Display Text](namespace/path.html)
+                  # [[namespace/path|Label]] → [Label](/namespace/path/)
                   line = re.sub(
                     r'\[\[([^]|]+)\|([^\]]+)\]\]',
-                    lambda m: '[{0}]({1}.html)'.format(m.group(2).strip(), m.group(1).strip()),
+                    lambda m: '[{0}](/{1}/)'.format(m.group(2).strip(), m.group(1).strip()),
                     line
                   )
-                  # [[namespace/path]] → [namespace/path](namespace/path.html)
+                  # [[namespace/path]] → [namespace/path](/namespace/path/)
                   line = re.sub(
                     r'\[\[([^]|]+)\]\]',
-                    lambda m: '[{0}]({0}.html)'.format(m.group(1).strip()),
+                    lambda m: '[{0}](/{0}/)'.format(m.group(1).strip()),
                     line
                   )
                   lines.append(line)

@@ -79,7 +79,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[sources/0010-global-manufacturing-capacity-report|View source]]
+**Source:** [[/sources/0010-global-manufacturing-capacity-report|View source]]
 
 ## Key Claims
 
@@ -111,19 +111,19 @@ This document serves as the canonical engineering reference for community-scale 
 
 ## See Also
 
-- [[sources/0010-global-manufacturing-capacity-report|Source — Full content]]
-- [[concepts/bootstrap|Bootstrap]]
-- [[concepts/industrial-capacity|Industrial Capacity]]
-- [[concepts/regen-tech|Regenerative Technology]]
+- [[/sources/0010-global-manufacturing-capacity-report|Source — Full content]]
+- [[/concepts/bootstrap|Bootstrap]]
+- [[/concepts/industrial-capacity|Industrial Capacity]]
+- [[/concepts/regen-tech|Regenerative Technology]]
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
+- [[/sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
 
 ### Related Pages
 
-- [[concepts/industrial-capacity|Industrial Capacity]]
-- [[concepts/regen-tech|Regenerative Technology]]
+- [[/concepts/industrial-capacity|Industrial Capacity]]
+- [[/concepts/regen-tech|Regenerative Technology]]
 <!-- openclaw:wiki:related:end -->

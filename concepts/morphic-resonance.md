@@ -28,11 +28,11 @@ Rupert Sheldrake's theoretical framework proposing that nature possesses a memor
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
+- [[/concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
 
 ### Related Pages
 
-- [[concepts/autocatalysis|Autocatalysis]]
-- [[concepts/bootstrap|Bootstrap]]
-- [[concepts/hyperon|Hyperon]]
+- [[/concepts/autocatalysis|Autocatalysis]]
+- [[/concepts/bootstrap|Bootstrap]]
+- [[/concepts/hyperon|Hyperon]]
 <!-- openclaw:wiki:related:end -->

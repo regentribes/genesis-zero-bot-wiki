@@ -128,10 +128,10 @@ Governance references already in graph:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
+- [[/sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
 
 ### Referenced By
 
-- [[concepts/karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
-- [[concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
+- [[/concepts/karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
+- [[/concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
 <!-- openclaw:wiki:related:end -->

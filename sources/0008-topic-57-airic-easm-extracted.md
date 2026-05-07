@@ -671,6 +671,6 @@ You're in a Telegram group chat so I shouldn't load `MEMORY.md`, but I can still
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
-- [[concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
+- [[/sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
+- [[/concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
 <!-- openclaw:wiki:related:end -->

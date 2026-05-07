@@ -37,7 +37,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[sources/0014-knowledge-work-physical-production-interdependence|View source]]
+**Source:** [[/sources/0014-knowledge-work-physical-production-interdependence|View source]]
 
 ## Key Claims
 
@@ -57,16 +57,16 @@ The same pattern applies to knowledge coordination infrastructure. As digital co
 
 ## See Also
 
-- [[sources/0014-knowledge-work-physical-production-interdependence|Source — Knowledge Work and Physical Production Interdependence]]
-- [[concepts/0014-knowledge-work-physical-production-interdependence|Knowledge-Physical Work Interdependence]]
+- [[/sources/0014-knowledge-work-physical-production-interdependence|Source — Knowledge Work and Physical Production Interdependence]]
+- [[/concepts/0014-knowledge-work-physical-production-interdependence|Knowledge-Physical Work Interdependence]]
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production — Systemic Interdependence]]
+- [[/sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production — Systemic Interdependence]]
 
 ### Related Pages
 
-- [[concepts/0014-knowledge-work-physical-production-interdependence|Knowledge-Physical Work Interdependence]]
+- [[/concepts/0014-knowledge-work-physical-production-interdependence|Knowledge-Physical Work Interdependence]]
 <!-- openclaw:wiki:related:end -->

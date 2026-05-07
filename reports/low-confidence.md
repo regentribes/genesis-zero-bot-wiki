@@ -14,5 +14,5 @@ updatedAt: 2026-05-07T13:07:37.916Z
 - Low-confidence claims: 0
 
 ### Pages
-- [[concepts/morphic-resonance|Morphic Resonance]]: confidence 0.40
+- [[/concepts/morphic-resonance|Morphic Resonance]]: confidence 0.40
 <!-- openclaw:wiki:low-confidence:end -->

@@ -36,9 +36,9 @@ The industrial process of fabricating semiconductor devices (chips, transistors,
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[/sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
 
 ### Referenced By
 
-- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[/concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
 <!-- openclaw:wiki:related:end -->

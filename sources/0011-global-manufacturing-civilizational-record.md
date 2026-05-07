@@ -184,6 +184,7 @@ Each chapter references the physical/chemical principles from Chapter 1 and the 
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
-- [[concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
+- [[/concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[/sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production — Systemic Interdependence]]
+- [[/concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
 <!-- openclaw:wiki:related:end -->

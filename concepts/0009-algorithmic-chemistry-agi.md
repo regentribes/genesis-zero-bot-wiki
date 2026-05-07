@@ -79,7 +79,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[sources/0009-goertzel-algorithmic-chemistry-agi|View source]]
+**Source:** [[/sources/0009-goertzel-algorithmic-chemistry-agi|View source]]
 
 ## Key Claims
 
@@ -92,14 +92,14 @@ relatedSources:
 
 ## See Also
 
-- [[sources/0009-goertzel-algorithmic-chemistry-agi|Source — Full transcript]]
-- [[concepts/autocatalysis|Autocatalysis]]
-- [[concepts/morphic-resonance|Morphic Resonance]]
-- [[concepts/hyperon|Hyperon]]
+- [[/sources/0009-goertzel-algorithmic-chemistry-agi|Source — Full transcript]]
+- [[/concepts/autocatalysis|Autocatalysis]]
+- [[/concepts/morphic-resonance|Morphic Resonance]]
+- [[/concepts/hyperon|Hyperon]]
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0009-goertzel-algorithmic-chemistry-agi|Ben Goertzel — Algorithmic Chemistry for AGI]]
+- [[/sources/0009-goertzel-algorithmic-chemistry-agi|Ben Goertzel — Algorithmic Chemistry for AGI]]
 <!-- openclaw:wiki:related:end -->

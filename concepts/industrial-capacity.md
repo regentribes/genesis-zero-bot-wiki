@@ -39,20 +39,20 @@ Industrial capacity describes the maximum manufacturing output achievable by an 
 
 ## See Also
 
-- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[/sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
+- [[/sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
 
 ### Referenced By
 
-- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
-- [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[/concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[/concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
 
 ### Related Pages
 
-- [[concepts/regen-tech|Regenerative Technology]]
+- [[/concepts/regen-tech|Regenerative Technology]]
 <!-- openclaw:wiki:related:end -->

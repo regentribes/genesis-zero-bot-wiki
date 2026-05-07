@@ -39,18 +39,18 @@ Bootstrap planning is the process of designing minimal viable industrial capabil
 
 ## See Also
 
-- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[/sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
-- [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[/concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[/concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
 
 ### Related Pages
 
-- [[concepts/autocatalysis|Autocatalysis]]
-- [[concepts/hyperon|Hyperon]]
-- [[concepts/morphic-resonance|Morphic Resonance]]
+- [[/concepts/autocatalysis|Autocatalysis]]
+- [[/concepts/hyperon|Hyperon]]
+- [[/concepts/morphic-resonance|Morphic Resonance]]
 <!-- openclaw:wiki:related:end -->

@@ -37,7 +37,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[sources/0012-github-trends-may-2026|View source]]
+**Source:** [[/sources/0012-github-trends-may-2026|View source]]
 
 ## Key Claims
 
@@ -56,21 +56,21 @@ Supported by major agent platforms: Claude Code, Cursor, Gemini CLI, Codex.
 
 ## See Also
 
-- [[sources/0012-github-trends-may-2026|GitHub Trends May 2026 Source]]
-- [[concepts/ai-agents|AI Agents]]
+- [[/sources/0012-github-trends-may-2026|GitHub Trends May 2026 Source]]
+- [[/concepts/ai-agents|AI Agents]]
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0012-github-trends-may-2026|GitHub Trends Weekly Report — May 1-7, 2026]]
+- [[/sources/0012-github-trends-may-2026|GitHub Trends Weekly Report — May 1-7, 2026]]
 
 ### Referenced By
 
-- [[concepts/ai-agents|AI Agents]]
-- [[concepts/0012-github-trends-may-2026|GitHub Trends May 2026 — AI Agent Paradigm]]
+- [[/concepts/ai-agents|AI Agents]]
+- [[/concepts/0012-github-trends-may-2026|GitHub Trends May 2026 — AI Agent Paradigm]]
 
 ### Related Pages
 
-- [[concepts/mcp-model-context-protocol|MCP — Model Context Protocol]]
+- [[/concepts/mcp-model-context-protocol|MCP — Model Context Protocol]]
 <!-- openclaw:wiki:related:end -->
