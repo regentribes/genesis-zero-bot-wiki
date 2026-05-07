@@ -8,7 +8,7 @@ entityType: source
 confidence: 0.95
 updatedAt: "2026-05-07"
 provenance:
-  - source: telegram-haiku-export
+  - source: telegram-export
     extractedBy: haiku-4.5
     privacyTier: public
 tags:
