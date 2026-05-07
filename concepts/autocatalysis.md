@@ -10,6 +10,8 @@ domain: chemistry/biology
 level: system
 confidence: 0.7
 updatedAt: "2026-05-07"
+sourceIds:
+  - source.0009-goertzel-algorithmic-chemistry-agi
 ---
 
 # Autocatalysis
@@ -27,4 +29,10 @@ In regenerative systems thinking, autocatalysis maps to any positive feedback lo
 ### Referenced By
 
 - [[concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
+
+### Related Pages
+
+- [[concepts/bootstrap|Bootstrap]]
+- [[concepts/hyperon|Hyperon]]
+- [[concepts/morphic-resonance|Morphic Resonance]]
 <!-- openclaw:wiki:related:end -->

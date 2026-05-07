@@ -10,6 +10,8 @@ domain: industrial/manufacturing
 level: system
 confidence: 0.8
 updatedAt: "2026-05-07"
+sourceIds:
+  - source.0011-global-manufacturing-civilizational-record
 ---
 
 # Semiconductor Manufacturing
@@ -32,6 +34,10 @@ The industrial process of fabricating semiconductor devices (chips, transistors,
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Sources
+
+- [[sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+
 ### Referenced By
 
 - [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]

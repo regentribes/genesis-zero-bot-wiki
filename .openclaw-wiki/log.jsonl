@@ -139,3 +139,9 @@
 {"type":"lint","timestamp":"2026-05-07T13:04:50.967Z","details":{"issueCount":31,"reportPath":"reports/lint.md"}}
 {"type":"compile","timestamp":"2026-05-07T13:07:37.993Z","details":{"pageCounts":{"entity":2,"concept":13,"source":6,"synthesis":0,"report":10},"updatedFiles":["concepts/autocatalysis.md","concepts/hyperon.md","concepts/morphic-resonance.md","concepts/semiconductor-manufacturing.md","reports/low-confidence.md",".openclaw-wiki/cache/agent-digest.json","index.md","concepts/index.md"]}}
 {"type":"lint","timestamp":"2026-05-07T13:07:38.221Z","details":{"issueCount":32,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T13:08:00.097Z","details":{"issueCount":32,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T13:08:05.209Z","details":{"issueCount":32,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T13:12:06.489Z","details":{"issueCount":32,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-07T13:13:49.384Z","details":{"pageCounts":{"entity":2,"concept":13,"source":6,"synthesis":0,"report":10},"updatedFiles":["concepts/autocatalysis.md","concepts/bootstrap.md","sources/0011-global-manufacturing-civilizational-record.md","concepts/0011-global-manufacturing-civilizational-record.md","concepts/0010-global-manufacturing-capacity-report.md","concepts/hyperon.md","concepts/industrial-capacity.md","concepts/morphic-resonance.md","concepts/regen-tech.md","concepts/semiconductor-manufacturing.md","reports/claim-health.md","reports/provenance-coverage.md",".openclaw-wiki/cache/agent-digest.json",".openclaw-wiki/cache/claims.jsonl"]}}
+{"type":"lint","timestamp":"2026-05-07T13:13:49.386Z","details":{"issueCount":22,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T13:14:16.182Z","details":{"issueCount":22,"reportPath":"reports/lint.md"}}

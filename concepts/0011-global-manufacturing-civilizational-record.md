@@ -145,4 +145,8 @@ The [REBOOT NOTE] sections are particularly valuable for community-scale plannin
 ### Sources
 
 - [[sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+
+### Related Pages
+
+- [[concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
 <!-- openclaw:wiki:related:end -->

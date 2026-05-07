@@ -14,13 +14,17 @@ tags:
   - regen-tech
   - regenerative
   - technology
-sourceIds: []
+sourceIds:
+  - source.0010-global-manufacturing-capacity-report
 claims:
   - id: claim.001
     text: "Regenerative technology encompasses systems and infrastructure designed to restore, sustain, and enhance ecological and social systems rather than merely minimizing harm"
     status: active
     confidence: 0.8
-    evidence: []
+    evidence:
+      - kind: source-doc
+        sourceId: source.0011-global-manufacturing-civilizational-record
+        privacyTier: public
 relatedConcepts: []
 relatedSources: []
 ---
@@ -40,8 +44,16 @@ Regenerative technology refers to systems and infrastructure designed to restore
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Sources
+
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
+
 ### Referenced By
 
 - [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
 - [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+
+### Related Pages
+
+- [[concepts/industrial-capacity|Industrial Capacity]]
 <!-- openclaw:wiki:related:end -->

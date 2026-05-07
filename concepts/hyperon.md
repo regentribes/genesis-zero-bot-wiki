@@ -10,6 +10,8 @@ domain: AI/neural-symbolic
 level: system
 confidence: 0.7
 updatedAt: "2026-05-07"
+sourceIds:
+  - source.0009-goertzel-algorithmic-chemistry-agi
 ---
 
 # Hyperon
@@ -30,4 +32,10 @@ OpenCog's neural-symbolic AI substrate — a framework for building AI systems t
 ### Referenced By
 
 - [[concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
+
+### Related Pages
+
+- [[concepts/autocatalysis|Autocatalysis]]
+- [[concepts/bootstrap|Bootstrap]]
+- [[concepts/morphic-resonance|Morphic Resonance]]
 <!-- openclaw:wiki:related:end -->

@@ -10,6 +10,8 @@ domain: philosophy/science
 level: system
 confidence: 0.4
 updatedAt: "2026-05-07"
+sourceIds:
+  - source.0009-goertzel-algorithmic-chemistry-agi
 ---
 
 # Morphic Resonance
@@ -27,4 +29,10 @@ Rupert Sheldrake's theoretical framework proposing that nature possesses a memor
 ### Referenced By
 
 - [[concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
+
+### Related Pages
+
+- [[concepts/autocatalysis|Autocatalysis]]
+- [[concepts/bootstrap|Bootstrap]]
+- [[concepts/hyperon|Hyperon]]
 <!-- openclaw:wiki:related:end -->

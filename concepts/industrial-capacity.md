@@ -13,13 +13,17 @@ updatedAt: "2026-05-07"
 tags:
   - industrial-capacity
   - manufacturing
-sourceIds: []
+sourceIds:
+  - source.0010-global-manufacturing-capacity-report
 claims:
   - id: claim.001
     text: "Industrial capacity refers to the total manufacturing output, workforce, energy consumption, and raw material throughput of a defined industrial system"
     status: active
     confidence: 0.8
-    evidence: []
+    evidence:
+      - kind: source-doc
+        sourceId: source.0010-global-manufacturing-capacity-report
+        privacyTier: public
 relatedConcepts: []
 relatedSources: []
 ---
@@ -39,8 +43,16 @@ Industrial capacity describes the maximum manufacturing output achievable by an 
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Sources
+
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
+
 ### Referenced By
 
 - [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
 - [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+
+### Related Pages
+
+- [[concepts/regen-tech|Regenerative Technology]]
 <!-- openclaw:wiki:related:end -->

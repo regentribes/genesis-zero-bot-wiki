@@ -16,7 +16,7 @@
     },
     "contested": 0,
     "lowConfidence": 0,
-    "missingEvidence": 3
+    "missingEvidence": 0
   },
   "contradictionClusters": [
     {
@@ -532,7 +532,9 @@
       "kind": "concept",
       "path": "concepts/autocatalysis.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.0009-goertzel-algorithmic-chemistry-agi"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -553,7 +555,9 @@
       "kind": "concept",
       "path": "concepts/bootstrap.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.0009-goertzel-algorithmic-chemistry-agi"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -572,9 +576,15 @@
           "text": "Bootstrap planning begins from first principles to design minimal viable industrial capability for a community",
           "status": "active",
           "confidence": 0.8,
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "evidence": [],
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0010-global-manufacturing-capacity-report",
+              "privacyTier": "public"
+            }
+          ],
           "freshnessLevel": "fresh",
           "lastTouchedAt": "2026-05-07"
         }
@@ -586,7 +596,9 @@
       "kind": "concept",
       "path": "concepts/hyperon.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.0009-goertzel-algorithmic-chemistry-agi"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -607,7 +619,9 @@
       "kind": "concept",
       "path": "concepts/industrial-capacity.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.0010-global-manufacturing-capacity-report"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -626,9 +640,15 @@
           "text": "Industrial capacity refers to the total manufacturing output, workforce, energy consumption, and raw material throughput of a defined industrial system",
           "status": "active",
           "confidence": 0.8,
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "evidence": [],
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0010-global-manufacturing-capacity-report",
+              "privacyTier": "public"
+            }
+          ],
           "freshnessLevel": "fresh",
           "lastTouchedAt": "2026-05-07"
         }
@@ -663,7 +683,9 @@
       "kind": "concept",
       "path": "concepts/morphic-resonance.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.0009-goertzel-algorithmic-chemistry-agi"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -684,7 +706,9 @@
       "kind": "concept",
       "path": "concepts/regen-tech.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.0010-global-manufacturing-capacity-report"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -703,9 +727,15 @@
           "text": "Regenerative technology encompasses systems and infrastructure designed to restore, sustain, and enhance ecological and social systems rather than merely minimizing harm",
           "status": "active",
           "confidence": 0.8,
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "evidence": [],
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0011-global-manufacturing-civilizational-record",
+              "privacyTier": "public"
+            }
+          ],
           "freshnessLevel": "fresh",
           "lastTouchedAt": "2026-05-07"
         }
@@ -717,7 +747,9 @@
       "kind": "concept",
       "path": "concepts/semiconductor-manufacturing.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.0011-global-manufacturing-civilizational-record"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -939,7 +971,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T12:38:47.831Z",
+      "lastTouchedAt": "2026-05-07T13:13:49.329Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -1071,7 +1103,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T12:49:01.433Z",
+      "lastTouchedAt": "2026-05-07T13:13:49.329Z",
       "claimCount": 0,
       "topClaims": []
     },

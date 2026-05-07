@@ -13,13 +13,17 @@ updatedAt: "2026-05-07"
 tags:
   - bootstrap
   - engineering
-sourceIds: []
+sourceIds:
+  - source.0009-goertzel-algorithmic-chemistry-agi
 claims:
   - id: claim.001
     text: "Bootstrap planning begins from first principles to design minimal viable industrial capability for a community"
     status: active
     confidence: 0.8
-    evidence: []
+    evidence:
+      - kind: source-doc
+        sourceId: source.0010-global-manufacturing-capacity-report
+        privacyTier: public
 relatedConcepts: []
 relatedSources: []
 ---
@@ -43,4 +47,10 @@ Bootstrap planning is the process of designing minimal viable industrial capabil
 
 - [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
 - [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+
+### Related Pages
+
+- [[concepts/autocatalysis|Autocatalysis]]
+- [[concepts/hyperon|Hyperon]]
+- [[concepts/morphic-resonance|Morphic Resonance]]
 <!-- openclaw:wiki:related:end -->

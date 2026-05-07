@@ -185,4 +185,5 @@ Each chapter references the physical/chemical principles from Chapter 1 and the 
 ### Referenced By
 
 - [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
 <!-- openclaw:wiki:related:end -->

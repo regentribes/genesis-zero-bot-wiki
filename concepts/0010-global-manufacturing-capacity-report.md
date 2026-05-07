@@ -121,4 +121,9 @@ This document serves as the canonical engineering reference for community-scale 
 ### Sources
 
 - [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
+
+### Related Pages
+
+- [[concepts/industrial-capacity|Industrial Capacity]]
+- [[concepts/regen-tech|Regenerative Technology]]
 <!-- openclaw:wiki:related:end -->
