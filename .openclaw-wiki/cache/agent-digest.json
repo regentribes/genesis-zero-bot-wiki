@@ -1,15 +1,15 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 10,
-    "source": 10,
+    "concept": 2,
+    "source": 2,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 16,
+  "claimCount": 5,
   "claimHealth": {
     "freshness": {
-      "fresh": 16,
+      "fresh": 5,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -21,376 +21,12 @@
   "contradictionClusters": [],
   "pages": [
     {
-      "id": "concept.adr-0000-oad-workflow-grammar",
-      "title": "ADR 0000 — Integral OAD Workflow Grammar",
-      "kind": "concept",
-      "path": "concepts/adr-0000-oad-workflow-grammar.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0000-oad-workflow-grammar-over-full-integral-stack"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.adr-0000.decision",
-          "text": "OAD workflow grammar (M1/M2 loop) adopted as implementable subset; full Integral stack deferred to Phase 2",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0000-oad-workflow-grammar-over-full-integral-stack",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "id": "concept.adr-0001-agent-knowledge-systems",
-      "title": "ADR 0001 — Agent Knowledge Systems Rejected",
-      "kind": "concept",
-      "path": "concepts/adr-0001-agent-knowledge-systems.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0001-agent-knowledge-systems-rejected"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.adr-0001.decision",
-          "text": "Bonfires.ai and llm_wiki both rejected as unsuitable for offline-first P2P agent-resident knowledge management",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0001-agent-knowledge-systems-rejected",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "id": "concept.adr-0002-ame-metonymic-activation",
-      "title": "ADR 0002 — AME Metonymic Activation and Virtual Trust Field",
-      "kind": "concept",
-      "path": "concepts/adr-0002-ame-metonymic-activation.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0002-ame-metonymic-activation"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.adr-0002.decision",
-          "text": "AME seed activation model and Radden & Kövecses trapezium model are structurally isomorphic — both describe metonymic + virtual activation through a relational configuration",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0002-ame-metonymic-activation",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "id": "concept.adr-0003-integral-non-transferable-value-model",
-      "title": "ADR 0003 — Integral Non-Transferable Value Model vs Percentage-Based Paywall",
-      "kind": "concept",
-      "path": "concepts/adr-0003-integral-non-transferable-value-model.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0003-integral-non-transferable-value-model"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.adr-0003.decision",
-          "text": "ITC non-transferable value model adopted over Oscar's percentage-based paywall for regenerative community economics",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0003-integral-non-transferable-value-model",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "id": "concept.adr-0004-llm-wiki-pattern-for-integral-knowledge-commons",
-      "title": "ADR 0004 — LLM Wiki Pattern for Integral Knowledge Commons (M10)",
-      "kind": "concept",
-      "path": "concepts/adr-0004-llm-wiki-pattern-for-integral-knowledge-commons.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0004-llm-wiki-pattern-for-integral-knowledge-commons"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.adr-0004.decision",
-          "text": "LLM Wiki (Karpathy compile-once-query-forever pattern) adopted as M10 knowledge commons layer for Integral stack, over stateless RAG or raw document stores",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0004-llm-wiki-pattern-for-integral-knowledge-commons",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "id": "concept.adr-0005-rag-agent-memory-for-integral-stack",
-      "title": "ADR 0005 — RAG and Agent Memory in the Integral Stack",
-      "kind": "concept",
-      "path": "concepts/adr-0005-rag-agent-memory-for-integral-stack.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0005-rag-agent-memory-for-integral-stack"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.adr-0005.decision",
-          "text": "Three-pattern assignment: Agent Memory for AME/ITC member context, RAG for CDS deliberation records, LLM Wiki for M10 domain synthesis",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0005-rag-agent-memory-for-integral-stack",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "id": "concept.adr-0006-data-quality-governance-layer",
-      "title": "ADR 0006 — Data Quality and Governance for Knowledge Layer",
-      "kind": "concept",
-      "path": "concepts/adr-0006-data-quality-governance-layer.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0006-data-quality-governance-layer"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.adr-0006.decision",
-          "text": "Four governance requirements (provenance, freshness, contradiction detection, ingest gates) apply across all three knowledge patterns: LLM Wiki, RAG, Agent Memory",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0006-data-quality-governance-layer",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "id": "concept.adr-0007-kabanov-continuous-attention-agi",
-      "title": "ADR 0007 — Kabanov Continuous Attention AGI Model",
-      "kind": "concept",
-      "path": "concepts/adr-0007-kabanov-continuous-attention-agi.md",
-      "aliases": [],
-      "sourceIds": [
-        "source.0007-kabanov-continuous-attention-agi"
-      ],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "concept",
-      "entityType": "concept",
-      "confidence": 1,
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 3,
-      "topClaims": [
-        {
-          "id": "claim.adr-0007.four-layer-hierarchy",
-          "text": "Four-layer attention hierarchy maps to AME stages: peripheral (tokens) → semantic → contextual → transcendent (values)",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0007-kabanov-continuous-attention-agi",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        },
-        {
-          "id": "claim.adr-0007.gierarchical-competition",
-          "text": "Gierarchical (competing) model: multiple super-generalizations compete for attention resources — maps to ITC multi-branch reasoning",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0007-kabanov-continuous-attention-agi",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        },
-        {
-          "id": "claim.adr-0007.cognitive-atom",
-          "text": "Kabanov continuous attention model: cognitive atom is transition, not object — trajectories through phase space drive all cognition",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "source-doc",
-              "sourceId": "source.0007-kabanov-continuous-attention-agi",
-              "privacyTier": "public"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
-    },
-    {
       "id": "concept.karpathy-llm-wiki",
       "title": "Karpathy LLM Wiki Pattern",
       "kind": "concept",
       "path": "concepts/karpathy-llm-wiki.md",
       "aliases": [],
-      "sourceIds": [
-        "source.karpathy-llm-wiki"
-      ],
+      "sourceIds": [],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
@@ -399,28 +35,11 @@
       "topRelationships": [],
       "pageType": "concept",
       "entityType": "concept",
-      "confidence": 1,
+      "confidence": 0.95,
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
-      "claimCount": 1,
-      "topClaims": [
-        {
-          "id": "claim.karpathy.pattern.two-stages",
-          "text": "LLM Wiki ingest should be two-stage: analysis (LLM reads source → structured findings) then generation (LLM takes findings → wiki pages)",
-          "status": "supported",
-          "confidence": 1,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "external-url",
-              "sourceId": "source.karpathy-llm-wiki"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-06"
-        }
-      ]
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "id": "concept.topic-57-mst-polcompball-egafutura",
@@ -569,7 +188,7 @@
       "confidence": 1,
       "privacyTier": "local-private",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06",
+      "lastTouchedAt": "2026-05-07",
       "claimCount": 0,
       "topClaims": []
     },
@@ -723,7 +342,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "lastTouchedAt": "2026-05-07T08:20:09.672Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -761,7 +380,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T07:29:19.996Z",
+      "lastTouchedAt": "2026-05-07T08:19:04.961Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -804,158 +423,6 @@
       "topClaims": []
     },
     {
-      "id": "source.0000-oad-workflow-grammar-over-full-integral-stack",
-      "title": "0000 oad workflow grammar over full integral stack",
-      "kind": "source",
-      "path": "sources/0000-oad-workflow-grammar-over-full-integral-stack.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:29:46.574Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
-      "id": "source.0001-agent-knowledge-systems-rejected",
-      "title": "0001 agent knowledge systems rejected",
-      "kind": "source",
-      "path": "sources/0001-agent-knowledge-systems-rejected.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:29:50.918Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
-      "id": "source.0002-ame-metonymic-activation",
-      "title": "0002 ame metonymic activation",
-      "kind": "source",
-      "path": "sources/0002-ame-metonymic-activation.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:29:55.485Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
-      "id": "source.0003-integral-non-transferable-value-model",
-      "title": "0003 integral non transferable value model",
-      "kind": "source",
-      "path": "sources/0003-integral-non-transferable-value-model.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:29:58.738Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
-      "id": "source.0004-llm-wiki-pattern-for-integral-knowledge-commons",
-      "title": "0004 llm wiki pattern for integral knowledge commons",
-      "kind": "source",
-      "path": "sources/0004-llm-wiki-pattern-for-integral-knowledge-commons.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:30:02.295Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
-      "id": "source.0005-rag-agent-memory-for-integral-stack",
-      "title": "0005 rag agent memory for integral stack",
-      "kind": "source",
-      "path": "sources/0005-rag-agent-memory-for-integral-stack.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:30:05.635Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
-      "id": "source.0006-data-quality-governance-layer",
-      "title": "0006 data quality governance layer",
-      "kind": "source",
-      "path": "sources/0006-data-quality-governance-layer.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:30:09.168Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
-      "id": "source.0007-kabanov-continuous-attention-agi",
-      "title": "0007 kabanov continuous attention AGI",
-      "kind": "source",
-      "path": "sources/0007-kabanov-continuous-attention-agi.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "source",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T21:30:12.579Z",
-      "claimCount": 0,
-      "topClaims": []
-    },
-    {
       "id": "source.topic-57-airic-easm-extracted",
       "title": "Topic 57 — Airic Easm Telegram Discussion (Raw Export)",
       "kind": "source",
@@ -977,8 +444,8 @@
       "topClaims": []
     },
     {
-      "id": "source.topic-57-mst-polcompball-egafutura",
-      "title": "Topic 57 — MST-Polcompball / EcoFutura Governance Spec (Synthesized)",
+      "id": "source.topic-57-governance-synthesis",
+      "title": "Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis",
       "kind": "source",
       "path": "sources/0008-topic-57-mst-polcompball-egafutura.md",
       "aliases": [],

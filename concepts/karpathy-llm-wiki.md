@@ -4,75 +4,63 @@ pageType: concept
 entityType: concept
 title: Karpathy LLM Wiki Pattern
 status: active
-date: "2026-05-06"
-authors: Andrej Karpathy
+date: "2026-04-19"
+authors: Andrej Karpathy (pattern), Genesis (analysis)
 domain: information
 level: system
-confidence: 1.0
-updatedAt: "2026-05-06"
+confidence: 0.95
+updatedAt: "2026-05-07"
 tags:
-  - knowledge-base
+  - knowledge-management
+  - llm
   - wiki
-  - LLM
-  - pattern
-  - karpathy
-sourceIds:
-  - source.karpathy-llm-wiki
-claims:
-  - id: claim.karpathy.pattern.two-stages
-    text: "LLM Wiki ingest should be two-stage: analysis (LLM reads source → structured findings) then generation (LLM takes findings → wiki pages)"
-    status: supported
-    confidence: 1.0
-    evidence:
-      - kind: external-url
-        sourceId: source.karpathy-llm-wiki
+  - retrieval
+sourceIds: []
 relatedConcepts:
-  - concept.memory-wiki
-  - concept.ame-metonymic-activation
-  - concept.living-seed-pattern
+  - concept.topic-57-knowledge-vault
+  - concept.egregore-governance
+relatedSources:
+  - source.karpathy-llm-wiki-gist
 ---
 
 # Karpathy LLM Wiki Pattern
 
-Original proposal by Andrej Karpathy (2024): https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+**Source:** [Andrej Karpathy's Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)  
+**Pattern name:** LLM Wiki  
+**Published:** ~2022  
+**Status:** active
 
-## Core Idea
+## Core Claim
 
-Instead of RAG (retrieve-and-answer from raw documents on every query), the LLM incrementally builds and maintains a **persistent wiki** — a structured, interlinked collection of markdown files that sits between you and the raw sources.
+Store knowledge as natural language documents. Let LLMs handle retrieval and synthesis. The machine learns to find relevant content by reading everything — no manual indexing, no rigid schema.
 
-**The key difference:** knowledge is compiled once and kept current, not re-derived on every query.
+## Key Properties
 
-## Three Layers
+- **Compile once, retrieve always** — knowledge is compiled into a searchable corpus
+- **No manual tagging** — LLMs navigate by understanding content, not metadata
+- **Schema lives in the prompt** — not in the data
+- **Natural language storage** — documents as the unit of knowledge
 
-1. **Raw sources** — immutable source documents (articles, papers, data)
-2. **Wiki** — LLM-generated markdown files with YAML frontmatter and wikilinks
-3. **Schema** — configuration that tells the LLM how the wiki is structured
+## How It Maps to This Vault
 
-## Three Operations
+The OpenClaw wiki uses a similar principle:
+- Sources = natural language documents (compiled knowledge)
+- Concepts = claims extracted from sources (structured understanding)
+- The LLM reads both to answer questions
 
-| Operation | What happens |
-|-----------|-------------|
-| **Ingest** | LLM reads source → creates/updates wiki pages → updates index + log |
-| **Query** | Search relevant pages → LLM synthesizes answer with citations |
-| **Lint** | Check for orphan pages, broken links, contradictions, stale content |
+## Contrast With Traditional Knowledge Management
 
-## Special Files
+| Feature | Traditional KMS | LLM Wiki Pattern |
+|---------|----------------|-----------------|
+| Organization | Manual hierarchy | Emergent from content |
+| Retrieval | Tags + folders | Semantic search |
+| Schema | Rigid frontmatter | Prompt-defined |
+| Updates | Labor-intensive | Append-only corpus |
 
-- **index.md** — content catalog, updated on every ingest, LLM reads it first
-- **log.md** — append-only chronological record of all operations
+## See Also
 
-## Implementations
-
-- **memory-wiki** (OpenClaw) — agent-native, Radicle sync, compiled digests
-- **geronimo-iia/llm-wiki** — Rust, 23 MCP tools, no LLM inside
-- **nashsu/llm_wiki** — Electron desktop app, two-step ingest, 4-signal knowledge graph
-- **atomicmemory/llm-wiki-compiler** — npm CLI, two-phase pipeline, SHA256 cache
-
-## Relevance to RegenTribes
-
-Genesis uses memory-wiki which implements this pattern. The wiki vault at `rad:zYhRVEu5Zh85vcwvmxkZHJNQxn6X` is the live instance.
-
-Source: [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 Governance Spec]] — uses wiki-style knowledge management for governance research
+- External: [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 
 ## Related
 <!-- openclaw:wiki:related:start -->

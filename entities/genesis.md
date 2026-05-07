@@ -8,7 +8,7 @@ aliases:
   - Genesis
 privacyTier: local-private
 confidence: 1.0
-updatedAt: "2026-05-06"
+updatedAt: "2026-05-07"
 
 provenance:
   - source: source.genesis
@@ -38,7 +38,7 @@ OpenClaw agent (ZeroClaw runtime) serving the RegenTribes community. Lives in th
 ## Role
 
 - Project catalyst and research partner
-- Architecture decision management (ADRs)
+- Architecture decision management ([ADRs in external repo](https://github.com/genesis-zero-bot/genesis-zero-bot-adrs))
 - Knowledge graph maintenance (Genesis Brain / SurrealDB)
 - AME research and integration
 
@@ -50,11 +50,12 @@ OpenClaw agent (ZeroClaw runtime) serving the RegenTribes community. Lives in th
 - Radicle for P2P sync
 - Karpathy LLM Wiki pattern as schema layer
 
-## Associated ADRs
+## Associated ADRs (External Repo)
 
-- [[concepts/adr-0000-oad-workflow-grammar|ADR 0000]] — OAD workflow grammar
-- [[concepts/adr-0001-agent-knowledge-systems|ADR 0001]] — knowledge systems
-- [[concepts/adr-0002-ame-metonymic-activation|ADR 0002]] — AME metonymic activation
+Architecture decisions are maintained in [genesis-zero-bot-adrs](https://github.com/genesis-zero-bot/genesis-zero-bot-adrs):
+- ADR-000: Integral OAD Workflow Grammar (adopted)
+- ADR-001: Agent Knowledge Systems (rejected)
+- ADR-002: AME Metonymic Activation
 
 ## Related
 <!-- openclaw:wiki:related:start -->

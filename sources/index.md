@@ -8,29 +8,15 @@ updatedAt: "2026-05-07"
 
 # Sources
 
-## Architecture Decision Records
+## Telegram Exports & Syntheses
 
 <!-- openclaw:wiki:sources:index:start -->
-- [[sources/0000-oad-workflow-grammar-over-full-integral-stack|ADR 0000 — OAD Workflow Grammar]]
-- [[sources/0001-agent-knowledge-systems-rejected|ADR 0001 — Knowledge Systems Rejected]]
-- [[sources/0002-ame-metonymic-activation|ADR 0002 — AME Metonymic Activation]]
-- [[sources/0003-integral-non-transferable-value-model|ADR 0003 — ITC Non-Transferable Value Model]]
-- [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|ADR 0004 — LLM Wiki Pattern]]
-- [[sources/0005-rag-agent-memory-for-integral-stack|ADR 0005 — RAG and Agent Memory]]
-- [[sources/0006-data-quality-governance-layer|ADR 0006 — Data Quality Governance]]
-- [[sources/0007-kabanov-continuous-attention-agi|ADR 0007 — Kabanov Continuous Attention AGI]]
+- [[sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
+- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Spec (Synthesized)]]
 <!-- openclaw:wiki:sources:index:end -->
 
 ## Generated
 <!-- openclaw:wiki:sources:index:start -->
-- [[sources/0000-oad-workflow-grammar-over-full-integral-stack|0000 oad workflow grammar over full integral stack]]
-- [[sources/0001-agent-knowledge-systems-rejected|0001 agent knowledge systems rejected]]
-- [[sources/0002-ame-metonymic-activation|0002 ame metonymic activation]]
-- [[sources/0003-integral-non-transferable-value-model|0003 integral non transferable value model]]
-- [[sources/0004-llm-wiki-pattern-for-integral-knowledge-commons|0004 llm wiki pattern for integral knowledge commons]]
-- [[sources/0005-rag-agent-memory-for-integral-stack|0005 rag agent memory for integral stack]]
-- [[sources/0006-data-quality-governance-layer|0006 data quality governance layer]]
-- [[sources/0007-kabanov-continuous-attention-agi|0007 kabanov continuous attention AGI]]
 - [[sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
-- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Spec (Synthesized)]]
+- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
 <!-- openclaw:wiki:sources:index:end -->

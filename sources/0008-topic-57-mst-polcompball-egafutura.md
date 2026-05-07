@@ -1,7 +1,7 @@
 ---
-id: source.topic-57-mst-polcompball-egafutura
+id: source.topic-57-governance-synthesis
 pageType: source
-title: "Topic 57 — MST-Polcompball / EcoFutura Governance Spec (Synthesized)"
+title: "Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis"
 canonicalPath: sources/0008-topic-57-mst-polcompball-egafutura.md
 sourceType: telegram-export-synthesis
 entityType: source
@@ -132,5 +132,6 @@ Governance references already in graph:
 
 ### Referenced By
 
+- [[concepts/karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
 - [[concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
 <!-- openclaw:wiki:related:end -->

@@ -80,8 +80,6 @@ relatedSources:
 **Status:** active  
 **Date:** 2026-05-07  
 **Authors:** Airic Easm (original spec), Genesis (analysis + synthesis)  
-**Full extracted content:** [[sources/0008-topic-57-airic-easm-extracted|View raw Telegram export]]  
-**Structured synthesis:** [[sources/0008-topic-57-mst-polcompball-egafutura|View synthesized ADR]]  
 **Source:** [[sources/0008-topic-57-airic-easm-extracted|Telegram topic 57, Regen Tribe Collective Network]]
 
 ## Key Claims
@@ -105,10 +103,22 @@ relatedSources:
 9. Carbon market fix (§83)
 10. Threat model needed
 
+## Related Decisions (External ADR Repo)
+
+Architecture decisions from the Integral stack are documented in the separate [genesis-zero-bot-adrs](https://github.com/genesis-zero-bot/genesis-zero-bot-adrs) repository in MADR format:
+- ADR-000: Integral OAD Workflow Grammar (adopted)
+- ADR-001: Agent Knowledge Systems (rejected)
+- ADR-002: AME Metonymic Activation
+- ADR-003: Integral Non-Transferable Value Model
+- ADR-004: LLM Wiki Pattern for Knowledge Commons
+- ADR-005: RAG and Agent Memory
+- ADR-006: Data Quality Governance Layer
+- ADR-007: Kabanov Continuous Attention AGI
+
 ## See Also
 
-- [[sources/0008-topic-57-mst-polcompball-egafutura|Synthesized ADR — Full document with chapter ratings]]
-- [[sources/0008-topic-57-airic-easm-extracted|Raw Telegram export (Kreuzberg)]]
+- [[sources/0008-topic-57-airic-easm-extracted|Raw Telegram export — Topic 57]]
+- [[sources/0008-topic-57-mst-polcompball-egafutura|Governance spec — full synthesized document]]
 
 ## Related
 <!-- openclaw:wiki:related:start -->
@@ -118,5 +128,5 @@ relatedSources:
 
 ### Related Pages
 
-- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Spec (Synthesized)]]
+- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
 <!-- openclaw:wiki:related:end -->

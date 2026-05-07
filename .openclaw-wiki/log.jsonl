@@ -105,3 +105,9 @@
 {"type":"lint","timestamp":"2026-05-07T07:50:50.849Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
 {"type":"lint","timestamp":"2026-05-07T07:51:11.927Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
 {"type":"lint","timestamp":"2026-05-07T07:55:38.746Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T07:59:53.388Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T08:02:52.904Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-07T08:19:05.000Z","details":{"pageCounts":{"entity":2,"concept":2,"source":2,"synthesis":0,"report":10},"updatedFiles":["concepts/karpathy-llm-wiki.md","sources/0008-topic-57-airic-easm-extracted.md","sources/0008-topic-57-mst-polcompball-egafutura.md","concepts/topic-57-mst-polcompball-egafutura.md","reports/provenance-coverage.md",".openclaw-wiki/cache/agent-digest.json",".openclaw-wiki/cache/claims.jsonl","index.md","sources/index.md","concepts/index.md"]}}
+{"type":"lint","timestamp":"2026-05-07T08:19:10.299Z","details":{"issueCount":4,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-07T08:20:09.714Z","details":{"pageCounts":{"entity":2,"concept":2,"source":2,"synthesis":0,"report":10},"updatedFiles":["reports/person-agent-directory.md",".openclaw-wiki/cache/agent-digest.json"]}}
+{"type":"lint","timestamp":"2026-05-07T08:20:09.716Z","details":{"issueCount":1,"reportPath":"reports/lint.md"}}

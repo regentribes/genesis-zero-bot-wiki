@@ -3,7 +3,7 @@ pageType: report
 id: report.person-agent-directory
 title: Person Agent Directory
 status: active
-updatedAt: 2026-05-06T13:52:31.381Z
+updatedAt: 2026-05-07T08:20:09.672Z
 ---
 
 # Person Agent Directory
@@ -11,5 +11,5 @@ updatedAt: 2026-05-06T13:52:31.381Z
 ## Generated
 <!-- openclaw:wiki:person-agent-directory:start -->
 - People with routing metadata: 1
-- [[entities/genesis|Genesis 🌿⚡]]: id genesis-agent; aliases genesis_zero_bot, Genesis; best architecture decisions, knowledge graph management, community coordination, +1; privacy local-private; freshness fresh (2026-05-06)
+- [[entities/genesis|Genesis 🌿⚡]]: id genesis-agent; aliases genesis_zero_bot, Genesis; best architecture decisions, knowledge graph management, community coordination, +1; privacy local-private; freshness fresh (2026-05-07)
 <!-- openclaw:wiki:person-agent-directory:end -->
