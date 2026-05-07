@@ -1,4 +1,4 @@
-<!-- Theme: dark default, ebook-optimized serif, inline --bg override — injected by minima (v2) -->
+<!-- Theme: aligned to ADR style, minimal vars, ebook serif — injected by minima -->
 <style>
 /* ── Base: dark (default) ── */
 :root {
@@ -11,12 +11,6 @@
   --wiki-nav-bg: #161b22;
   --wiki-code-bg: #1e1e1e;
   --wiki-code-text: #f97583;
-  --wiki-btn-bg: #21262d;
-  --wiki-btn-border: #30363d;
-  --wiki-table-header-bg: #161b22;
-  --wiki-table-header-text: #f0f6fc;
-  --wiki-table-row-alt: #0d1117;
-  --wiki-table-row-hover: #1c2128;
   font-family: Georgia, 'Times New Roman', 'Book Antiqua', Palatino, serif;
   font-size: 17px;
   line-height: 1.8;
@@ -32,12 +26,6 @@ body.light {
   --wiki-nav-bg: #f8f9fa;
   --wiki-code-bg: #f4f4f4;
   --wiki-code-text: #c7254e;
-  --wiki-btn-bg: #f0f0f0;
-  --wiki-btn-border: #d0d7de;
-  --wiki-table-header-bg: #f0f0f0;
-  --wiki-table-header-text: #000000;
-  --wiki-table-row-alt: #fafafa;
-  --wiki-table-row-hover: #f0f0f0;
   font-family: Georgia, 'Times New Roman', 'Book Antiqua', Palatino, serif;
   font-size: 17px;
   line-height: 1.8;
@@ -116,8 +104,8 @@ table {
   font-size: 0.95em;
 }
 th {
-  background: var(--wiki-table-header-bg) !important;
-  color: var(--wiki-table-header-text) !important;
+  background: var(--wiki-nav-bg) !important;
+  color: var(--wiki-heading) !important;
   border: 1px solid var(--wiki-border) !important;
   padding: 8px 12px;
   font-weight: 700;
@@ -129,27 +117,22 @@ td {
   padding: 7px 12px;
   color: var(--wiki-text) !important;
 }
-tbody tr:nth-child(even) { background: var(--wiki-table-row-alt) !important; }
-tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
+tbody tr:nth-child(even) { background: var(--wiki-bg) !important; }
+tbody tr:hover { background: var(--wiki-nav-bg) !important; }
 .nav-trigger:checked ~ .trigger { background: var(--wiki-nav-bg); }
 
 /* ── Tag cloud — compact ── */
-.tag, .tags, .tag-cloud, [class*="tag"] {
-  padding: 1px 6px !important;
-  font-size: 0.72em !important;
-  border-radius: 4px !important;
-  line-height: 1.4 !important;
-}
-.tags { display: flex; flex-wrap: wrap; gap: 4px; padding: 0 !important; }
+.tag, .tags { display: flex; flex-wrap: wrap; gap: 3px; padding: 0 !important; }
 .tag, .tags a {
   background: var(--wiki-nav-bg) !important;
   color: var(--wiki-link) !important;
   border: 1px solid var(--wiki-border) !important;
-  padding: 1px 6px !important;
-  font-size: 0.72em !important;
+  padding: 1px 5px !important;
+  font-size: 0.7em !important;
   font-family: 'Courier New', monospace !important;
   text-decoration: none !important;
   border-radius: 4px;
+  line-height: 1.4;
 }
 .tag:hover, .tags a:hover { background: var(--wiki-border) !important; }
 
@@ -159,8 +142,8 @@ tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
   top: 14px;
   right: 18px;
   z-index: 9999;
-  background: var(--wiki-btn-bg);
-  border: 1px solid var(--wiki-btn-border);
+  background: var(--wiki-nav-bg);
+  border: 1px solid var(--wiki-border);
   color: var(--wiki-text);
   border-radius: 20px;
   font-size: 1rem;
@@ -188,13 +171,7 @@ tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
     ['--wiki-border', '#30363d'],
     ['--wiki-nav-bg', '#161b22'],
     ['--wiki-code-bg', '#1e1e1e'],
-    ['--wiki-code-text', '#f97583'],
-    ['--wiki-btn-bg', '#21262d'],
-    ['--wiki-btn-border', '#30363d'],
-    ['--wiki-table-header-bg', '#161b22'],
-    ['--wiki-table-header-text', '#f0f6fc'],
-    ['--wiki-table-row-alt', '#0d1117'],
-    ['--wiki-table-row-hover', '#1c2128']
+    ['--wiki-code-text', '#f97583']
   ];
   var LIGHT_VARS = [
     ['--wiki-bg', '#ffffff'],
@@ -205,13 +182,7 @@ tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
     ['--wiki-border', '#dee2e6'],
     ['--wiki-nav-bg', '#f8f9fa'],
     ['--wiki-code-bg', '#f4f4f4'],
-    ['--wiki-code-text', '#c7254e'],
-    ['--wiki-btn-bg', '#f0f0f0'],
-    ['--wiki-btn-border', '#d0d7de'],
-    ['--wiki-table-header-bg', '#f0f0f0'],
-    ['--wiki-table-header-text', '#000000'],
-    ['--wiki-table-row-alt', '#fafafa'],
-    ['--wiki-table-row-hover', '#f0f0f0']
+    ['--wiki-code-text', '#c7254e']
   ];
 
   function getTheme(){
