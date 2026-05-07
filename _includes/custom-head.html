@@ -1,89 +1,135 @@
-<!-- Dark/light theme toggle for Genesis wiki — injected by minima -->
+<!-- Pure B&W OLED-optimized theme for Genesis wiki — e-ink / ebook compatible -->
 <style>
-/* Theme variables — dark is DEFAULT */
+/* ── Dark mode: pure black OLED ── */
 :root, body:not(.light) {
-  --wiki-bg: #0d1117;
-  --wiki-text: #e6edf3;
-  --wiki-heading: #f0f6fc;
-  --wiki-link: #52b788;
-  --wiki-border: #30363d;
-  --wiki-nav-bg: #161b22;
-  --wiki-code-bg: #1e1e1e;
-  --wiki-code-text: #f97583;
-  --wiki-btn-bg: #21262d;
-  --wiki-btn-border: #30363d;
-  --wiki-table-header-bg: #161b22;
-  --wiki-table-header-text: #f0f6fc;
-  --wiki-table-row-alt: #161b22;
-  --wiki-table-row-hover: #1c2128;
+  --wiki-bg: #000000;
+  --wiki-text: #e8e8e8;
+  --wiki-heading: #ffffff;
+  --wiki-link: #a8d4ff;
+  --wiki-border: #333333;
+  --wiki-nav-bg: #000000;
+  --wiki-code-bg: #0a0a0a;
+  --wiki-code-text: #d0d0d0;
+  --wiki-btn-bg: #111111;
+  --wiki-btn-border: #444444;
+  --wiki-table-header-bg: #0a0a0a;
+  --wiki-table-header-text: #ffffff;
+  --wiki-table-row-alt: #080808;
+  --wiki-table-row-hover: #1a1a1a;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.75;
 }
+/* ── Light mode: pure white e-ink ── */
 body.light {
   --wiki-bg: #ffffff;
-  --wiki-text: #212529;
-  --wiki-heading: #1a1a2e;
-  --wiki-link: #2d6a4f;
-  --wiki-border: #dee2e6;
-  --wiki-nav-bg: #f8f9fa;
-  --wiki-code-bg: #f4f4f4;
-  --wiki-code-text: #c7254e;
-  --wiki-btn-bg: #f6f8fa;
-  --wiki-btn-border: #d0d7de;
-  --wiki-table-header-bg: #f8f9fa;
-  --wiki-table-header-text: #1a1a2e;
-  --wiki-table-row-alt: #f8f9fa;
-  --wiki-table-row-hover: #f0f4f8;
+  --wiki-text: #1a1a1a;
+  --wiki-heading: #000000;
+  --wiki-link: #1a3a6b;
+  --wiki-border: #cccccc;
+  --wiki-nav-bg: #ffffff;
+  --wiki-code-bg: #f5f5f5;
+  --wiki-code-text: #333333;
+  --wiki-btn-bg: #f0f0f0;
+  --wiki-btn-border: #bbbbbb;
+  --wiki-table-header-bg: #f0f0f0;
+  --wiki-table-header-text: #000000;
+  --wiki-table-row-alt: #fafafa;
+  --wiki-table-row-hover: #f0f0f0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.75;
 }
 body {
   background: var(--wiki-bg);
   color: var(--wiki-text);
-  transition: background 0.25s ease, color 0.25s ease;
+  transition: background 0.2s ease, color 0.2s ease;
 }
-h1,h2,h3,h4,h5,h6 { color: var(--wiki-heading); }
-a { color: var(--wiki-link); }
-.site-header { background: var(--wiki-nav-bg) !important; border-bottom: 1px solid var(--wiki-border) !important; transition: background 0.25s ease; }
-.site-header h1 a, .site-header .site-title { color: var(--wiki-heading) !important; }
-.site-footer { border-top: 1px solid var(--wiki-border); background: var(--wiki-nav-bg); }
-.page-link { color: var(--wiki-link) !important; }
+h1,h2,h3,h4,h5,h6 {
+  color: var(--wiki-heading);
+  font-weight: 600;
+  line-height: 1.3;
+}
+h1 { font-size: 1.9rem; margin-bottom: 0.6rem; }
+h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+h3 { font-size: 1.2rem; margin-bottom: 0.4rem; }
+a { color: var(--wiki-link); text-decoration: underline; }
+a:hover { color: var(--wiki-heading); }
+.site-header {
+  background: var(--wiki-nav-bg) !important;
+  border-bottom: 1px solid var(--wiki-border) !important;
+}
+.site-header a { color: var(--wiki-heading) !important; text-decoration: none !important; }
+.site-footer {
+  border-top: 1px solid var(--wiki-border);
+  background: var(--wiki-nav-bg);
+  color: var(--wiki-text);
+}
+.page-link { color: var(--wiki-link) !important; text-decoration: none !important; }
+.page-link:hover { color: var(--wiki-heading) !important; }
 .site-nav .trigger { background: var(--wiki-nav-bg); }
 .site-nav li { border-bottom: 1px solid var(--wiki-border); }
-hr { border-color: var(--wiki-border); }
-code, .highlight { background: var(--wiki-code-bg) !important; }
-code { color: var(--wiki-code-text); }
-pre { background: var(--wiki-code-bg) !important; color: #d4d4d4; }
-pre code { background: transparent !important; color: inherit; }
-blockquote { border-color: var(--wiki-link); color: var(--wiki-text); opacity: 0.85; }
-
-/* Tables — consistent, clean styling */
+hr { border-color: var(--wiki-border); border-top: none; border-left: none; border-right: none; border-width: 1px; margin: 1.5rem 0; }
+/* Code — clean, no border, high contrast */
+code {
+  background: var(--wiki-code-bg) !important;
+  color: var(--wiki-code-text) !important;
+  border: none !important;
+  padding: 2px 6px;
+  font-size: 0.875em;
+  font-family: 'Courier New', Courier, monospace;
+}
+.highlight, pre {
+  background: var(--wiki-code-bg) !important;
+  border: 1px solid var(--wiki-border);
+  padding: 1rem;
+  overflow-x: auto;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+pre code {
+  background: transparent !important;
+  color: inherit !important;
+  padding: 0;
+  border: none !important;
+  font-size: 1em;
+}
+blockquote {
+  border-left: 3px solid var(--wiki-border) !important;
+  margin: 1.5rem 0;
+  padding: 0.5rem 1rem;
+  color: var(--wiki-text);
+  opacity: 1;
+}
+/* Tables — minimal, clean */
 table {
   border-collapse: collapse !important;
   border: 1px solid var(--wiki-border) !important;
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 0.95em;
 }
 th {
   background: var(--wiki-table-header-bg) !important;
   color: var(--wiki-table-header-text) !important;
   border: 1px solid var(--wiki-border) !important;
   padding: 10px 14px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: left;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
 }
 td {
   border: 1px solid var(--wiki-border) !important;
   padding: 8px 14px;
   color: var(--wiki-text) !important;
 }
-/* Remove default minima zebra striping — use our theme colors */
-tr { background: var(--wiki-bg) !important; }
-/* Alt row only if not hovering — keep it subtle */
 tbody tr:nth-child(even) { background: var(--wiki-table-row-alt) !important; }
-/* Hover state */
 tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
-
 .site-nav { background: var(--wiki-nav-bg); }
 .nav-trigger:checked ~ .trigger { background: var(--wiki-nav-bg); }
 
-/* Theme toggle — floating at top-right edge, pill style */
+/* Theme toggle — fixed top-right, pill */
 .theme-btn {
   position: fixed;
   top: 14px;
@@ -96,50 +142,39 @@ tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
   font-size: 1rem;
   cursor: pointer;
   padding: 5px 14px;
-  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: background 0.2s, border-color 0.2s;
   font-family: inherit;
   letter-spacing: 0.05em;
+  line-height: 1;
 }
-.theme-btn:hover {
-  background: var(--wiki-border);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-}
-body.light .theme-btn {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-body.light .theme-btn:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
+.theme-btn:hover { background: var(--wiki-border); }
+
+/* Content spacing */
+.page-content { padding: 2rem 0; }
+.wrapper { max-width: 780px; }
+.post-content h2 { margin-top: 2rem; }
+.post-content h3 { margin-top: 1.5rem; }
 </style>
 <script>
 (function(){
   var STORAGE_KEY = 'wiki-theme';
-
   function getTheme(){
     var saved = localStorage.getItem(STORAGE_KEY);
     if(saved === 'light' || saved === 'dark') return saved;
     return 'dark';
   }
-
   function applyTheme(theme){
     var body = document.body;
     body.classList.remove('dark', 'light');
     void body.offsetHeight;
     body.classList.add(theme);
   }
-
   function toggleTheme(){
     var isDark = document.body.classList.contains('dark');
-    var next = isDark ? 'light' : 'dark';
-    applyTheme(next);
-    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(isDark ? 'light' : 'dark');
+    localStorage.setItem(STORAGE_KEY, isDark ? 'light' : 'dark');
   }
-
   window.toggleWikiTheme = toggleTheme;
-
-  document.addEventListener('DOMContentLoaded', function(){
-    applyTheme(getTheme());
-  });
+  document.addEventListener('DOMContentLoaded', function(){ applyTheme(getTheme()); });
 })();
 </script>
