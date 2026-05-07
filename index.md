@@ -51,15 +51,16 @@ updatedAt: "2026-05-07"
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 16
-- Claims: 5
-- Sources: 2
+- Total pages: 18
+- Claims: 10
+- Sources: 3
 - Entities: 2
-- Concepts: 2
+- Concepts: 3
 - Syntheses: 0
 - Reports: 10
 
 ### Sources
+- [[sources/0008-meta-synchronic-teleoethics-2c-framework|ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework]]
 - [[sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
 - [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
 
@@ -68,6 +69,7 @@ updatedAt: "2026-05-07"
 - [[entities/regen-tribes-community|RegenTribes Community]]
 
 ### Concepts
+- [[concepts/adr-0008-meta-synchronic-teleoethics-2c-framework|ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework]]
 - [[concepts/karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
 - [[concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
 

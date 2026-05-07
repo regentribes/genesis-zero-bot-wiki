@@ -1,15 +1,15 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 2,
-    "source": 2,
+    "concept": 3,
+    "source": 3,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 5,
+  "claimCount": 10,
   "claimHealth": {
     "freshness": {
-      "fresh": 5,
+      "fresh": 10,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -20,6 +20,115 @@
   },
   "contradictionClusters": [],
   "pages": [
+    {
+      "id": "concept.adr-0008-meta-synchronic-teleoethics-2c-framework",
+      "title": "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework",
+      "kind": "concept",
+      "path": "concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0008-meta-synchronic-teleoethics-2c-framework"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.2c.fractality.approved",
+          "text": "Fractality provides a sound scaling pattern for multi-level commons governance",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0008-meta-synchronic-teleoethics-2c-framework",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.2c.timewave-zero.rejected",
+          "text": "Timewave Zero is not falsifiable and must not be used as a planning assumption",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0008-meta-synchronic-teleoethics-2c-framework",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.2c.toroidal-dynamics.approved",
+          "text": "Toroidal dynamics is a grounded design pattern for resource loops in regenerative communities",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0008-meta-synchronic-teleoethics-2c-framework",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.2c.four-distinctions.required",
+          "text": "Four Distinctions framework (Needs/Beliefs/Principles/Values) must be adopted in DAO governance onboarding",
+          "status": "proposed",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0008-meta-synchronic-teleoethics-2c-framework",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.2c.egregore.conditional",
+          "text": "Egregore theology may be used as narrative identity layer but must connect to measurable FOT indicators",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0008-meta-synchronic-teleoethics-2c-framework",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
     {
       "id": "concept.karpathy-llm-wiki",
       "title": "Karpathy LLM Wiki Pattern",
@@ -382,7 +491,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T08:19:04.961Z",
+      "lastTouchedAt": "2026-05-07T11:08:30.549Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -421,6 +530,27 @@
       "pageType": "report",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-07T07:29:56.305Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0008-meta-synchronic-teleoethics-2c-framework",
+      "title": "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework",
+      "kind": "source",
+      "path": "sources/0008-meta-synchronic-teleoethics-2c-framework.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
       "claimCount": 0,
       "topClaims": []
     },
