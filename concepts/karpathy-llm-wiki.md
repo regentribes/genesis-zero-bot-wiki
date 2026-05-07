@@ -60,7 +60,7 @@ The OpenClaw wiki uses a similar principle:
 
 ## See Also
 
-- [[/sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 Governance Spec]] — uses wiki-style knowledge management for governance research
+- [Topic 57 Governance Spec](/sources/0008-topic-57-mst-polcompball-egafutura.html) — uses wiki-style knowledge management for governance research
 - External: [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 
 ## Related

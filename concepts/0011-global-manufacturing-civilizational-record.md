@@ -98,7 +98,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[/sources/0011-global-manufacturing-civilizational-record|View source]]
+**Source:** [View source](/sources/0011-global-manufacturing-civilizational-record.html)
 
 ## Key Claims
 
@@ -134,19 +134,19 @@ The [REBOOT NOTE] sections are particularly valuable for community-scale plannin
 
 ## See Also
 
-- [[/sources/0011-global-manufacturing-civilizational-record|Source — Full content]]
-- [[/concepts/bootstrap|Bootstrap]]
-- [[/concepts/industrial-capacity|Industrial Capacity]]
-- [[/concepts/regen-tech|Regenerative Technology]]
-- [[/concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
+- [Source — Full content](/sources/0011-global-manufacturing-civilizational-record.html)
+- [Bootstrap](/concepts/bootstrap.html)
+- [Industrial Capacity](/concepts/industrial-capacity.html)
+- [Regenerative Technology](/concepts/regen-tech.html)
+- [Semiconductor Manufacturing](/concepts/semiconductor-manufacturing.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[/sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [Global Manufacturing Capacity — Complete Civilizational Record](/sources/0011-global-manufacturing-civilizational-record.html)
 
 ### Related Pages
 
-- [[/concepts/semiconductor-manufacturing|Semiconductor Manufacturing]]
+- [Semiconductor Manufacturing](/concepts/semiconductor-manufacturing.html)
 <!-- openclaw:wiki:related:end -->

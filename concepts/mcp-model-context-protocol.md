@@ -37,7 +37,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[/sources/0012-github-trends-may-2026|View source]]
+**Source:** [View source](/sources/0012-github-trends-may-2026.html)
 
 ## Key Claims
 
@@ -54,21 +54,17 @@ Key properties:
 
 ## See Also
 
-- [[/sources/0012-github-trends-may-2026|GitHub Trends May 2026 Source]]
-- [[/concepts/ai-agents|AI Agents]]
+- [GitHub Trends May 2026 Source](/sources/0012-github-trends-may-2026.html)
+- [AI Agents](/concepts/ai-agents.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[/sources/0012-github-trends-may-2026|GitHub Trends Weekly Report — May 1-7, 2026]]
-
-### Referenced By
-
-- [[/concepts/ai-agents|AI Agents]]
-- [[/concepts/0012-github-trends-may-2026|GitHub Trends May 2026 — AI Agent Paradigm]]
+- [GitHub Trends Weekly Report — May 1-7, 2026](/sources/0012-github-trends-may-2026.html)
 
 ### Related Pages
 
-- [[/concepts/agent-skills|Agent Skills]]
+- [Agent Skills](/concepts/agent-skills.html)
+- [AI Agents](/concepts/ai-agents.html)
 <!-- openclaw:wiki:related:end -->

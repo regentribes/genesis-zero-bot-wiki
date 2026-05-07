@@ -10,85 +10,158 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 0
-- Warnings: 38
+- Warnings: 101
 
 ### Warnings
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.006` has competing variants across 3 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.006` has competing variants across 3 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.006` has competing variants across 3 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/sources/0009-goertzel-algorithmic-chemistry-agi`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/sources/0009-goertzel-algorithmic-chemistry-agi`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/concepts/autocatalysis`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/concepts/morphic-resonance`.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Broken wikilink target `/concepts/hyperon`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/concepts/bootstrap`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/concepts/industrial-capacity`.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Broken wikilink target `/concepts/regen-tech`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.007` has competing variants across 2 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.008` has competing variants across 2 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/sources/0011-global-manufacturing-civilizational-record`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/sources/0011-global-manufacturing-civilizational-record`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/bootstrap`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/industrial-capacity`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/regen-tech`.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Broken wikilink target `/concepts/semiconductor-manufacturing`.
 - `concepts/0012-github-trends-may-2026.md`: Non-source page is missing `sourceIds` provenance.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/agent-skills.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/ai-agents.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/bootstrap.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/industrial-capacity.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/infrastructure-criticality.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/mcp-model-context-protocol.md`: Claim cluster `claim.001` has competing variants across 13 pages.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/concepts/ai-agents`.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/concepts/agent-skills`.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/concepts/mcp-model-context-protocol`.
+- `concepts/0012-github-trends-may-2026.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Broken wikilink target `/concepts/ostrom-commons-governance`.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/concepts/autocatalysis`.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.007` has competing variants across 2 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.008` has competing variants across 2 pages.
+- `concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.md`: Broken wikilink target `/sources/0008-meta-synchronic-teleoethics-2c-framework`.
+- `concepts/agent-skills.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/agent-skills.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/agent-skills.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/agent-skills.md`: Broken wikilink target `/concepts/ai-agents`.
+- `concepts/ai-agents.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/ai-agents.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/ai-agents.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/ai-agents.md`: Broken wikilink target `/concepts/agent-skills`.
+- `concepts/ai-agents.md`: Broken wikilink target `/concepts/mcp-model-context-protocol`.
+- `concepts/bootstrap.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/bootstrap.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `concepts/industrial-capacity.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/industrial-capacity.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `concepts/infrastructure-criticality.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/infrastructure-criticality.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
+- `concepts/infrastructure-criticality.md`: Broken wikilink target `/sources/0014-knowledge-work-physical-production-interdependence`.
+- `concepts/infrastructure-criticality.md`: Broken wikilink target `/concepts/0014-knowledge-work-physical-production-interdependence`.
+- `concepts/karpathy-llm-wiki.md`: Broken wikilink target `/sources/0008-topic-57-mst-polcompball-egafutura`.
+- `concepts/mcp-model-context-protocol.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/sources/0012-github-trends-may-2026`.
+- `concepts/mcp-model-context-protocol.md`: Broken wikilink target `/concepts/ai-agents`.
 - `concepts/morphic-resonance.md`: Page confidence is low (0.40).
-- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/regen-tech.md`: Claim cluster `claim.001` has competing variants across 13 pages.
+- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
+- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/sources/0013-peter-joseph-integral-common-ground`.
+- `concepts/ostrom-commons-governance.md`: Broken wikilink target `/concepts/0013-peter-joseph-integral-common-ground`.
+- `concepts/regen-tech.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/regen-tech.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/sources/0008-topic-57-airic-easm-extracted`.
+- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/sources/0008-topic-57-airic-easm-extracted`.
+- `concepts/topic-57-mst-polcompball-egafutura.md`: Broken wikilink target `/sources/0008-topic-57-mst-polcompball-egafutura`.
+- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0011-global-manufacturing-civilizational-record`.
+- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/sources/0010-global-manufacturing-capacity-report`.
+- `sources/0014-knowledge-work-physical-production-interdependence.md`: Broken wikilink target `/concepts/autocatalysis`.
 
 ### Contradictions
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.006` has competing variants across 3 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.006` has competing variants across 3 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.006` has competing variants across 3 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.005` has competing variants across 4 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.003` has competing variants across 5 pages.
-- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.004` has competing variants across 5 pages.
-- `concepts/agent-skills.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/ai-agents.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/bootstrap.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/industrial-capacity.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/infrastructure-criticality.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/mcp-model-context-protocol.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.001` has competing variants across 13 pages.
-- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.002` has competing variants across 6 pages.
-- `concepts/regen-tech.md`: Claim cluster `claim.001` has competing variants across 13 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0009-algorithmic-chemistry-agi.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0010-global-manufacturing-capacity-report.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.007` has competing variants across 2 pages.
+- `concepts/0011-global-manufacturing-civilizational-record.md`: Claim cluster `claim.008` has competing variants across 2 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0013-peter-joseph-integral-common-ground.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0014-knowledge-work-physical-production-interdependence.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.003` has competing variants across 6 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.004` has competing variants across 6 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.005` has competing variants across 5 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.006` has competing variants across 4 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.007` has competing variants across 2 pages.
+- `concepts/0015-ww3-chessboard-grand-strategies.md`: Claim cluster `claim.008` has competing variants across 2 pages.
+- `concepts/agent-skills.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/ai-agents.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/bootstrap.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/industrial-capacity.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/infrastructure-criticality.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/mcp-model-context-protocol.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.001` has competing variants across 14 pages.
+- `concepts/ostrom-commons-governance.md`: Claim cluster `claim.002` has competing variants across 7 pages.
+- `concepts/regen-tech.md`: Claim cluster `claim.001` has competing variants across 14 pages.
 
 ### Quality Follow-Up
 - `concepts/0012-github-trends-may-2026.md`: Non-source page is missing `sourceIds` provenance.

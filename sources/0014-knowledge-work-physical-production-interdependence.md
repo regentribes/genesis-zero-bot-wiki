@@ -141,14 +141,14 @@ When designing regenerative systems:
 
 ## See Also
 
-- [[/sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Civilizational Record]]
-- [[/sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
-- [[/concepts/autocatalysis|Autocatalysis]]
+- [Global Manufacturing Civilizational Record](/sources/0011-global-manufacturing-civilizational-record.html)
+- [Global Manufacturing Capacity Report](/sources/0010-global-manufacturing-capacity-report.html)
+- [Autocatalysis](/concepts/autocatalysis.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[/concepts/infrastructure-criticality|Infrastructure Criticality]]
-- [[/concepts/0014-knowledge-work-physical-production-interdependence|Knowledge-Physical Work Interdependence]]
+- [Infrastructure Criticality](/concepts/infrastructure-criticality.html)
+- [Knowledge-Physical Work Interdependence](/concepts/0014-knowledge-work-physical-production-interdependence.html)
 <!-- openclaw:wiki:related:end -->

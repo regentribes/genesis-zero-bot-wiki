@@ -155,8 +155,7 @@ Two financial AI agent projects trended:
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[/concepts/agent-skills|Agent Skills]]
-- [[/concepts/ai-agents|AI Agents]]
-- [[/concepts/0012-github-trends-may-2026|GitHub Trends May 2026 — AI Agent Paradigm]]
-- [[/concepts/mcp-model-context-protocol|MCP — Model Context Protocol]]
+- [Agent Skills](/concepts/agent-skills.html)
+- [AI Agents](/concepts/ai-agents.html)
+- [MCP — Model Context Protocol](/concepts/mcp-model-context-protocol.html)
 <!-- openclaw:wiki:related:end -->

@@ -75,7 +75,7 @@ relatedSources:
 **Status:** proposed  
 **Date:** 2026-05-07  
 **Full document:** adr-0008-meta-synchronic-teleoethics-2c-framework.md  
-**Source:** [[/sources/0008-meta-synchronic-teleoethics-2c-framework|Source page]]
+**Source:** [Source page](/sources/0008-meta-synchronic-teleoethics-2c-framework.html)
 
 ## Key Decisions
 
@@ -87,7 +87,7 @@ relatedSources:
 
 ## See Also
 
-- [[adr-0008-meta-synchronic-teleoethics-2c-framework|ADR 0008 — Full Document]]
+- [ADR 0008 — Full Document](/adr-0008-meta-synchronic-teleoethics-2c-framework.html)
 - Field of Trust (in knowledge graph)
 - Four Distinctions (in knowledge graph)
 
@@ -101,5 +101,5 @@ relatedSources:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[/sources/0008-meta-synchronic-teleoethics-2c-framework|ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework]]
+- [ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework](/sources/0008-meta-synchronic-teleoethics-2c-framework.html)
 <!-- openclaw:wiki:related:end -->

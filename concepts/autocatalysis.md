@@ -26,15 +26,9 @@ In regenerative systems thinking, autocatalysis maps to any positive feedback lo
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[/concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
-- [[/sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production — Systemic Interdependence]]
-- [[/concepts/0014-knowledge-work-physical-production-interdependence|Knowledge-Physical Work Interdependence]]
-
 ### Related Pages
 
-- [[/concepts/bootstrap|Bootstrap]]
-- [[/concepts/hyperon|Hyperon]]
-- [[/concepts/morphic-resonance|Morphic Resonance]]
+- [Bootstrap](/concepts/bootstrap.html)
+- [Hyperon](/concepts/hyperon.html)
+- [Morphic Resonance](/concepts/morphic-resonance.html)
 <!-- openclaw:wiki:related:end -->

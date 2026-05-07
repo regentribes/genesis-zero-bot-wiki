@@ -98,7 +98,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[sources/0015-ww3-chessboard-game-theory-lecture|Source — Full lecture text]]
+**Source:** [Source — Full lecture text](/sources/0015-ww3-chessboard-game-theory-lecture.html)
 
 ## Overview
 
@@ -136,15 +136,15 @@ Three active now (Ukraine, Iran, Cuba). More will open. Ocean conflicts (shadow 
 
 ## See Also
 
-- [[sources/0015-ww3-chessboard-game-theory-lecture|Source — Full lecture text]]
+- [Source — Full lecture text](/sources/0015-ww3-chessboard-game-theory-lecture.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0015-ww3-chessboard-game-theory-lecture|Game Theory 23 — The WWIII Chessboard]]
+- [Game Theory 23 — The WWIII Chessboard](/sources/0015-ww3-chessboard-game-theory-lecture.html)
 
 ### Referenced By
 
-- [[sources/0015-ww3-chessboard-game-theory-lecture|Game Theory 23 — The WWIII Chessboard]]
+- [Game Theory 23 — The WWIII Chessboard](/sources/0015-ww3-chessboard-game-theory-lecture.html)
 <!-- openclaw:wiki:related:end -->

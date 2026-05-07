@@ -3,7 +3,7 @@ pageType: report
 id: report.privacy-review
 title: Privacy Review
 status: active
-updatedAt: 2026-05-06T13:49:55.451Z
+updatedAt: 2026-05-07T14:55:31.730Z
 ---
 
 # Privacy Review
@@ -12,5 +12,5 @@ updatedAt: 2026-05-06T13:49:55.451Z
 <!-- openclaw:wiki:privacy-review:start -->
 - Privacy review entries: 1
 
-- [[/entities/genesis|Genesis 🌿⚡]]: page privacy local-private
+- [Genesis 🌿⚡](/entities/genesis.html): page privacy local-private
 <!-- openclaw:wiki:privacy-review:end -->

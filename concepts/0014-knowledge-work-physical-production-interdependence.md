@@ -63,7 +63,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [[/sources/0014-knowledge-work-physical-production-interdependence|View source]]
+**Source:** [View source](/sources/0014-knowledge-work-physical-production-interdependence.html)
 
 ## Key Claims
 
@@ -88,16 +88,16 @@ Implications for regenerative community design:
 
 ## See Also
 
-- [[/sources/0014-knowledge-work-physical-production-interdependence|Source — Full content]]
-- [[/concepts/autocatalysis|Autocatalysis]]
+- [Source — Full content](/sources/0014-knowledge-work-physical-production-interdependence.html)
+- [Autocatalysis](/concepts/autocatalysis.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[/sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production — Systemic Interdependence]]
+- [Knowledge Work and Physical Production — Systemic Interdependence](/sources/0014-knowledge-work-physical-production-interdependence.html)
 
-### Referenced By
+### Related Pages
 
-- [[/concepts/infrastructure-criticality|Infrastructure Criticality]]
+- [Infrastructure Criticality](/concepts/infrastructure-criticality.html)
 <!-- openclaw:wiki:related:end -->

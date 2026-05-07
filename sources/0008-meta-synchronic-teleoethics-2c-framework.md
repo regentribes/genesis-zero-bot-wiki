@@ -27,7 +27,7 @@ tags:
 
 # ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework
 
-**Canonical location:** [[adr-0008-meta-synchronic-teleoethics-2c-framework|View ADR]]
+**Canonical location:** [View ADR](/adr-0008-meta-synchronic-teleoethics-2c-framework.html)
 
 <!-- openclaw:wiki:related:start -->
 <!-- openclaw:wiki:related:end -->
@@ -36,5 +36,5 @@ tags:
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[/concepts/adr-0008-meta-synchronic-teleoethics-2c-framework|ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework]]
+- [ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework](/concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.html)
 <!-- openclaw:wiki:related:end -->

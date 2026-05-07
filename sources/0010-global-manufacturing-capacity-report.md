@@ -137,9 +137,7 @@ Community members engaged in regenerative neighbourhood design can use this refe
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [[/concepts/bootstrap|Bootstrap]]
-- [[/concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
-- [[/concepts/industrial-capacity|Industrial Capacity]]
-- [[/sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production — Systemic Interdependence]]
-- [[/concepts/regen-tech|Regenerative Technology]]
+- [Global Manufacturing Capacity Report](/concepts/0010-global-manufacturing-capacity-report.html)
+- [Industrial Capacity](/concepts/industrial-capacity.html)
+- [Regenerative Technology](/concepts/regen-tech.html)
 <!-- openclaw:wiki:related:end -->

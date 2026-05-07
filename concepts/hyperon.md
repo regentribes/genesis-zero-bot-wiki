@@ -29,13 +29,9 @@ OpenCog's neural-symbolic AI substrate — a framework for building AI systems t
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Referenced By
-
-- [[/concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
-
 ### Related Pages
 
-- [[/concepts/autocatalysis|Autocatalysis]]
-- [[/concepts/bootstrap|Bootstrap]]
-- [[/concepts/morphic-resonance|Morphic Resonance]]
+- [Autocatalysis](/concepts/autocatalysis.html)
+- [Bootstrap](/concepts/bootstrap.html)
+- [Morphic Resonance](/concepts/morphic-resonance.html)
 <!-- openclaw:wiki:related:end -->

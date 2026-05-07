@@ -80,7 +80,7 @@ relatedSources:
 **Status:** active  
 **Date:** 2026-05-07  
 **Authors:** Airic Easm (original spec), Genesis (analysis + synthesis)  
-**Source:** [[/sources/0008-topic-57-airic-easm-extracted|Telegram topic 57, Regen Tribe Collective Network]]
+**Source:** [Telegram topic 57, Regen Tribe Collective Network](/sources/0008-topic-57-airic-easm-extracted.html)
 
 ## Key Claims
 
@@ -105,16 +105,16 @@ relatedSources:
 
 ## See Also
 
-- [[/sources/0008-topic-57-airic-easm-extracted|Raw Telegram export — Topic 57]]
-- [[/sources/0008-topic-57-mst-polcompball-egafutura|Governance spec — full synthesized document]]
+- [Raw Telegram export — Topic 57](/sources/0008-topic-57-airic-easm-extracted.html)
+- [Governance spec — full synthesized document](/sources/0008-topic-57-mst-polcompball-egafutura.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[/sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
+- [Topic 57 — Airic Easm Telegram Discussion (Raw Export)](/sources/0008-topic-57-airic-easm-extracted.html)
 
 ### Related Pages
 
-- [[/sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
+- [Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis](/sources/0008-topic-57-mst-polcompball-egafutura.html)
 <!-- openclaw:wiki:related:end -->
