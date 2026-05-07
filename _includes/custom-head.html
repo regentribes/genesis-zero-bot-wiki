@@ -1,4 +1,4 @@
-<!-- Dark/light theme toggle for Genesis wiki -->
+<!-- Dark/light theme toggle for Genesis wiki — injected by minima -->
 <style>
 /* Theme variables — dark is DEFAULT */
 :root, body:not(.light) {
@@ -73,17 +73,13 @@ table { border-color: var(--wiki-border); }
   function getTheme(){
     var saved = localStorage.getItem(STORAGE_KEY);
     if(saved === 'light' || saved === 'dark') return saved;
-    // Default to dark for new visitors
     return 'dark';
   }
 
   function applyTheme(theme){
     var body = document.body;
-    // Remove both theme classes cleanly
     body.classList.remove('dark', 'light');
-    // Force reflow to ensure CSS vars update
     void body.offsetHeight;
-    // Add the target theme class
     body.classList.add(theme);
   }
 
@@ -94,10 +90,8 @@ table { border-color: var(--wiki-border); }
     localStorage.setItem(STORAGE_KEY, next);
   }
 
-  // Expose globally for the button onclick
   window.toggleWikiTheme = toggleTheme;
 
-  // Apply saved/system theme immediately (before first paint via inline script position)
   document.addEventListener('DOMContentLoaded', function(){
     applyTheme(getTheme());
   });
