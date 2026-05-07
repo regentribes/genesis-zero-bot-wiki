@@ -118,3 +118,6 @@
 {"type":"lint","timestamp":"2026-05-07T08:50:28.559Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
 {"type":"compile","timestamp":"2026-05-07T09:04:05.079Z","details":{"pageCounts":{"entity":2,"concept":2,"source":2,"synthesis":0,"report":10},"updatedFiles":["sources/index.md"]}}
 {"type":"lint","timestamp":"2026-05-07T09:04:13.018Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T09:09:01.041Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-07T09:44:37.583Z","details":{"pageCounts":{"entity":2,"concept":2,"source":2,"synthesis":0,"report":10},"updatedFiles":["index.md","sources/index.md","entities/index.md","concepts/index.md","reports/index.md"]}}
+{"type":"lint","timestamp":"2026-05-07T09:44:41.022Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}

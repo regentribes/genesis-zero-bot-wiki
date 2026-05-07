@@ -8,41 +8,45 @@ updatedAt: "2026-05-07"
 
 # Wiki Index
 
-> **This wiki is a semantic knowledge graph.** It contains Telegram exports, governance syntheses, concepts, and entity pages.
+> **This wiki is a semantic knowledge graph.** Telegram exports, governance syntheses, concepts, entity pages.
 
-## Sources (2)
-
-Sources are canonical raw content — Telegram exports, synthesized governance specs.
+## Sources
 
 - [[sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
 - [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
 
-## Concepts (2)
-
-Claims and relationships extracted from sources.
+## Concepts
 
 - [[concepts/karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
 - [[concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
 
-## Entities (2)
-
-People and organizations.
+## Entities
 
 - [[entities/genesis|Genesis 🌿⚡]]
 - [[entities/regen-tribes-community|RegenTribes Community]]
 
 ## Reports
 
-Auto-generated diagnostics.
-
 - [[reports/claim-health|Claim Health]]
 - [[reports/contradictions|Contradictions]]
 - [[reports/lint|Lint Report]]
 - [[reports/low-confidence|Low Confidence]]
 - [[reports/open-questions|Open Questions]]
+- [[reports/person-agent-directory|Person Agent Directory]]
+- [[reports/privacy-review|Privacy Review]]
 - [[reports/provenance-coverage|Provenance Coverage]]
 - [[reports/relationship-graph|Relationship Graph]]
 - [[reports/stale-pages|Stale Pages]]
+
+## Stats
+
+| | |
+|---|---|
+| Sources | 2 |
+| Concepts | 2 |
+| Entities | 2 |
+| Reports | 10 |
+| Claims | 5 |
 
 ## Generated
 <!-- openclaw:wiki:index:start -->

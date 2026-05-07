@@ -1,0 +1,67 @@
+<!-- Dark/light theme toggle for Genesis wiki -->
+<style>
+:root {
+  --wiki-bg: #ffffff;
+  --wiki-text: #212529;
+  --wiki-heading: #1a1a2e;
+  --wiki-link: #2d6a4f;
+  --wiki-border: #dee2e6;
+  --wiki-nav-bg: #f8f9fa;
+  --wiki-code-bg: #f4f4f4;
+  --wiki-code-text: #c7254e;
+}
+body.dark, body:not(.light) {
+  --wiki-bg: #0d1117;
+  --wiki-text: #e6edf3;
+  --wiki-heading: #f0f6fc;
+  --wiki-link: #52b788;
+  --wiki-border: #30363d;
+  --wiki-nav-bg: #161b22;
+  --wiki-code-bg: #1e1e1e;
+  --wiki-code-text: #f97583;
+}
+body {
+  background: var(--wiki-bg);
+  color: var(--wiki-text);
+  transition: background 0.2s, color 0.2s;
+}
+h1,h2,h3,h4,h5,h6 { color: var(--wiki-heading); }
+a { color: var(--wiki-link); }
+.site-header { background: var(--wiki-nav-bg) !important; border-bottom: 1px solid var(--wiki-border) !important; }
+.site-header h1 a, .site-header .site-title { color: var(--wiki-heading) !important; }
+.site-footer { border-top: 1px solid var(--wiki-border); }
+.page-link { color: var(--wiki-link) !important; }
+.site-nav .trigger { background: var(--wiki-nav-bg); }
+.site-nav li { border-bottom: 1px solid var(--wiki-border); }
+hr { border-color: var(--wiki-border); }
+code, .highlight { background: var(--wiki-code-bg) !important; }
+code { color: var(--wiki-code-text); }
+pre { background: #1e1e1e !important; color: #d4d4d4; }
+pre code { background: transparent !important; color: inherit; }
+blockquote { border-color: var(--wiki-link); color: var(--wiki-text); opacity: 0.85; }
+th { background: var(--wiki-nav-bg); color: var(--wiki-heading); }
+td, tr { border-color: var(--wiki-border); }
+table { border-color: var(--wiki-border); }
+</style>
+<script>
+(function(){
+  function applyTheme(cls){
+    document.body.className = cls || '';
+    document.body.classList.add(cls === 'light' ? 'light' : 'dark');
+  }
+  function toggle(){
+    var isDark = document.body.classList.contains('dark');
+    var next = isDark ? 'light' : 'dark';
+    document.body.className = next;
+    localStorage.setItem('wiki-theme', next);
+  }
+  document.addEventListener('DOMContentLoaded', function(){
+    var saved = localStorage.getItem('wiki-theme');
+    if(saved){ document.body.className=saved; return; }
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+      document.body.className='dark';
+    } else { document.body.className='light'; }
+  });
+  window.toggleWikiTheme = toggle;
+})();
+</script>

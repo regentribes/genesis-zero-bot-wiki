@@ -8,6 +8,11 @@ updatedAt: "2026-05-07"
 
 # Entities
 
+<!-- openclaw:wiki:entities:index:start -->
+- [[genesis|Genesis 🌿⚡]]
+- [[regen-tribes-community|RegenTribes Community]]
+<!-- openclaw:wiki:entities:index:end -->
+
 ## Generated
 <!-- openclaw:wiki:entities:index:start -->
 - [[entities/genesis|Genesis 🌿⚡]]
