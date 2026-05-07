@@ -41,5 +41,6 @@ Bootstrap planning is the process of designing minimal viable industrial capabil
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
+- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
 - [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
 <!-- openclaw:wiki:related:end -->

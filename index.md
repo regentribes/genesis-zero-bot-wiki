@@ -51,16 +51,19 @@ updatedAt: "2026-05-07"
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 18
-- Claims: 10
-- Sources: 3
+- Total pages: 27
+- Claims: 33
+- Sources: 6
 - Entities: 2
-- Concepts: 3
+- Concepts: 9
 - Syntheses: 0
 - Reports: 10
 
 ### Sources
 - [[sources/0008-meta-synchronic-teleoethics-2c-framework|ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework]]
+- [[sources/0009-goertzel-algorithmic-chemistry-agi|Ben Goertzel — Algorithmic Chemistry for AGI]]
+- [[sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
 - [[sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
 - [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Synthesis]]
 
@@ -70,7 +73,13 @@ updatedAt: "2026-05-07"
 
 ### Concepts
 - [[concepts/adr-0008-meta-synchronic-teleoethics-2c-framework|ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework]]
+- [[concepts/0009-algorithmic-chemistry-agi|Algorithmic Chemistry for AGI]]
+- [[concepts/bootstrap|Bootstrap]]
+- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
+- [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
+- [[concepts/industrial-capacity|Industrial Capacity]]
 - [[concepts/karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
+- [[concepts/regen-tech|Regenerative Technology]]
 - [[concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
 
 ### Syntheses

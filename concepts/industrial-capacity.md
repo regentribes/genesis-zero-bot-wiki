@@ -41,5 +41,6 @@ Industrial capacity describes the maximum manufacturing output achievable by an 
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
+- [[concepts/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity — Complete Civilizational Record]]
 - [[concepts/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report]]
 <!-- openclaw:wiki:related:end -->

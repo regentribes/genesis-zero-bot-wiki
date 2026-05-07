@@ -1,25 +1,422 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 3,
-    "source": 3,
+    "concept": 9,
+    "source": 6,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 10,
+  "claimCount": 33,
   "claimHealth": {
     "freshness": {
-      "fresh": 10,
+      "fresh": 33,
       "aging": 0,
       "stale": 0,
       "unknown": 0
     },
     "contested": 0,
     "lowConfidence": 0,
-    "missingEvidence": 0
+    "missingEvidence": 3
   },
-  "contradictionClusters": [],
+  "contradictionClusters": [
+    {
+      "key": "claim.001",
+      "label": "claim.001",
+      "kind": "claim-id",
+      "entryCount": 6,
+      "paths": [
+        "concepts/0009-algorithmic-chemistry-agi.md",
+        "concepts/0010-global-manufacturing-capacity-report.md",
+        "concepts/0011-global-manufacturing-civilizational-record.md",
+        "concepts/bootstrap.md",
+        "concepts/industrial-capacity.md",
+        "concepts/regen-tech.md"
+      ]
+    },
+    {
+      "key": "claim.002",
+      "label": "claim.002",
+      "kind": "claim-id",
+      "entryCount": 3,
+      "paths": [
+        "concepts/0009-algorithmic-chemistry-agi.md",
+        "concepts/0010-global-manufacturing-capacity-report.md",
+        "concepts/0011-global-manufacturing-civilizational-record.md"
+      ]
+    },
+    {
+      "key": "claim.003",
+      "label": "claim.003",
+      "kind": "claim-id",
+      "entryCount": 3,
+      "paths": [
+        "concepts/0009-algorithmic-chemistry-agi.md",
+        "concepts/0010-global-manufacturing-capacity-report.md",
+        "concepts/0011-global-manufacturing-civilizational-record.md"
+      ]
+    },
+    {
+      "key": "claim.004",
+      "label": "claim.004",
+      "kind": "claim-id",
+      "entryCount": 3,
+      "paths": [
+        "concepts/0009-algorithmic-chemistry-agi.md",
+        "concepts/0010-global-manufacturing-capacity-report.md",
+        "concepts/0011-global-manufacturing-civilizational-record.md"
+      ]
+    },
+    {
+      "key": "claim.005",
+      "label": "claim.005",
+      "kind": "claim-id",
+      "entryCount": 3,
+      "paths": [
+        "concepts/0009-algorithmic-chemistry-agi.md",
+        "concepts/0010-global-manufacturing-capacity-report.md",
+        "concepts/0011-global-manufacturing-civilizational-record.md"
+      ]
+    },
+    {
+      "key": "claim.006",
+      "label": "claim.006",
+      "kind": "claim-id",
+      "entryCount": 3,
+      "paths": [
+        "concepts/0009-algorithmic-chemistry-agi.md",
+        "concepts/0010-global-manufacturing-capacity-report.md",
+        "concepts/0011-global-manufacturing-civilizational-record.md"
+      ]
+    }
+  ],
   "pages": [
+    {
+      "id": "concept.goertzel-algorithmic-chemistry-agi",
+      "title": "Algorithmic Chemistry for AGI",
+      "kind": "concept",
+      "path": "concepts/0009-algorithmic-chemistry-agi.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.goertzel-algorithmic-chemistry-agi"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 6,
+      "topClaims": [
+        {
+          "id": "claim.003",
+          "text": "Algorithmic chemistry never tried at GPT-2 scale or above until now",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.goertzel-algorithmic-chemistry-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.001",
+          "text": "Anthropic-principle simulation approach finds shortest path from non-life to proto-life is not hard",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.goertzel-algorithmic-chemistry-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.004",
+          "text": "Hyperon infrastructure ready for large-scale algorithmic chemistry experiments",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.goertzel-algorithmic-chemistry-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.005",
+          "text": "Autocatalytic sets of thought patterns function as self-reinforcing belief systems or procedural networks",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.goertzel-algorithmic-chemistry-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.002",
+          "text": "Morphic resonance plus anti-resonance makes autocatalytic sets healthier and more probable",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.goertzel-algorithmic-chemistry-agi",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "concept.0010-global-manufacturing-capacity-report",
+      "title": "Global Manufacturing Capacity Report",
+      "kind": "concept",
+      "path": "concepts/0010-global-manufacturing-capacity-report.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0010-global-manufacturing-capacity-report"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.95,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 6,
+      "topClaims": [
+        {
+          "id": "claim.003",
+          "text": "Global manufacturing consumes approximately 220 EJ of energy annually",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0010-global-manufacturing-capacity-report",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.004",
+          "text": "Global raw material extraction for manufacturing is approximately 90 billion tonnes annually",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0010-global-manufacturing-capacity-report",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.005",
+          "text": "The document covers 15 primary industrial sectors from energy infrastructure through polymer manufacturing to energy-intensive unit operations",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0010-global-manufacturing-capacity-report",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.002",
+          "text": "The global manufacturing workforce is approximately 1.2 billion persons",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0010-global-manufacturing-capacity-report",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.006",
+          "text": "The report is designed to enable reconstruction of manufacturing capability from first principles on an independent location or planetary body",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0010-global-manufacturing-capacity-report",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "concept.0011-global-manufacturing-civilizational-record",
+      "title": "Global Manufacturing Capacity — Complete Civilizational Record",
+      "kind": "concept",
+      "path": "concepts/0011-global-manufacturing-civilizational-record.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.0011-global-manufacturing-civilizational-record"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.95,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 8,
+      "topClaims": [
+        {
+          "id": "claim.008",
+          "text": "Bootstrap sequence (Chapter 28) provides a 6-phase build order from survival through advanced industry, spanning approximately 50-80 years to reach semiconductor fabrication capability",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0011-global-manufacturing-civilizational-record",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.003",
+          "text": "Contains [REBOOT NOTE] blocks providing bootstrap alternatives for independent location or planetary body scenarios, avoiding Earth's suboptimal decisions",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0011-global-manufacturing-civilizational-record",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.002",
+          "text": "Contains 20+ [SUBOPTIMAL] markers documenting major civilizational decision failures across energy, materials, supply chain, governance, and pollution domains",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0011-global-manufacturing-civilizational-record",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.004",
+          "text": "Covers 620 EJ/year primary energy consumption and approximately 90 billion tonnes/year raw material extraction as baseline Earth metrics",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0011-global-manufacturing-civilizational-record",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.007",
+          "text": "Phosphorus fertilizer section flagged as existential vulnerability given Morocco holds 73% of world phosphate reserves",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.0011-global-manufacturing-civilizational-record",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
     {
       "id": "concept.adr-0008-meta-synchronic-teleoethics-2c-framework",
       "title": "ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework",
@@ -130,6 +527,72 @@
       ]
     },
     {
+      "id": "concept.bootstrap",
+      "title": "Bootstrap",
+      "kind": "concept",
+      "path": "concepts/bootstrap.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Bootstrap planning begins from first principles to design minimal viable industrial capability for a community",
+          "status": "active",
+          "confidence": 0.8,
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "evidence": [],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "concept.industrial-capacity",
+      "title": "Industrial Capacity",
+      "kind": "concept",
+      "path": "concepts/industrial-capacity.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Industrial capacity refers to the total manufacturing output, workforce, energy consumption, and raw material throughput of a defined industrial system",
+          "status": "active",
+          "confidence": 0.8,
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "evidence": [],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
       "id": "concept.karpathy-llm-wiki",
       "title": "Karpathy LLM Wiki Pattern",
       "kind": "concept",
@@ -151,6 +614,39 @@
       "lastTouchedAt": "2026-05-07",
       "claimCount": 0,
       "topClaims": []
+    },
+    {
+      "id": "concept.regen-tech",
+      "title": "Regenerative Technology",
+      "kind": "concept",
+      "path": "concepts/regen-tech.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.001",
+          "text": "Regenerative technology encompasses systems and infrastructure designed to restore, sustain, and enhance ecological and social systems rather than merely minimizing harm",
+          "status": "active",
+          "confidence": 0.8,
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "evidence": [],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
     },
     {
       "id": "concept.topic-57-mst-polcompball-egafutura",
@@ -359,7 +855,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "lastTouchedAt": "2026-05-07T12:38:47.831Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -378,7 +874,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T12:47:30.210Z",
+      "lastTouchedAt": "2026-05-07T12:49:01.433Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -491,7 +987,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-07T11:08:30.549Z",
+      "lastTouchedAt": "2026-05-07T12:49:01.433Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -593,6 +1089,69 @@
       "pageType": "source",
       "entityType": "source",
       "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.goertzel-algorithmic-chemistry-agi",
+      "title": "Ben Goertzel — Algorithmic Chemistry for AGI",
+      "kind": "source",
+      "path": "sources/0009-goertzel-algorithmic-chemistry-agi.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0010-global-manufacturing-capacity-report",
+      "title": "Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction",
+      "kind": "source",
+      "path": "sources/0010-global-manufacturing-capacity-report.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.95,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.0011-global-manufacturing-civilizational-record",
+      "title": "Global Manufacturing Capacity — Complete Civilizational Record",
+      "kind": "source",
+      "path": "sources/0011-global-manufacturing-civilizational-record.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.95,
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-07",
       "claimCount": 0,
