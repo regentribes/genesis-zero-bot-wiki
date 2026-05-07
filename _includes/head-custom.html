@@ -1,16 +1,7 @@
 <!-- Dark/light theme toggle for Genesis wiki -->
 <style>
-:root {
-  --wiki-bg: #ffffff;
-  --wiki-text: #212529;
-  --wiki-heading: #1a1a2e;
-  --wiki-link: #2d6a4f;
-  --wiki-border: #dee2e6;
-  --wiki-nav-bg: #f8f9fa;
-  --wiki-code-bg: #f4f4f4;
-  --wiki-code-text: #c7254e;
-}
-body.dark, body:not(.light) {
+/* Theme variables — dark is DEFAULT */
+:root, body:not(.light) {
   --wiki-bg: #0d1117;
   --wiki-text: #e6edf3;
   --wiki-heading: #f0f6fc;
@@ -19,49 +10,96 @@ body.dark, body:not(.light) {
   --wiki-nav-bg: #161b22;
   --wiki-code-bg: #1e1e1e;
   --wiki-code-text: #f97583;
+  --wiki-btn-bg: #21262d;
+  --wiki-btn-border: #30363d;
+}
+body.light {
+  --wiki-bg: #ffffff;
+  --wiki-text: #212529;
+  --wiki-heading: #1a1a2e;
+  --wiki-link: #2d6a4f;
+  --wiki-border: #dee2e6;
+  --wiki-nav-bg: #f8f9fa;
+  --wiki-code-bg: #f4f4f4;
+  --wiki-code-text: #c7254e;
+  --wiki-btn-bg: #f6f8fa;
+  --wiki-btn-border: #d0d7de;
 }
 body {
   background: var(--wiki-bg);
   color: var(--wiki-text);
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.25s ease, color 0.25s ease;
 }
 h1,h2,h3,h4,h5,h6 { color: var(--wiki-heading); }
 a { color: var(--wiki-link); }
-.site-header { background: var(--wiki-nav-bg) !important; border-bottom: 1px solid var(--wiki-border) !important; }
+.site-header { background: var(--wiki-nav-bg) !important; border-bottom: 1px solid var(--wiki-border) !important; transition: background 0.25s ease; }
 .site-header h1 a, .site-header .site-title { color: var(--wiki-heading) !important; }
-.site-footer { border-top: 1px solid var(--wiki-border); }
+.site-footer { border-top: 1px solid var(--wiki-border); background: var(--wiki-nav-bg); }
 .page-link { color: var(--wiki-link) !important; }
 .site-nav .trigger { background: var(--wiki-nav-bg); }
 .site-nav li { border-bottom: 1px solid var(--wiki-border); }
 hr { border-color: var(--wiki-border); }
 code, .highlight { background: var(--wiki-code-bg) !important; }
 code { color: var(--wiki-code-text); }
-pre { background: #1e1e1e !important; color: #d4d4d4; }
+pre { background: var(--wiki-code-bg) !important; color: #d4d4d4; }
 pre code { background: transparent !important; color: inherit; }
 blockquote { border-color: var(--wiki-link); color: var(--wiki-text); opacity: 0.85; }
 th { background: var(--wiki-nav-bg); color: var(--wiki-heading); }
 td, tr { border-color: var(--wiki-border); }
 table { border-color: var(--wiki-border); }
+.site-nav { background: var(--wiki-nav-bg); }
+.nav-trigger:checked ~ .trigger { background: var(--wiki-nav-bg); }
+
+/* Theme toggle button */
+.theme-btn {
+  background: var(--wiki-btn-bg);
+  border: 1px solid var(--wiki-btn-border);
+  color: var(--wiki-text);
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 2px 8px;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+.theme-btn:hover {
+  background: var(--wiki-border);
+}
 </style>
 <script>
 (function(){
-  function applyTheme(cls){
-    document.body.className = cls || '';
-    document.body.classList.add(cls === 'light' ? 'light' : 'dark');
+  var STORAGE_KEY = 'wiki-theme';
+
+  function getTheme(){
+    var saved = localStorage.getItem(STORAGE_KEY);
+    if(saved === 'light' || saved === 'dark') return saved;
+    // Default to dark for new visitors
+    return 'dark';
   }
-  function toggle(){
+
+  function applyTheme(theme){
+    var body = document.body;
+    // Remove both theme classes cleanly
+    body.classList.remove('dark', 'light');
+    // Force reflow to ensure CSS vars update
+    void body.offsetHeight;
+    // Add the target theme class
+    body.classList.add(theme);
+  }
+
+  function toggleTheme(){
     var isDark = document.body.classList.contains('dark');
     var next = isDark ? 'light' : 'dark';
-    document.body.className = next;
-    localStorage.setItem('wiki-theme', next);
+    applyTheme(next);
+    localStorage.setItem(STORAGE_KEY, next);
   }
+
+  // Expose globally for the button onclick
+  window.toggleWikiTheme = toggleTheme;
+
+  // Apply saved/system theme immediately (before first paint via inline script position)
   document.addEventListener('DOMContentLoaded', function(){
-    var saved = localStorage.getItem('wiki-theme');
-    if(saved){ document.body.className=saved; return; }
-    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-      document.body.className='dark';
-    } else { document.body.className='light'; }
+    applyTheme(getTheme());
   });
-  window.toggleWikiTheme = toggle;
 })();
 </script>
