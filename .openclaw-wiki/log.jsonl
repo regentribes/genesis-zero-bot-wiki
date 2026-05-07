@@ -125,3 +125,4 @@
 {"type":"compile","timestamp":"2026-05-07T11:08:30.594Z","details":{"pageCounts":{"entity":2,"concept":3,"source":3,"synthesis":0,"report":10},"updatedFiles":["sources/0008-meta-synchronic-teleoethics-2c-framework.md","concepts/adr-0008-meta-synchronic-teleoethics-2c-framework.md","reports/provenance-coverage.md",".openclaw-wiki/cache/agent-digest.json",".openclaw-wiki/cache/claims.jsonl","index.md","sources/index.md","concepts/index.md"]}}
 {"type":"lint","timestamp":"2026-05-07T11:08:30.597Z","details":{"issueCount":5,"reportPath":"reports/lint.md"}}
 {"type":"lint","timestamp":"2026-05-07T11:09:17.341Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T11:32:23.068Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
