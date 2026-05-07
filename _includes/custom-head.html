@@ -1,7 +1,7 @@
-<!-- Theme: dark default, pure B&W OLED, ebook-optimized — injected by minima -->
+<!-- Theme: dark default, ebook-optimized serif, inline --bg override — injected by minima -->
 <style>
-/* ── Dark: #0d1117 (GitHub dark, same as ADR) ── */
-:root, body:not(.light) {
+/* ── Base: dark (default) ── */
+:root {
   --wiki-bg: #0d1117;
   --wiki-text: #e6edf3;
   --wiki-heading: #f0f6fc;
@@ -21,7 +21,7 @@
   font-size: 17px;
   line-height: 1.8;
 }
-/* ── Light: pure white e-ink ── */
+/* ── Light override ── */
 body.light {
   --wiki-bg: #ffffff;
   --wiki-text: #1a1a1a;
@@ -179,23 +179,74 @@ tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
 <script>
 (function(){
   var STORAGE_KEY = 'wiki-theme';
+  var DARK_VARS = [
+    ['--wiki-bg', '#0d1117'],
+    ['--wiki-text', '#e6edf3'],
+    ['--wiki-heading', '#f0f6fc'],
+    ['--wiki-link', '#52b788'],
+    ['--wiki-link-hover', '#74c69d'],
+    ['--wiki-border', '#30363d'],
+    ['--wiki-nav-bg', '#161b22'],
+    ['--wiki-code-bg', '#1e1e1e'],
+    ['--wiki-code-text', '#f97583'],
+    ['--wiki-btn-bg', '#21262d'],
+    ['--wiki-btn-border', '#30363d'],
+    ['--wiki-table-header-bg', '#161b22'],
+    ['--wiki-table-header-text', '#f0f6fc'],
+    ['--wiki-table-row-alt', '#0d1117'],
+    ['--wiki-table-row-hover', '#1c2128']
+  ];
+  var LIGHT_VARS = [
+    ['--wiki-bg', '#ffffff'],
+    ['--wiki-text', '#1a1a1a'],
+    ['--wiki-heading', '#000000'],
+    ['--wiki-link', '#2d6a4f'],
+    ['--wiki-link-hover', '#1b4332'],
+    ['--wiki-border', '#dee2e6'],
+    ['--wiki-nav-bg', '#f8f9fa'],
+    ['--wiki-code-bg', '#f4f4f4'],
+    ['--wiki-code-text', '#c7254e'],
+    ['--wiki-btn-bg', '#f0f0f0'],
+    ['--wiki-btn-border', '#d0d7de'],
+    ['--wiki-table-header-bg', '#f0f0f0'],
+    ['--wiki-table-header-text', '#000000'],
+    ['--wiki-table-row-alt', '#fafafa'],
+    ['--wiki-table-row-hover', '#f0f0f0']
+  ];
+
   function getTheme(){
     var s = localStorage.getItem(STORAGE_KEY);
     if(s === 'light' || s === 'dark') return s;
     return 'dark';
   }
+
+  function applyVars(theme){
+    var vars = theme === 'light' ? LIGHT_VARS : DARK_VARS;
+    var body = document.body;
+    for(var i = 0; i < vars.length; i++){
+      body.style.setProperty(vars[i][0], vars[i][1]);
+      document.documentElement.style.setProperty(vars[i][0], vars[i][1]);
+    }
+  }
+
   function applyTheme(theme){
     var body = document.body;
     body.classList.remove('dark', 'light');
     void body.offsetHeight;
     body.classList.add(theme);
+    applyVars(theme);
   }
+
   function toggleTheme(){
     var isDark = document.body.classList.contains('dark');
     applyTheme(isDark ? 'light' : 'dark');
     localStorage.setItem(STORAGE_KEY, isDark ? 'light' : 'dark');
   }
+
   window.toggleWikiTheme = toggleTheme;
-  document.addEventListener('DOMContentLoaded', function(){ applyTheme(getTheme()); });
+
+  document.addEventListener('DOMContentLoaded', function(){
+    applyTheme(getTheme());
+  });
 })();
 </script>
