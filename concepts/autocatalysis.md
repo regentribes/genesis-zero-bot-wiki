@@ -28,7 +28,7 @@ In regenerative systems thinking, autocatalysis maps to any positive feedback lo
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Bootstrap](/concepts/bootstrap.html)
-- [Hyperon](/concepts/hyperon.html)
-- [Morphic Resonance](/concepts/morphic-resonance.html)
+- [Bootstrap](/genesis-zero-bot-wiki/concepts/bootstrap.html)
+- [Hyperon](/genesis-zero-bot-wiki/concepts/hyperon.html)
+- [Morphic Resonance](/genesis-zero-bot-wiki/concepts/morphic-resonance.html)
 <!-- openclaw:wiki:related:end -->

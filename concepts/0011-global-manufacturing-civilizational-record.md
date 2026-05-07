@@ -98,7 +98,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [View source](/sources/0011-global-manufacturing-civilizational-record.html)
+**Source:** [View source](/genesis-zero-bot-wiki/sources/0011-global-manufacturing-civilizational-record.html)
 
 ## Key Claims
 
@@ -134,19 +134,19 @@ The [REBOOT NOTE] sections are particularly valuable for community-scale plannin
 
 ## See Also
 
-- [Source — Full content](/sources/0011-global-manufacturing-civilizational-record.html)
-- [Bootstrap](/concepts/bootstrap.html)
-- [Industrial Capacity](/concepts/industrial-capacity.html)
-- [Regenerative Technology](/concepts/regen-tech.html)
-- [Semiconductor Manufacturing](/concepts/semiconductor-manufacturing.html)
+- [Source — Full content](/genesis-zero-bot-wiki/sources/0011-global-manufacturing-civilizational-record.html)
+- [Bootstrap](/genesis-zero-bot-wiki/concepts/bootstrap.html)
+- [Industrial Capacity](/genesis-zero-bot-wiki/concepts/industrial-capacity.html)
+- [Regenerative Technology](/genesis-zero-bot-wiki/concepts/regen-tech.html)
+- [Semiconductor Manufacturing](/genesis-zero-bot-wiki/concepts/semiconductor-manufacturing.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Global Manufacturing Capacity — Complete Civilizational Record](/sources/0011-global-manufacturing-civilizational-record.html)
+- [Global Manufacturing Capacity — Complete Civilizational Record](/genesis-zero-bot-wiki/sources/0011-global-manufacturing-civilizational-record.html)
 
 ### Related Pages
 
-- [Semiconductor Manufacturing](/concepts/semiconductor-manufacturing.html)
+- [Semiconductor Manufacturing](/genesis-zero-bot-wiki/concepts/semiconductor-manufacturing.html)
 <!-- openclaw:wiki:related:end -->

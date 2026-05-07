@@ -75,7 +75,7 @@ relatedSources:
 **Status:** proposed  
 **Date:** 2026-05-07  
 **Full document:** adr-0008-meta-synchronic-teleoethics-2c-framework.md  
-**Source:** [Source page](/sources/0008-meta-synchronic-teleoethics-2c-framework.html)
+**Source:** [Source page](/genesis-zero-bot-wiki/sources/0008-meta-synchronic-teleoethics-2c-framework.html)
 
 ## Key Decisions
 
@@ -101,5 +101,5 @@ relatedSources:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework](/sources/0008-meta-synchronic-teleoethics-2c-framework.html)
+- [ADR 0008 — 2C$ Meta-Synchronic Teleoethics Framework](/genesis-zero-bot-wiki/sources/0008-meta-synchronic-teleoethics-2c-framework.html)
 <!-- openclaw:wiki:related:end -->

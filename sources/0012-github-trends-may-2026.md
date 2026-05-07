@@ -155,7 +155,7 @@ Two financial AI agent projects trended:
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Agent Skills](/concepts/agent-skills.html)
-- [AI Agents](/concepts/ai-agents.html)
-- [MCP — Model Context Protocol](/concepts/mcp-model-context-protocol.html)
+- [Agent Skills](/genesis-zero-bot-wiki/concepts/agent-skills.html)
+- [AI Agents](/genesis-zero-bot-wiki/concepts/ai-agents.html)
+- [MCP — Model Context Protocol](/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html)
 <!-- openclaw:wiki:related:end -->

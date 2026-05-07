@@ -105,6 +105,6 @@ The presenter indicated subsequent videos would cover:
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Ostrom Commons Governance](/concepts/ostrom-commons-governance.html)
-- [Peter Joseph Integral and Common Ground Teheno](/concepts/0013-peter-joseph-integral-common-ground.html)
+- [Ostrom Commons Governance](/genesis-zero-bot-wiki/concepts/ostrom-commons-governance.html)
+- [Peter Joseph Integral and Common Ground Teheno](/genesis-zero-bot-wiki/concepts/0013-peter-joseph-integral-common-ground.html)
 <!-- openclaw:wiki:related:end -->

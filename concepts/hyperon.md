@@ -31,7 +31,7 @@ OpenCog's neural-symbolic AI substrate — a framework for building AI systems t
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Autocatalysis](/concepts/autocatalysis.html)
-- [Bootstrap](/concepts/bootstrap.html)
-- [Morphic Resonance](/concepts/morphic-resonance.html)
+- [Autocatalysis](/genesis-zero-bot-wiki/concepts/autocatalysis.html)
+- [Bootstrap](/genesis-zero-bot-wiki/concepts/bootstrap.html)
+- [Morphic Resonance](/genesis-zero-bot-wiki/concepts/morphic-resonance.html)
 <!-- openclaw:wiki:related:end -->

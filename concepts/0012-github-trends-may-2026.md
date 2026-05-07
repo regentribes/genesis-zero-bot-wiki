@@ -61,14 +61,14 @@ tags:
 ## Relations
 
 ### relatedConcepts
-- [ai-agents](/concepts/ai-agents.html) — Parent concept; AI agents are the dominant paradigm
-- [agent-skills](/concepts/agent-skills.html) — New software artifact category emerging from this trend
-- [mcp-model-context-protocol](/concepts/mcp-model-context-protocol.html) — Critical infrastructure protocol for AI agent tool integration
+- [ai-agents](/genesis-zero-bot-wiki/concepts/ai-agents.html) — Parent concept; AI agents are the dominant paradigm
+- [agent-skills](/genesis-zero-bot-wiki/concepts/agent-skills.html) — New software artifact category emerging from this trend
+- [mcp-model-context-protocol](/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html) — Critical infrastructure protocol for AI agent tool integration
 - **rust-language** *(concept page pending — see Rust language ecosystem)* — Infrastructure language for AI agent ecosystem
 - **developer-tools** *(concept page pending — category shift from "for developers" to "for AI agents")* — Category shift from "for developers" to "for AI agents"
 
 ### relatedSources
-- [GitHub Trends May 2026 Source](/sources/0012-github-trends-may-2026.html) — Primary source document
+- [GitHub Trends May 2026 Source](/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html) — Primary source document
 
 ---
 

@@ -45,7 +45,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [View source](/sources/0013-peter-joseph-integral-common-ground.html)
+**Source:** [View source](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
 
 ## Key Claims
 
@@ -69,16 +69,16 @@ These principles emerged from studying thousands of real-world commons that succ
 
 ## See Also
 
-- [Source — Peter Joseph Integral and Common Ground](/sources/0013-peter-joseph-integral-common-ground.html)
-- [Peter Joseph Integral and Common Ground](/concepts/0013-peter-joseph-integral-common-ground.html)
+- [Source — Peter Joseph Integral and Common Ground](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
+- [Peter Joseph Integral and Common Ground](/genesis-zero-bot-wiki/concepts/0013-peter-joseph-integral-common-ground.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Peter Joseph Integral and Common Ground Teheno](/sources/0013-peter-joseph-integral-common-ground.html)
+- [Peter Joseph Integral and Common Ground Teheno](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
 
 ### Related Pages
 
-- [Peter Joseph Integral and Common Ground Teheno](/concepts/0013-peter-joseph-integral-common-ground.html)
+- [Peter Joseph Integral and Common Ground Teheno](/genesis-zero-bot-wiki/concepts/0013-peter-joseph-integral-common-ground.html)
 <!-- openclaw:wiki:related:end -->

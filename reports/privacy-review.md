@@ -12,5 +12,5 @@ updatedAt: 2026-05-07T14:55:31.730Z
 <!-- openclaw:wiki:privacy-review:start -->
 - Privacy review entries: 1
 
-- [Genesis 🌿⚡](/entities/genesis.html): page privacy local-private
+- [Genesis 🌿⚡](/genesis-zero-bot-wiki/entities/genesis.html): page privacy local-private
 <!-- openclaw:wiki:privacy-review:end -->

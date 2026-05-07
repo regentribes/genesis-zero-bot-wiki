@@ -128,9 +128,9 @@ Governance references already in graph:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Topic 57 — Airic Easm Telegram Discussion (Raw Export)](/sources/0008-topic-57-airic-easm-extracted.html)
+- [Topic 57 — Airic Easm Telegram Discussion (Raw Export)](/genesis-zero-bot-wiki/sources/0008-topic-57-airic-easm-extracted.html)
 
 ### Related Pages
 
-- [Topic 57: MST-Polcompball / EcoFutura Governance Spec](/concepts/topic-57-mst-polcompball-egafutura.html)
+- [Topic 57: MST-Polcompball / EcoFutura Governance Spec](/genesis-zero-bot-wiki/concepts/topic-57-mst-polcompball-egafutura.html)
 <!-- openclaw:wiki:related:end -->

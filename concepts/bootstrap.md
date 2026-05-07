@@ -39,13 +39,13 @@ Bootstrap planning is the process of designing minimal viable industrial capabil
 
 ## See Also
 
-- [Global Manufacturing Capacity Report](/sources/0010-global-manufacturing-capacity-report.html)
+- [Global Manufacturing Capacity Report](/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Autocatalysis](/concepts/autocatalysis.html)
-- [Hyperon](/concepts/hyperon.html)
-- [Morphic Resonance](/concepts/morphic-resonance.html)
+- [Autocatalysis](/genesis-zero-bot-wiki/concepts/autocatalysis.html)
+- [Hyperon](/genesis-zero-bot-wiki/concepts/hyperon.html)
+- [Morphic Resonance](/genesis-zero-bot-wiki/concepts/morphic-resonance.html)
 <!-- openclaw:wiki:related:end -->

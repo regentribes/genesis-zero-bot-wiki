@@ -79,7 +79,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [View source](/sources/0009-goertzel-algorithmic-chemistry-agi.html)
+**Source:** [View source](/genesis-zero-bot-wiki/sources/0009-goertzel-algorithmic-chemistry-agi.html)
 
 ## Key Claims
 
@@ -92,14 +92,14 @@ relatedSources:
 
 ## See Also
 
-- [Source — Full transcript](/sources/0009-goertzel-algorithmic-chemistry-agi.html)
-- [Autocatalysis](/concepts/autocatalysis.html)
-- [Morphic Resonance](/concepts/morphic-resonance.html)
-- [Hyperon](/concepts/hyperon.html)
+- [Source — Full transcript](/genesis-zero-bot-wiki/sources/0009-goertzel-algorithmic-chemistry-agi.html)
+- [Autocatalysis](/genesis-zero-bot-wiki/concepts/autocatalysis.html)
+- [Morphic Resonance](/genesis-zero-bot-wiki/concepts/morphic-resonance.html)
+- [Hyperon](/genesis-zero-bot-wiki/concepts/hyperon.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Ben Goertzel — Algorithmic Chemistry for AGI](/sources/0009-goertzel-algorithmic-chemistry-agi.html)
+- [Ben Goertzel — Algorithmic Chemistry for AGI](/genesis-zero-bot-wiki/sources/0009-goertzel-algorithmic-chemistry-agi.html)
 <!-- openclaw:wiki:related:end -->

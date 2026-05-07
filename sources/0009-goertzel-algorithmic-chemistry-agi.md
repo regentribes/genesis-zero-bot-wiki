@@ -119,5 +119,5 @@ After singularity, humans will not be the best problem solvers. The work matters
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [Algorithmic Chemistry for AGI](/concepts/0009-algorithmic-chemistry-agi.html)
+- [Algorithmic Chemistry for AGI](/genesis-zero-bot-wiki/concepts/0009-algorithmic-chemistry-agi.html)
 <!-- openclaw:wiki:related:end -->

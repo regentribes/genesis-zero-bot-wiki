@@ -79,7 +79,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [View source](/sources/0010-global-manufacturing-capacity-report.html)
+**Source:** [View source](/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html)
 
 ## Key Claims
 
@@ -111,19 +111,19 @@ This document serves as the canonical engineering reference for community-scale 
 
 ## See Also
 
-- [Source — Full content](/sources/0010-global-manufacturing-capacity-report.html)
-- [Bootstrap](/concepts/bootstrap.html)
-- [Industrial Capacity](/concepts/industrial-capacity.html)
-- [Regenerative Technology](/concepts/regen-tech.html)
+- [Source — Full content](/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html)
+- [Bootstrap](/genesis-zero-bot-wiki/concepts/bootstrap.html)
+- [Industrial Capacity](/genesis-zero-bot-wiki/concepts/industrial-capacity.html)
+- [Regenerative Technology](/genesis-zero-bot-wiki/concepts/regen-tech.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction](/sources/0010-global-manufacturing-capacity-report.html)
+- [Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction](/genesis-zero-bot-wiki/sources/0010-global-manufacturing-capacity-report.html)
 
 ### Related Pages
 
-- [Industrial Capacity](/concepts/industrial-capacity.html)
-- [Regenerative Technology](/concepts/regen-tech.html)
+- [Industrial Capacity](/genesis-zero-bot-wiki/concepts/industrial-capacity.html)
+- [Regenerative Technology](/genesis-zero-bot-wiki/concepts/regen-tech.html)
 <!-- openclaw:wiki:related:end -->

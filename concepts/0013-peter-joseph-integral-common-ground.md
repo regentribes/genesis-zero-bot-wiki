@@ -71,7 +71,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [View source](/sources/0013-peter-joseph-integral-common-ground.html)
+**Source:** [View source](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
 
 ## Key Claims
 
@@ -101,17 +101,17 @@ The seven design patterns in ADR 0013 directly inform the bootstrap architecture
 
 ## See Also
 
-- [Source — Full transcript synthesis](/sources/0013-peter-joseph-integral-common-ground.html)
-- [Ostrom Commons Governance](/concepts/ostrom-commons-governance.html)
+- [Source — Full transcript synthesis](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
+- [Ostrom Commons Governance](/genesis-zero-bot-wiki/concepts/ostrom-commons-governance.html)
 - [ADR 0013 — Post-Monetary Federated Commons](https://regentribes.github.io/genesis-zero-bot-adrs/adr-0013.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Peter Joseph Integral and Common Ground Teheno](/sources/0013-peter-joseph-integral-common-ground.html)
+- [Peter Joseph Integral and Common Ground Teheno](/genesis-zero-bot-wiki/sources/0013-peter-joseph-integral-common-ground.html)
 
 ### Related Pages
 
-- [Ostrom Commons Governance](/concepts/ostrom-commons-governance.html)
+- [Ostrom Commons Governance](/genesis-zero-bot-wiki/concepts/ostrom-commons-governance.html)
 <!-- openclaw:wiki:related:end -->

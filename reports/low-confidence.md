@@ -14,5 +14,5 @@ updatedAt: 2026-05-07T14:55:31.730Z
 - Low-confidence claims: 0
 
 ### Pages
-- [Morphic Resonance](/concepts/morphic-resonance.html): confidence 0.40
+- [Morphic Resonance](/genesis-zero-bot-wiki/concepts/morphic-resonance.html): confidence 0.40
 <!-- openclaw:wiki:low-confidence:end -->

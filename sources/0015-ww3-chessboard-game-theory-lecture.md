@@ -141,11 +141,11 @@ These four worldviews are not in conflict with each other in their own terms. Ea
 
 ## See Also
 
-- [Concept — WWIII Grand Strategies Summary](/concepts/0015-ww3-chessboard-grand-strategies.html)
+- [Concept — WWIII Grand Strategies Summary](/genesis-zero-bot-wiki/concepts/0015-ww3-chessboard-grand-strategies.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [WWIII Grand Strategies — Four Nations](/concepts/0015-ww3-chessboard-grand-strategies.html)
+- [WWIII Grand Strategies — Four Nations](/genesis-zero-bot-wiki/concepts/0015-ww3-chessboard-grand-strategies.html)
 <!-- openclaw:wiki:related:end -->

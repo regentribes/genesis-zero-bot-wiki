@@ -39,7 +39,7 @@ relatedSources:
 
 **Status:** active
 **Date:** 2026-05-07
-**Source:** [View source](/sources/0012-github-trends-may-2026.html)
+**Source:** [View source](/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html)
 
 ## Key Claims
 
@@ -56,18 +56,18 @@ Key enablers:
 
 ## See Also
 
-- [GitHub Trends May 2026 Source](/sources/0012-github-trends-may-2026.html)
-- [Agent Skills](/concepts/agent-skills.html)
-- [MCP — Model Context Protocol](/concepts/mcp-model-context-protocol.html)
+- [GitHub Trends May 2026 Source](/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html)
+- [Agent Skills](/genesis-zero-bot-wiki/concepts/agent-skills.html)
+- [MCP — Model Context Protocol](/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html)
 
 ## Related
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [GitHub Trends Weekly Report — May 1-7, 2026](/sources/0012-github-trends-may-2026.html)
+- [GitHub Trends Weekly Report — May 1-7, 2026](/genesis-zero-bot-wiki/sources/0012-github-trends-may-2026.html)
 
 ### Related Pages
 
-- [Agent Skills](/concepts/agent-skills.html)
-- [MCP — Model Context Protocol](/concepts/mcp-model-context-protocol.html)
+- [Agent Skills](/genesis-zero-bot-wiki/concepts/agent-skills.html)
+- [MCP — Model Context Protocol](/genesis-zero-bot-wiki/concepts/mcp-model-context-protocol.html)
 <!-- openclaw:wiki:related:end -->

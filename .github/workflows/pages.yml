@@ -43,17 +43,24 @@ jobs:
                   in_code = not in_code
                   lines.append(line)
                 elif not in_code:
-                  # [[/namespace/path|Label]] → [Label](/namespace/path.html)
-                  # Handles leading / inside wikilink brackets
+                  BASE = '/genesis-zero-bot-wiki'
+                  # [[/namespace/path|Label]] or [[namespace/path|Label]] → [Label](/genesis-zero-bot-wiki/namespace/path.html)
                   line = re.sub(
                     r'\[\[/?([^]|]+)\|([^\]]+)\]\]',
-                    lambda m: '[{0}](/{1}.html)'.format(m.group(2).strip(), m.group(1).strip().rstrip('/')),
+                    lambda m: '[{label}]({base}/{path}.html)'.format(
+                        label=m.group(2).strip(),
+                        base=BASE,
+                        path=m.group(1).strip().lstrip('/').rstrip('/')
+                    ),
                     line
                   )
-                  # [[/namespace/path]] or [[namespace/path]] → [namespace/path](/namespace/path.html)
+                  # [[/namespace/path]] or [[namespace/path]] → [namespace/path](/genesis-zero-bot-wiki/namespace/path.html)
                   line = re.sub(
                     r'\[\[/?([^]|]+)\]\]',
-                    lambda m: '[{0}](/{0}.html)'.format(m.group(1).strip().rstrip('/')),
+                    lambda m: '[{path}]({base}/{path}.html)'.format(
+                        path=m.group(1).strip().lstrip('/').rstrip('/'),
+                        base=BASE
+                    ),
                     line
                   )
                   lines.append(line)
