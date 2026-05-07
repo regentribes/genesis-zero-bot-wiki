@@ -24,7 +24,6 @@ exclude:
   - .openclaw-wiki/
   - .rumdl_cache/
   - _attachments/
-  - reports/
   - node_modules/
 
 # Redirects (for future URL changes)
