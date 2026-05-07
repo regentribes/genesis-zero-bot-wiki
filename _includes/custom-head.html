@@ -1,4 +1,4 @@
-<!-- Theme: compact nav, minimal vars, aligned to ADR style — injected by minima -->
+<!-- Theme: compact nav, ADR font sync, minimal vars — injected by minima -->
 <style>
 /* ── Base: dark (default) ── */
 :root {
@@ -17,8 +17,8 @@
 /* ── Light override ── */
 body.light {
   --wiki-bg: #ffffff;
-  --wiki-text: #1a1a1a;
-  --wiki-heading: #000000;
+  --wiki-text: #212529;
+  --wiki-heading: #1a1a2e;
   --wiki-link: #2d6a4f;
   --wiki-link-hover: #1b4332;
   --wiki-border: #dee2e6;
@@ -28,12 +28,12 @@ body.light {
   --wiki-muted: #6c757d;
 }
 *, *::before, *::after { box-sizing: border-box; }
-html { font-size: 17px; }
+html { font-size: 16px; }
 body {
   background: var(--wiki-bg);
   color: var(--wiki-text);
-  font-family: Georgia, 'Times New Roman', 'Book Antiqua', Palatino, serif;
-  line-height: 1.75;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
   transition: background 0.2s ease, color 0.2s ease;
@@ -65,14 +65,14 @@ body {
 }
 .site-title {
   color: var(--wiki-heading) !important;
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
   font-weight: 700;
   text-decoration: none !important;
   white-space: nowrap;
-  letter-spacing: -0.01em;
   flex-shrink: 0;
   margin-right: 1.25rem;
 }
+a.site-title:hover { text-decoration: none !important; color: var(--wiki-link-hover) !important; }
 
 /* ── Nav: compact horizontal ── */
 .site-nav {
@@ -107,7 +107,7 @@ body {
   padding: 4px 10px !important;
   border-radius: 4px;
   transition: background 0.15s, color 0.15s;
-  font-family: system-ui, -apple-system, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
   flex-shrink: 0;
 }
 .page-link:hover {
@@ -145,7 +145,7 @@ a:hover { color: var(--wiki-link-hover); text-decoration: underline; }
 .post-content h1 { font-size: 1.5rem; margin: 1.5rem 0 0.5rem; }
 .post-content h2 { font-size: 1.2rem; border-bottom: 1px solid var(--wiki-border); padding-bottom: 0.25rem; margin: 1.25rem 0 0.5rem; }
 .post-content h3 { font-size: 1rem; margin: 1rem 0 0.4rem; }
-.post-content p { margin: 0.6rem 0; }
+.post-content p { margin: 0.75rem 0; }
 
 /* ── Code ── */
 code {
@@ -153,9 +153,8 @@ code {
   color: var(--wiki-code-text) !important;
   border: none !important;
   padding: 1px 5px;
-  font-size: 0.875em;
+  font-size: 0.88em;
   font-family: 'Courier New', Courier, monospace;
-  border-radius: 3px;
 }
 .highlight, pre {
   background: var(--wiki-code-bg) !important;
@@ -175,7 +174,6 @@ blockquote {
   margin: 1rem 0;
   padding: 0.5rem 1rem;
   color: var(--wiki-text);
-  opacity: 0.9;
   background: var(--wiki-nav-bg);
   border-radius: 0 4px 4px 0;
 }
@@ -193,10 +191,7 @@ th {
   color: var(--wiki-heading) !important;
   border: 1px solid var(--wiki-border) !important;
   padding: 6px 12px;
-  font-weight: 700;
-  text-align: left;
-  font-size: 0.85em;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-weight: 600;
 }
 td {
   border: 1px solid var(--wiki-border) !important;
@@ -231,11 +226,10 @@ tbody tr:nth-child(even) td { background: var(--wiki-nav-bg); opacity: 0.5; }
   border: 1px solid var(--wiki-border) !important;
   padding: 1px 5px !important;
   font-size: 0.65em !important;
-  font-family: 'Courier New', monospace !important;
+  font-family: 'Courier New', Courier, monospace !important;
   text-decoration: none !important;
   border-radius: 3px;
   line-height: 1.4;
-  letter-spacing: 0.02em;
 }
 .tags a:hover { background: var(--wiki-border) !important; color: var(--wiki-link-hover) !important; }
 
@@ -262,9 +256,9 @@ tbody tr:nth-child(even) td { background: var(--wiki-nav-bg); opacity: 0.5; }
 .theme-btn:hover { background: var(--wiki-border); }
 
 /* ── Lists ── */
-ul, ol { padding-left: 1.25rem; margin: 0.5rem 0; }
-li { margin-bottom: 0.25rem; }
-hr { border: none; border-top: 1px solid var(--wiki-border); margin: 1.25rem 0; }
+ul, ol { padding-left: 1.5rem; margin: 0.75rem 0; }
+li { margin-bottom: 0.35rem; }
+hr { border: none; border-top: 1px solid var(--wiki-border); margin: 1.5rem 0; }
 
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -310,8 +304,8 @@ hr { border: none; border-top: 1px solid var(--wiki-border); margin: 1.25rem 0; 
   ];
   var LIGHT_VARS = [
     ['--wiki-bg', '#ffffff'],
-    ['--wiki-text', '#1a1a1a'],
-    ['--wiki-heading', '#000000'],
+    ['--wiki-text', '#212529'],
+    ['--wiki-heading', '#1a1a2e'],
     ['--wiki-link', '#2d6a4f'],
     ['--wiki-link-hover', '#1b4332'],
     ['--wiki-border', '#dee2e6'],
