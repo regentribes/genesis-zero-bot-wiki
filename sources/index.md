@@ -1,3 +1,11 @@
+---
+id: index.sources
+pageType: index
+title: "Sources Index"
+status: active
+updatedAt: "2026-05-07"
+---
+
 # Sources
 
 ## Architecture Decision Records

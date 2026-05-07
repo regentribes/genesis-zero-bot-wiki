@@ -1,3 +1,11 @@
+---
+id: system.agents
+pageType: system
+title: "AGENTS.md — Workspace"
+status: active
+updatedAt: "2026-05-07"
+---
+
 # Memory Wiki Agent Guide
 
 - Treat generated blocks as plugin-owned.

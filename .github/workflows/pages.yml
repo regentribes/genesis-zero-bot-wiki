@@ -1,0 +1,91 @@
+name: Build Wiki to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Convert Obsidian wikilinks → standard markdown
+        run: |
+          python3 << 'PYEOF'
+          import re
+          from pathlib import Path
+
+          for md_file in Path('.').rglob('*.md'):
+            skip_dirs = ['.git', '.openclaw-wiki', 'node_modules', '_attachments', '.github']
+            if any(s in str(md_file) for s in skip_dirs):
+              continue
+            try:
+              text = md_file.read_text(encoding='utf-8')
+              original = text
+
+              # Skip inside fenced code blocks
+              lines = []
+              in_code = False
+              for line in text.split('\n'):
+                if line.strip().startswith('```'):
+                  in_code = not in_code
+                  lines.append(line)
+                elif not in_code:
+                  # [[namespace/path|Display Text]] → [Display Text](namespace/path.html)
+                  # All wikilinks in this vault have dir prefix (sources/, concepts/, etc.)
+                  line = re.sub(
+                    r'\[\[([^\]|]+)\|([^\]]+)\]\]',
+                    lambda m: f'[{m.group(2)}]({m.group(1).strip()}.html)',
+                    line
+                  )
+                  # [[namespace/path]] → [namespace/path](namespace/path.html)
+                  line = re.sub(
+                    r'\[\[([^\]|]+)\]\]',
+                    lambda m: f'[{m.group(1).strip()}]({m.group(1).strip()}.html)',
+                    line
+                  )
+                  lines.append(line)
+                else:
+                  lines.append(line)
+
+              result = '\n'.join(lines)
+              if result != original:
+                md_file.write_text(result, encoding='utf-8')
+                print(f'  Converted: {md_file}')
+            except Exception as e:
+              print(f'  Error {md_file}: {e}')
+
+          print('Done.')
+          PYEOF
+
+      - name: Setup Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

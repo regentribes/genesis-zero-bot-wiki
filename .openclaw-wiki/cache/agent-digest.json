@@ -1,15 +1,15 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 9,
-    "source": 8,
+    "concept": 10,
+    "source": 10,
     "synthesis": 0,
     "report": 10
   },
-  "claimCount": 11,
+  "claimCount": 16,
   "claimHealth": {
     "freshness": {
-      "fresh": 11,
+      "fresh": 16,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -423,6 +423,115 @@
       ]
     },
     {
+      "id": "concept.topic-57-mst-polcompball-egafutura",
+      "title": "Topic 57: MST-Polcompball / EcoFutura Governance Spec",
+      "kind": "concept",
+      "path": "concepts/topic-57-mst-polcompball-egafutura.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.topic-57-airic-easm-extracted"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.topic57.mis-undefined",
+          "text": "Meme Influence Score algorithm is undefined — Egregore simulation cannot run without it",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.topic-57-airic-easm-extracted",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.topic57.backbone",
+          "text": "SBNFT (§59) + PoR verification (§62) are the backbone components of the MST-Polcompball/EcoFutura stack",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.topic-57-airic-easm-extracted",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.topic57.strongest-chapters",
+          "text": "Strongest chapters: §59 (SBNFT), §62 (Biome Verification), §69 (Reversing Incentives), §85 (First Nations DAO), §74 (Watershed Governance)",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.topic-57-airic-easm-extracted",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.topic57.gap-bridge",
+          "text": "Critical gap: no bridge between governance spec and existing live community projects (Holos, EcoHubs, Phoenix Farms)",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.topic-57-airic-easm-extracted",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        },
+        {
+          "id": "claim.topic57.us-entry-green-bonds",
+          "text": "Most realistic US entry point: Green Bonds + Proof-of-Regeneration for soil carbon (farmers, concrete metrics, low political friction)",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "source-doc",
+              "sourceId": "source.topic-57-airic-easm-extracted",
+              "privacyTier": "public"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-07"
+        }
+      ]
+    },
+    {
       "id": "entity.genesis",
       "title": "Genesis 🌿⚡",
       "kind": "entity",
@@ -652,7 +761,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T17:07:59.265Z",
+      "lastTouchedAt": "2026-05-07T07:29:19.996Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -690,7 +799,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T13:52:31.381Z",
+      "lastTouchedAt": "2026-05-07T07:29:56.305Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -843,6 +952,50 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-06T21:30:12.579Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.topic-57-airic-easm-extracted",
+      "title": "Topic 57 — Airic Easm Telegram Discussion (Raw Export)",
+      "kind": "source",
+      "path": "sources/0008-topic-57-airic-easm-extracted.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 1,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.topic-57-mst-polcompball-egafutura",
+      "title": "Topic 57 — MST-Polcompball / EcoFutura Governance Spec (Synthesized)",
+      "kind": "source",
+      "path": "sources/0008-topic-57-mst-polcompball-egafutura.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.topic-57-airic-easm-extracted"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "entityType": "source",
+      "confidence": 0.85,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
       "claimCount": 0,
       "topClaims": []
     }

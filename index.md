@@ -1,3 +1,11 @@
+---
+id: wiki.index
+pageType: index
+title: "Wiki Master Index"
+status: active
+updatedAt: "2026-05-07"
+---
+
 # Wiki Index
 
 ## Generated

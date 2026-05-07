@@ -1,3 +1,11 @@
+---
+id: system.wiki
+pageType: system
+title: "Wiki Documentation"
+status: active
+updatedAt: "2026-05-07"
+---
+
 # Memory Wiki
 
 This vault is maintained by the OpenClaw memory-wiki plugin.

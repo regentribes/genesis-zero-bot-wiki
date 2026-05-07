@@ -92,3 +92,14 @@
 {"type":"lint","timestamp":"2026-05-06T21:31:04.616Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
 {"type":"compile","timestamp":"2026-05-06T21:31:20.314Z","details":{"pageCounts":{"entity":2,"concept":9,"source":8,"synthesis":0,"report":10},"updatedFiles":["sources/index.md"]}}
 {"type":"lint","timestamp":"2026-05-06T21:31:23.653Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T07:28:48.793Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-07T07:29:20.073Z","details":{"pageCounts":{"entity":2,"concept":10,"source":9,"synthesis":0,"report":10},"updatedFiles":["sources/0008-topic-57-airic-easm-extracted.md","concepts/topic-57-mst-polcompball-egafutura.md","reports/stale-pages.md","reports/provenance-coverage.md",".openclaw-wiki/cache/agent-digest.json",".openclaw-wiki/cache/claims.jsonl","index.md","sources/index.md","concepts/index.md"]}}
+{"type":"lint","timestamp":"2026-05-07T07:29:23.692Z","details":{"issueCount":9,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-07T07:29:56.361Z","details":{"pageCounts":{"entity":2,"concept":10,"source":9,"synthesis":0,"report":10},"updatedFiles":["sources/0008-topic-57-airic-easm-extracted.md","concepts/topic-57-mst-polcompball-egafutura.md","reports/stale-pages.md",".openclaw-wiki/cache/agent-digest.json","index.md","sources/index.md"]}}
+{"type":"lint","timestamp":"2026-05-07T07:29:59.933Z","details":{"issueCount":6,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T07:30:40.338Z","details":{"issueCount":6,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T07:42:09.748Z","details":{"issueCount":6,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-05-07T07:47:19.655Z","details":{"pageCounts":{"entity":2,"concept":10,"source":10,"synthesis":0,"report":10},"updatedFiles":["sources/0008-topic-57-airic-easm-extracted.md","sources/0008-topic-57-mst-polcompball-egafutura.md","concepts/topic-57-mst-polcompball-egafutura.md",".openclaw-wiki/cache/agent-digest.json","index.md","sources/index.md"]}}
+{"type":"lint","timestamp":"2026-05-07T07:47:19.658Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T07:48:01.578Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-05-07T07:50:50.849Z","details":{"issueCount":0,"reportPath":"reports/lint.md"}}

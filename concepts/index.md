@@ -1,3 +1,11 @@
+---
+id: index.concepts
+pageType: index
+title: "Concepts Index"
+status: active
+updatedAt: "2026-05-07"
+---
+
 # Concepts
 
 ## Architecture Decision Records
