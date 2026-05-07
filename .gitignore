@@ -1,0 +1,18 @@
+# OpenClaw wiki cache (generated, per-session state)
+.openclaw-wiki/cache/
+.openclaw-wiki/log.jsonl
+
+# Rumdl lint cache
+.rumdl_cache/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# GitHub Pages output (we build to docs/ from this source)
+docs/
+
+# Temporary staging
+*.swp
+*.swo
+*~

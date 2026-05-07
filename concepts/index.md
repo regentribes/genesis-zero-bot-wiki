@@ -23,4 +23,5 @@
 - [[concepts/adr-0006-data-quality-governance-layer|ADR 0006 — Data Quality and Governance for Knowledge Layer]]
 - [[concepts/adr-0007-kabanov-continuous-attention-agi|ADR 0007 — Kabanov Continuous Attention AGI Model]]
 - [[concepts/karpathy-llm-wiki|Karpathy LLM Wiki Pattern]]
+- [[concepts/topic-57-mst-polcompball-egafutura|Topic 57: MST-Polcompball / EcoFutura Governance Spec]]
 <!-- openclaw:wiki:concepts:index:end -->

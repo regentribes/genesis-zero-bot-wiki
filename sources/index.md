@@ -23,4 +23,6 @@
 - [[sources/0005-rag-agent-memory-for-integral-stack|0005 rag agent memory for integral stack]]
 - [[sources/0006-data-quality-governance-layer|0006 data quality governance layer]]
 - [[sources/0007-kabanov-continuous-attention-agi|0007 kabanov continuous attention AGI]]
+- [[sources/0008-topic-57-airic-easm-extracted|Topic 57 — Airic Easm Telegram Discussion (Raw Export)]]
+- [[sources/0008-topic-57-mst-polcompball-egafutura|Topic 57 — MST-Polcompball / EcoFutura Governance Spec (Synthesized)]]
 <!-- openclaw:wiki:sources:index:end -->
