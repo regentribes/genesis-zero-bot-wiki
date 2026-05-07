@@ -3,12 +3,16 @@ pageType: report
 id: report.low-confidence
 title: Low Confidence
 status: active
-updatedAt: 2026-05-06T12:47:30.210Z
+updatedAt: 2026-05-07T13:07:37.916Z
 ---
 
 # Low Confidence
 
 ## Generated
 <!-- openclaw:wiki:low-confidence:start -->
-- No low-confidence pages or claims right now.
+- Low-confidence pages: 1
+- Low-confidence claims: 0
+
+### Pages
+- [[concepts/morphic-resonance|Morphic Resonance]]: confidence 0.40
 <!-- openclaw:wiki:low-confidence:end -->

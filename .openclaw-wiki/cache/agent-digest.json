@@ -1,7 +1,7 @@
 {
   "pageCounts": {
     "entity": 2,
-    "concept": 9,
+    "concept": 13,
     "source": 6,
     "synthesis": 0,
     "report": 10
@@ -527,6 +527,27 @@
       ]
     },
     {
+      "id": "concept.autocatalysis",
+      "title": "Autocatalysis",
+      "kind": "concept",
+      "path": "concepts/autocatalysis.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.7,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "concept.bootstrap",
       "title": "Bootstrap",
       "kind": "concept",
@@ -558,6 +579,27 @@
           "lastTouchedAt": "2026-05-07"
         }
       ]
+    },
+    {
+      "id": "concept.hyperon",
+      "title": "Hyperon",
+      "kind": "concept",
+      "path": "concepts/hyperon.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.7,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "id": "concept.industrial-capacity",
@@ -616,6 +658,27 @@
       "topClaims": []
     },
     {
+      "id": "concept.morphic-resonance",
+      "title": "Morphic Resonance",
+      "kind": "concept",
+      "path": "concepts/morphic-resonance.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.4,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "concept.regen-tech",
       "title": "Regenerative Technology",
       "kind": "concept",
@@ -647,6 +710,27 @@
           "lastTouchedAt": "2026-05-07"
         }
       ]
+    },
+    {
+      "id": "concept.semiconductor-manufacturing",
+      "title": "Semiconductor Manufacturing",
+      "kind": "concept",
+      "path": "concepts/semiconductor-manufacturing.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "entityType": "concept",
+      "confidence": 0.8,
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-07",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "id": "concept.topic-57-mst-polcompball-egafutura",
@@ -911,7 +995,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-06T12:47:30.210Z",
+      "lastTouchedAt": "2026-05-07T13:07:37.916Z",
       "claimCount": 0,
       "topClaims": []
     },
