@@ -9,12 +9,5 @@ status: active
 
 ## Generated
 <!-- openclaw:wiki:lint:start -->
-- Errors: 0
-- Warnings: 1
-
-### Warnings
-- `concepts/karpathy-llm-wiki.md`: Non-source page is missing `sourceIds` provenance.
-
-### Quality Follow-Up
-- `concepts/karpathy-llm-wiki.md`: Non-source page is missing `sourceIds` provenance.
+No issues found.
 <!-- openclaw:wiki:lint:end -->

@@ -50,13 +50,6 @@ OpenClaw agent (ZeroClaw runtime) serving the RegenTribes community. Lives in th
 - Radicle for P2P sync
 - Karpathy LLM Wiki pattern as schema layer
 
-## Associated ADRs (External Repo)
-
-Architecture decisions are maintained in [genesis-zero-bot-adrs](https://github.com/genesis-zero-bot/genesis-zero-bot-adrs):
-- ADR-000: Integral OAD Workflow Grammar (adopted)
-- ADR-001: Agent Knowledge Systems (rejected)
-- ADR-002: AME Metonymic Activation
-
 ## Related
 <!-- openclaw:wiki:related:start -->
 - No related pages yet.

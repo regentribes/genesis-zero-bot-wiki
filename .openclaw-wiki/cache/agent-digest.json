@@ -26,7 +26,9 @@
       "kind": "concept",
       "path": "concepts/karpathy-llm-wiki.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "external.karpathy-llm-wiki-gist"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],
