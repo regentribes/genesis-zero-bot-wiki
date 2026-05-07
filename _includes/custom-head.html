@@ -12,6 +12,10 @@
   --wiki-code-text: #f97583;
   --wiki-btn-bg: #21262d;
   --wiki-btn-border: #30363d;
+  --wiki-table-header-bg: #161b22;
+  --wiki-table-header-text: #f0f6fc;
+  --wiki-table-row-alt: #161b22;
+  --wiki-table-row-hover: #1c2128;
 }
 body.light {
   --wiki-bg: #ffffff;
@@ -24,6 +28,10 @@ body.light {
   --wiki-code-text: #c7254e;
   --wiki-btn-bg: #f6f8fa;
   --wiki-btn-border: #d0d7de;
+  --wiki-table-header-bg: #f8f9fa;
+  --wiki-table-header-text: #1a1a2e;
+  --wiki-table-row-alt: #f8f9fa;
+  --wiki-table-row-hover: #f0f4f8;
 }
 body {
   background: var(--wiki-bg);
@@ -44,26 +52,64 @@ code { color: var(--wiki-code-text); }
 pre { background: var(--wiki-code-bg) !important; color: #d4d4d4; }
 pre code { background: transparent !important; color: inherit; }
 blockquote { border-color: var(--wiki-link); color: var(--wiki-text); opacity: 0.85; }
-th { background: var(--wiki-nav-bg); color: var(--wiki-heading); }
-td, tr { border-color: var(--wiki-border); }
-table { border-color: var(--wiki-border); }
+
+/* Tables — consistent, clean styling */
+table {
+  border-collapse: collapse !important;
+  border: 1px solid var(--wiki-border) !important;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+th {
+  background: var(--wiki-table-header-bg) !important;
+  color: var(--wiki-table-header-text) !important;
+  border: 1px solid var(--wiki-border) !important;
+  padding: 10px 14px;
+  font-weight: 600;
+  text-align: left;
+}
+td {
+  border: 1px solid var(--wiki-border) !important;
+  padding: 8px 14px;
+  color: var(--wiki-text) !important;
+}
+/* Remove default minima zebra striping — use our theme colors */
+tr { background: var(--wiki-bg) !important; }
+/* Alt row only if not hovering — keep it subtle */
+tbody tr:nth-child(even) { background: var(--wiki-table-row-alt) !important; }
+/* Hover state */
+tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
+
 .site-nav { background: var(--wiki-nav-bg); }
 .nav-trigger:checked ~ .trigger { background: var(--wiki-nav-bg); }
 
-/* Theme toggle button */
+/* Theme toggle — floating at top-right edge, pill style */
 .theme-btn {
+  position: fixed;
+  top: 14px;
+  right: 18px;
+  z-index: 9999;
   background: var(--wiki-btn-bg);
   border: 1px solid var(--wiki-btn-border);
   color: var(--wiki-text);
-  border-radius: 6px;
-  font-size: 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
   cursor: pointer;
-  padding: 2px 8px;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-  flex-shrink: 0;
+  padding: 5px 14px;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  font-family: inherit;
+  letter-spacing: 0.05em;
 }
 .theme-btn:hover {
   background: var(--wiki-border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+body.light .theme-btn {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+body.light .theme-btn:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 </style>
 <script>
