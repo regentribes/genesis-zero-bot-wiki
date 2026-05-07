@@ -61,14 +61,14 @@ tags:
 ## Relations
 
 ### relatedConcepts
-- [[ai-agents]] — Parent concept; AI agents are the dominant paradigm
-- [[agent-skills]] — New software artifact category emerging from this trend
-- [[mcp-model-context-protocol]] — Critical infrastructure protocol for AI agent tool integration
-- [[rust-language]] — Infrastructure language for AI agent ecosystem
-- [[developer-tools]] — Category shift from "for developers" to "for AI agents"
+- **ai-agents** *(concept page pending)* — Parent concept; AI agents are the dominant paradigm
+- **agent-skills** *(concept page pending)* — New software artifact category emerging from this trend
+- **mcp-model-context-protocol** *(concept page pending)* — Critical infrastructure protocol for AI agent tool integration
+- **rust-language** *(concept page pending)* — Infrastructure language for AI agent ecosystem
+- **developer-tools** *(concept page pending)* — Category shift from "for developers" to "for AI agents"
 
 ### relatedSources
-- [[source.0012-github-trends-may-2026]] — Primary source document
+- [[sources/0012-github-trends-may-2026|GitHub Trends May 2026 Source]] — Primary source document
 
 ---
 

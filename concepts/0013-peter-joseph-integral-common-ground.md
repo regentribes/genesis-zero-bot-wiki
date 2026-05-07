@@ -102,7 +102,7 @@ The seven design patterns in ADR 0013 directly inform the bootstrap architecture
 ## See Also
 
 - [[sources/0013-peter-joseph-integral-common-ground|Source — Full transcript synthesis]]
-- [[concepts/ostrom-commons-governance|Ostrom Commons Governance]]
+- **Ostrom Commons Governance** *(concept page pending — see Elinor Ostrom's 8 principles for commons governance)*
 - [ADR 0013 — Post-Monetary Federated Commons](https://regentribes.github.io/genesis-zero-bot-adrs/adr-0013.html)
 
 ## Related
