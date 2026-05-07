@@ -120,7 +120,7 @@ This document serves as the canonical engineering reference for community-scale 
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report: Complete Technical Reference for Industrial Reproduction]]
 
 ### Related Pages
 

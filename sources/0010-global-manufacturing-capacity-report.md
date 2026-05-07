@@ -1,7 +1,7 @@
 ---
 id: source.0010-global-manufacturing-capacity-report
 pageType: source
-title: "Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction"
+title: "Global Manufacturing Capacity Report: Complete Technical Reference for Industrial Reproduction"
 canonicalPath: sources/0010-global-manufacturing-capacity-report.md
 sourceType: article
 entityType: source

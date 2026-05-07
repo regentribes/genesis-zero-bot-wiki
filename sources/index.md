@@ -20,7 +20,7 @@ updatedAt: "2026-05-07"
 - [[sources/0009-goertzel-algorithmic-chemistry-agi|Ben Goertzel: Algorithmic Chemistry for AGI]]
 - [[sources/0015-ww3-chessboard-game-theory-lecture|Game Theory 23: The WWIII Chessboard]]
 - [[sources/0012-github-trends-may-2026|GitHub Trends Weekly Report: May 1-7, 2026]]
-- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report — Complete Technical Reference for Industrial Reproduction]]
+- [[sources/0010-global-manufacturing-capacity-report|Global Manufacturing Capacity Report: Complete Technical Reference for Industrial Reproduction]]
 - [[sources/0011-global-manufacturing-civilizational-record|Global Manufacturing Capacity: Complete Civilizational Record]]
 - [[sources/0014-knowledge-work-physical-production-interdependence|Knowledge Work and Physical Production: Systemic Interdependence]]
 - [[sources/0017-mst-polcompball-egafutura-governance-spec|MST-Polcompball and EcoFutura Governance Synthesis]]

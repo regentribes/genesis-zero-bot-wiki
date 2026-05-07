@@ -33,7 +33,7 @@ relatedSources:
   - source.0012-github-trends-may-2026
 ---
 
-# MCP — Model Context Protocol
+# Model Context Protocol
 
 **Status:** active
 **Date:** 2026-05-07
