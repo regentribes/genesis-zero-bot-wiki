@@ -1,44 +1,46 @@
-<!-- Pure B&W OLED-optimized theme for Genesis wiki — e-ink / ebook compatible -->
+<!-- Theme: dark default, pure B&W OLED, ebook-optimized — injected by minima -->
 <style>
-/* ── Dark mode: pure black OLED ── */
+/* ── Dark: #0d1117 (GitHub dark, same as ADR) ── */
 :root, body:not(.light) {
-  --wiki-bg: #000000;
-  --wiki-text: #e8e8e8;
-  --wiki-heading: #ffffff;
-  --wiki-link: #a8d4ff;
-  --wiki-border: #333333;
-  --wiki-nav-bg: #000000;
-  --wiki-code-bg: #0a0a0a;
-  --wiki-code-text: #d0d0d0;
-  --wiki-btn-bg: #111111;
-  --wiki-btn-border: #444444;
-  --wiki-table-header-bg: #0a0a0a;
-  --wiki-table-header-text: #ffffff;
-  --wiki-table-row-alt: #080808;
-  --wiki-table-row-hover: #1a1a1a;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  --wiki-bg: #0d1117;
+  --wiki-text: #e6edf3;
+  --wiki-heading: #f0f6fc;
+  --wiki-link: #52b788;
+  --wiki-link-hover: #74c69d;
+  --wiki-border: #30363d;
+  --wiki-nav-bg: #161b22;
+  --wiki-code-bg: #1e1e1e;
+  --wiki-code-text: #f97583;
+  --wiki-btn-bg: #21262d;
+  --wiki-btn-border: #30363d;
+  --wiki-table-header-bg: #161b22;
+  --wiki-table-header-text: #f0f6fc;
+  --wiki-table-row-alt: #0d1117;
+  --wiki-table-row-hover: #1c2128;
+  font-family: Georgia, 'Times New Roman', 'Book Antiqua', Palatino, serif;
   font-size: 17px;
-  line-height: 1.75;
+  line-height: 1.8;
 }
-/* ── Light mode: pure white e-ink ── */
+/* ── Light: pure white e-ink ── */
 body.light {
   --wiki-bg: #ffffff;
   --wiki-text: #1a1a1a;
   --wiki-heading: #000000;
-  --wiki-link: #1a3a6b;
-  --wiki-border: #cccccc;
-  --wiki-nav-bg: #ffffff;
-  --wiki-code-bg: #f5f5f5;
-  --wiki-code-text: #333333;
+  --wiki-link: #2d6a4f;
+  --wiki-link-hover: #1b4332;
+  --wiki-border: #dee2e6;
+  --wiki-nav-bg: #f8f9fa;
+  --wiki-code-bg: #f4f4f4;
+  --wiki-code-text: #c7254e;
   --wiki-btn-bg: #f0f0f0;
-  --wiki-btn-border: #bbbbbb;
+  --wiki-btn-border: #d0d7de;
   --wiki-table-header-bg: #f0f0f0;
   --wiki-table-header-text: #000000;
   --wiki-table-row-alt: #fafafa;
   --wiki-table-row-hover: #f0f0f0;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', 'Book Antiqua', Palatino, serif;
   font-size: 17px;
-  line-height: 1.75;
+  line-height: 1.8;
 }
 body {
   background: var(--wiki-bg);
@@ -50,32 +52,36 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
   line-height: 1.3;
 }
-h1 { font-size: 2.1rem; margin-bottom: 0.7rem; }
-h2 { font-size: 1.65rem; margin-bottom: 0.55rem; }
-h3 { font-size: 1.3rem; margin-bottom: 0.45rem; }
-a { color: var(--wiki-link); text-decoration: underline; }
-a:hover { color: var(--wiki-heading); }
+h1 { font-size: 2rem; margin: 0.5rem 0 0.75rem; }
+h2 { font-size: 1.5rem; margin: 1.5rem 0 0.5rem; border-bottom: 1px solid var(--wiki-border); padding-bottom: 0.3rem; }
+h3 { font-size: 1.2rem; margin: 1.25rem 0 0.4rem; }
+a { color: var(--wiki-link); text-decoration: none; }
+a:hover { color: var(--wiki-link-hover); text-decoration: underline; }
 .site-header {
   background: var(--wiki-nav-bg) !important;
   border-bottom: 1px solid var(--wiki-border) !important;
 }
 .site-header a { color: var(--wiki-heading) !important; text-decoration: none !important; }
+.site-title { color: var(--wiki-heading) !important; font-size: 1.3rem; }
 .site-footer {
   border-top: 1px solid var(--wiki-border);
   background: var(--wiki-nav-bg);
   color: var(--wiki-text);
+  font-size: 0.85em;
 }
 .page-link { color: var(--wiki-link) !important; text-decoration: none !important; }
-.page-link:hover { color: var(--wiki-heading) !important; }
+.page-link:hover { color: var(--wiki-link-hover) !important; }
 .site-nav .trigger { background: var(--wiki-nav-bg); }
 .site-nav li { border-bottom: 1px solid var(--wiki-border); }
-hr { border-color: var(--wiki-border); border-top: none; border-left: none; border-right: none; border-width: 1px; margin: 1.5rem 0; }
-/* Code — clean, no border, high contrast */
+.site-nav .page-link { color: var(--wiki-link); }
+.site-nav .page-link:hover { color: var(--wiki-link-hover); }
+hr { border: none; border-top: 1px solid var(--wiki-border); margin: 1.5rem 0; }
+/* Code */
 code {
   background: var(--wiki-code-bg) !important;
   color: var(--wiki-code-text) !important;
   border: none !important;
-  padding: 2px 6px;
+  padding: 1px 5px;
   font-size: 0.875em;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -92,44 +98,62 @@ pre code {
   color: inherit !important;
   padding: 0;
   border: none !important;
-  font-size: 1em;
 }
 blockquote {
-  border-left: 3px solid var(--wiki-border) !important;
-  margin: 1.5rem 0;
+  border-left: 3px solid var(--wiki-link) !important;
+  margin: 1.25rem 0;
   padding: 0.5rem 1rem;
   color: var(--wiki-text);
-  opacity: 1;
+  opacity: 0.9;
+  background: var(--wiki-nav-bg);
 }
-/* Tables — minimal, clean */
+/* Tables */
 table {
   border-collapse: collapse !important;
   border: 1px solid var(--wiki-border) !important;
   width: 100%;
-  margin: 1.5rem 0;
+  margin: 1.25rem 0;
   font-size: 0.95em;
 }
 th {
   background: var(--wiki-table-header-bg) !important;
   color: var(--wiki-table-header-text) !important;
   border: 1px solid var(--wiki-border) !important;
-  padding: 10px 14px;
+  padding: 8px 12px;
   font-weight: 700;
   text-align: left;
   font-size: 0.9em;
-  letter-spacing: 0.03em;
 }
 td {
   border: 1px solid var(--wiki-border) !important;
-  padding: 8px 14px;
+  padding: 7px 12px;
   color: var(--wiki-text) !important;
 }
 tbody tr:nth-child(even) { background: var(--wiki-table-row-alt) !important; }
 tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
-.site-nav { background: var(--wiki-nav-bg); }
 .nav-trigger:checked ~ .trigger { background: var(--wiki-nav-bg); }
 
-/* Theme toggle — fixed top-right, pill */
+/* ── Tag cloud — compact ── */
+.tag, .tags, .tag-cloud, [class*="tag"] {
+  padding: 1px 6px !important;
+  font-size: 0.72em !important;
+  border-radius: 4px !important;
+  line-height: 1.4 !important;
+}
+.tags { display: flex; flex-wrap: wrap; gap: 4px; padding: 0 !important; }
+.tag, .tags a {
+  background: var(--wiki-nav-bg) !important;
+  color: var(--wiki-link) !important;
+  border: 1px solid var(--wiki-border) !important;
+  padding: 1px 6px !important;
+  font-size: 0.72em !important;
+  font-family: 'Courier New', monospace !important;
+  text-decoration: none !important;
+  border-radius: 4px;
+}
+.tag:hover, .tags a:hover { background: var(--wiki-border) !important; }
+
+/* ── Theme toggle: fixed top-right, pill ── */
 .theme-btn {
   position: fixed;
   top: 14px;
@@ -144,23 +168,20 @@ tbody tr:hover { background: var(--wiki-table-row-hover) !important; }
   padding: 5px 14px;
   transition: background 0.2s, border-color 0.2s;
   font-family: inherit;
-  letter-spacing: 0.05em;
   line-height: 1;
 }
 .theme-btn:hover { background: var(--wiki-border); }
 
-/* Content spacing */
+/* Content */
 .page-content { padding: 2rem 0; }
 .wrapper { max-width: 780px; }
-.post-content h2 { margin-top: 2rem; }
-.post-content h3 { margin-top: 1.5rem; }
 </style>
 <script>
 (function(){
   var STORAGE_KEY = 'wiki-theme';
   function getTheme(){
-    var saved = localStorage.getItem(STORAGE_KEY);
-    if(saved === 'light' || saved === 'dark') return saved;
+    var s = localStorage.getItem(STORAGE_KEY);
+    if(s === 'light' || s === 'dark') return s;
     return 'dark';
   }
   function applyTheme(theme){
