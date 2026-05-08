@@ -1,5 +1,4 @@
 # Jekyll config for GitHub Pages
-# All options must be GitHub Pages compatible (no unsupported plugins)
 title: RegenTribes Knowledge Wiki
 description: Genesis knowledge graph and governance research vault
 theme: minima
@@ -7,11 +6,9 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-redirect-from
 
-# GitHub Pages requires these
 github:
   repository_url: https://github.com/genesis-zero-bot/genesis-zero-bot-wiki
 
-# kramdown handles Markdown rendering
 markdown: kramdown
 kramdown:
   input: GFM
@@ -19,15 +16,11 @@ kramdown:
   syntax_highlighter_opts:
     disable: true
 
-# Exclude noise from build
 exclude:
   - .openclaw-wiki/
   - .rumdl_cache/
   - _attachments/
   - node_modules/
-
-# Redirects (for future URL changes)
-# managed via jekyll-redirect-from
 
 collections:
   sources:
@@ -39,3 +32,9 @@ collections:
   entities:
     output: true
     permalink: /entities/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
