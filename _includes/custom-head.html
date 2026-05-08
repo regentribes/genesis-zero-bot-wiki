@@ -79,7 +79,7 @@ body {
   text-decoration: none;
   white-space: nowrap;
   flex-shrink: 0;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 a.site-title:hover { color: var(--wiki-link-hover); }
 
@@ -105,6 +105,26 @@ a.site-title:hover { color: var(--wiki-link-hover); }
   flex-shrink: 0;
 }
 .page-link:hover { color: var(--wiki-link-hover); }
+
+/* ── Theme toggle — inside header, right side ── */
+#theme-toggle-wiki {
+  background: transparent;
+  border: 1px solid var(--wiki-border);
+  color: var(--wiki-text);
+  font-size: 1rem;
+  width: 30px;
+  height: 26px;
+  border-radius: 2px;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  vertical-align: middle;
+  line-height: 1;
+}
 
 /* ── Content ── */
 main.page-content {
@@ -247,6 +267,24 @@ td {
   align-items: center;
 }
 
+/* ── Theme toggle — integrated into header row (primary) ── */
+#theme-toggle-wiki {
+  position: static;
+  background: transparent;
+  border: 1px solid var(--wiki-border);
+  color: var(--wiki-text);
+  font-size: 1rem;
+  width: 30px;
+  height: 26px;
+  border-radius: 2px;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar-track { background: var(--wiki-bg); }
@@ -256,6 +294,7 @@ td {
 @media (max-width: 640px) {
   .site-header { height: auto; }
   .header-row { flex-wrap: wrap; height: auto; padding: 6px 0; }
+  #theme-toggle-wiki { margin-left: 0; margin-top: 2px; }
   .trigger {
     display: none;
     flex-direction: column;
