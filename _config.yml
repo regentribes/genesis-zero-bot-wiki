@@ -32,6 +32,9 @@ collections:
   entities:
     output: true
     permalink: /entities/:name/
+  syntheses:
+    output: true
+    permalink: /syntheses/:name/
 
 defaults:
   - scope:
